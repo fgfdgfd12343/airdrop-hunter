@@ -1,0 +1,211 @@
+[
+  {
+    "id": "layerzero-zro",
+    "name": "LayerZero",
+    "token": "ZRO",
+    "chain": "Multi-chain",
+    "status": "active",
+    "estimatedValue": "$400-2500",
+    "difficulty": "medium",
+    "endDate": "2026-07-31",
+    "officialSite": "https://layerzero.network",
+    "officialTwitter": "https://twitter.com/LayerZero_Labs",
+    "description": "LayerZero is an omnichain interoperability protocol. Users of cross-chain applications built on LayerZero may qualify for airdrops.",
+    "requirements": [
+      "Use LayerZero-powered apps (Stargate, Aptos Bridge, etc.)",
+      "Complete cross-chain transactions",
+      "Bridge between at least 3 different chains",
+      "Maintain some liquidity in Stargate Finance"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Use Stargate Finance",
+          "description": "Stargate is the main dApp built on LayerZero. Bridge stablecoins between chains (Ethereum, Arbitrum, Optimism, Polygon, etc.).",
+          "links": [
+            {
+              "text": "Stargate Finance",
+              "url": "https://stargate.finance/"
+            }
+          ],
+          "estimatedCost": "~$5-20 per bridge"
+        },
+        {
+          "title": "Bridge between multiple chains",
+          "description": "Use Stargate to bridge USDC/USDT between at least 3-4 different networks. Each bridge counts as LayerZero usage.",
+          "tips": "Bridge smaller amounts multiple times rather than one large transaction"
+        },
+        {
+          "title": "Provide liquidity on Stargate",
+          "description": "Add liquidity to Stargate pools to earn fees and boost your airdrop eligibility. Even small amounts help.",
+          "links": [
+            {
+              "text": "Stargate Pools",
+              "url": "https://stargate.finance/pool"
+            }
+          ]
+        },
+        {
+          "title": "Use other LayerZero apps",
+          "description": "Explore other dApps: Aptos Bridge, Bitcoin.com Bridge, Radiant Capital (cross-chain lending).",
+          "links": [
+            {
+              "text": "LayerZero Ecosystem",
+              "url": "https://layerzero.network/ecosystem"
+            }
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Multiple bridge fees add up quickly",
+      "Cross-chain bridges have smart contract risk",
+      "Competition is high - need to stand out"
+    ],
+    "lastUpdated": "2026-06-23"
+  },
+  {
+    "id": "starknet-strk",
+    "name": "Starknet",
+    "token": "STRK",
+    "chain": "Ethereum L2",
+    "status": "active",
+    "estimatedValue": "$500-2000",
+    "difficulty": "medium",
+    "endDate": "2026-08-31",
+    "officialSite": "https://www.starknet.io",
+    "officialTwitter": "https://twitter.com/Starknet",
+    "description": "Starknet is a Layer 2 scaling solution for Ethereum using ZK-rollup technology. Active users may qualify for future token distributions.",
+    "requirements": [
+      "Bridge assets to Starknet mainnet",
+      "Complete at least 5 transactions on different dApps",
+      "Hold assets for minimum 30 days",
+      "Interact with DeFi protocols (swap, provide liquidity)"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Set up Argent X or Braavos wallet",
+          "description": "Download the browser extension and create a new Starknet wallet. Save your seed phrase securely.",
+          "links": [
+            {
+              "text": "Argent X Wallet",
+              "url": "https://www.argent.xyz/argent-x/"
+            },
+            {
+              "text": "Braavos Wallet",
+              "url": "https://braavos.app/"
+            }
+          ]
+        },
+        {
+          "title": "Bridge ETH to Starknet",
+          "description": "Use the official Starknet bridge to transfer ETH from Ethereum mainnet. Minimum recommended: 0.01 ETH to cover gas fees.",
+          "links": [
+            {
+              "text": "Starknet Bridge",
+              "url": "https://starkgate.starknet.io/"
+            }
+          ],
+          "estimatedCost": "~$5-15 gas fee"
+        },
+        {
+          "title": "Interact with DeFi protocols",
+          "description": "Use your bridged ETH to interact with multiple protocols. Recommended: JediSwap (swap), mySwap (liquidity), Starknet ID (mint domain).",
+          "links": [
+            {
+              "text": "JediSwap",
+              "url": "https://app.jediswap.xyz/"
+            },
+            {
+              "text": "mySwap",
+              "url": "https://www.myswap.xyz/"
+            },
+            {
+              "text": "Starknet ID",
+              "url": "https://app.starknet.id/"
+            }
+          ]
+        },
+        {
+          "title": "Maintain activity for 30+ days",
+          "description": "Make weekly transactions to show consistent usage. Ideas: swap small amounts, vote on governance proposals if available.",
+          "tips": "Set a calendar reminder to do 1-2 transactions per week"
+        }
+      ]
+    },
+    "risks": [
+      "Bridge risk: smart contract vulnerabilities",
+      "Gas fees can add up (budget $50-100 total)",
+      "No guarantee of airdrop distribution"
+    ],
+    "lastUpdated": "2026-06-23"
+  },
+  {
+    "id": "zksync-era",
+    "name": "zkSync Era",
+    "token": "ZK",
+    "chain": "Ethereum L2",
+    "status": "active",
+    "estimatedValue": "$300-1500",
+    "difficulty": "easy",
+    "endDate": "2026-09-30",
+    "officialSite": "https://zksync.io",
+    "officialTwitter": "https://twitter.com/zksync",
+    "description": "zkSync Era is a ZK-rollup Layer 2 scaling solution. Users who bridge and use the network may qualify for future token airdrops.",
+    "requirements": [
+      "Bridge to zkSync Era mainnet",
+      "Execute at least 10 transactions",
+      "Use 3+ different dApps",
+      "Optional: Add liquidity or use zkSync Paymaster"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Add zkSync Era to MetaMask",
+          "description": "Add the zkSync Era network to your MetaMask wallet using the official bridge site.",
+          "links": [
+            {
+              "text": "zkSync Bridge",
+              "url": "https://bridge.zksync.io/"
+            }
+          ]
+        },
+        {
+          "title": "Bridge assets to zkSync Era",
+          "description": "Bridge ETH or stablecoins from Ethereum mainnet. Minimum: 0.01 ETH recommended.",
+          "estimatedCost": "~$3-10 gas fee"
+        },
+        {
+          "title": "Use multiple dApps",
+          "description": "Interact with SyncSwap (DEX), Mute.io (liquidity), zkSync Name Service (mint .zk domain).",
+          "links": [
+            {
+              "text": "SyncSwap",
+              "url": "https://syncswap.xyz/"
+            },
+            {
+              "text": "Mute.io",
+              "url": "https://mute.io/"
+            },
+            {
+              "text": "zkSync Name Service",
+              "url": "https://app.zkns.domains/"
+            }
+          ]
+        },
+        {
+          "title": "Accumulate transaction volume",
+          "description": "Aim for 10-20 transactions spread over multiple weeks. Diverse activity (swaps, liquidity, NFT minting) is better than repetitive actions.",
+          "tips": "Small transactions count - you don't need to use large amounts"
+        }
+      ]
+    },
+    "risks": [
+      "Network still in early stage - potential bugs",
+      "Sybil detection may filter out farmers",
+      "Gas fees for bridging"
+    ],
+    "lastUpdated": "2026-06-23"
+  }
+]
