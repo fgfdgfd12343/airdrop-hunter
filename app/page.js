@@ -11,10 +11,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
             <h1 className="text-3xl font-bold">🎯 Airdrop Hunter</h1>
-            <nav className="space-x-6">
-              <Link href="/" className="hover:text-yellow-300">Home</Link>
-              <Link href="#" className="hover:text-yellow-300">Tools</Link>
-              <Link href="#" className="hover:text-yellow-300">About</Link>
+            <nav className="hidden md:flex space-x-6">
+              <Link href="/" className="hover:text-yellow-300">首页</Link>
+              <Link href="/calendar" className="hover:text-yellow-300">日历</Link>
+              <Link href="/blog" className="hover:text-yellow-300">教程</Link>
+              <Link href="/tools" className="hover:text-yellow-300">工具</Link>
+              <Link href="/exchanges" className="hover:text-yellow-300">交易所</Link>
             </nav>
           </div>
         </div>
