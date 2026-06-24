@@ -90,6 +90,11 @@ export default function Home() {
                   {airdrop.latestSignal && (
                     <div className="mt-4 rounded-lg bg-yellow-400/10 border border-yellow-300/20 p-3 text-sm">
                       <div className="text-yellow-200 font-semibold mb-1">Latest official signal</div>
+                      {airdrop.latestSignal.summaryZh && (
+                        <p className="text-white/80 mb-2 leading-6">
+                          {airdrop.latestSignal.summaryZh}
+                        </p>
+                      )}
                       <a
                         href={airdrop.latestSignal.url}
                         target="_blank"
@@ -131,9 +136,25 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-white/10 backdrop-blur-md border-t border-white/20 mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-white/60">
-          <p className="mb-2">⚠️ Disclaimer: DYOR (Do Your Own Research). We provide information only, not financial advice.</p>
-          <p>Airdrop Hunter © 2026 | Updated: {new Date().toLocaleDateString()}</p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          {/* Navigation Links */}
+          <div className="flex flex-wrap justify-center gap-6 mb-6 text-sm">
+            <Link href="/about" className="text-purple-300 hover:text-purple-200 transition-colors">
+              About Us
+            </Link>
+            <Link href="/contact" className="text-purple-300 hover:text-purple-200 transition-colors">
+              Contact
+            </Link>
+            <Link href="/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
+
+          {/* Disclaimer */}
+          <div className="text-center text-white/60">
+            <p className="mb-2">⚠️ Disclaimer: DYOR (Do Your Own Research). We provide information only, not financial advice.</p>
+            <p>Airdrop Hunter © 2026 | Updated: {new Date().toLocaleDateString()}</p>
+          </div>
         </div>
       </footer>
     </div>

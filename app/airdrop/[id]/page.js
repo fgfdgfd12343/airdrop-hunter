@@ -84,6 +84,28 @@ export default function AirdropDetail({ params }) {
               ⚠️ Always verify you're on the official site. Never share your private keys.
             </p>
           </div>
+
+          {airdrop.latestSignal && (
+            <div className="bg-yellow-500/20 border border-yellow-300/40 rounded-xl p-6 mb-8">
+              <h3 className="text-xl font-bold mb-3">Latest official signal</h3>
+              {airdrop.latestSignal.summaryZh && (
+                <p className="text-white/85 mb-3 leading-7">
+                  {airdrop.latestSignal.summaryZh}
+                </p>
+              )}
+              <a
+                href={airdrop.latestSignal.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-yellow-100 hover:text-yellow-50 underline underline-offset-2"
+              >
+                {airdrop.latestSignal.title}
+              </a>
+              <p className="text-sm text-white/70 mt-3">
+                Detected on {airdrop.latestSignal.detectedAt} from the official project site.
+              </p>
+            </div>
+          )}
         </div>
 
         {/* Requirements Checklist */}
@@ -209,9 +231,25 @@ export default function AirdropDetail({ params }) {
 
       {/* Footer */}
       <footer className="bg-white/10 backdrop-blur-md border-t border-white/20 mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-white/60">
-          <p className="mb-2">⚠️ Disclaimer: DYOR (Do Your Own Research). Crypto investments carry risk.</p>
-          <p>Airdrop Hunter © 2026</p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          {/* Navigation Links */}
+          <div className="flex flex-wrap justify-center gap-6 mb-6 text-sm">
+            <Link href="/about" className="text-purple-300 hover:text-purple-200 transition-colors">
+              About Us
+            </Link>
+            <Link href="/contact" className="text-purple-300 hover:text-purple-200 transition-colors">
+              Contact
+            </Link>
+            <Link href="/privacy" className="text-purple-300 hover:text-purple-200 transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
+
+          {/* Disclaimer */}
+          <div className="text-center text-white/60">
+            <p className="mb-2">⚠️ Disclaimer: DYOR (Do Your Own Research). Crypto investments carry risk.</p>
+            <p>Airdrop Hunter © 2026</p>
+          </div>
         </div>
       </footer>
     </div>

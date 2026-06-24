@@ -24,6 +24,42 @@
 ---
 
 ## 🔄 最近改动记录
+### [2026-06-24] Claude（SEO 优化 + 推广准备）
+- **完成**: 增强 `app/layout.js` meta 标签（Open Graph、Twitter Card、robots 指令）
+- **完成**: 创建 `app/sitemap.js` 动态生成 sitemap.xml（所有页面 + 空投详情）
+- **完成**: 创建 `app/robots.js` 允许 Google 抓取
+- **完成**: 创建 `PROMOTION-GUIDE.md` 推广完整指南（Twitter/Reddit 文案模板 + SEO 提交步骤）
+- **部署**: `npm run refresh-site` 已上线，现有 13 个路由（含 sitemap + robots）
+- **待用户操作**: 
+  1. 提交 sitemap 到 Google Search Console
+  2. 开始社交媒体推广（文案已就绪）
+  3. 等流量达 100+/天后申请 AdSense
+- **下一步建议**: 添加博客/工具页增加内容厚度 / 做第2个工具站
+
+### [2026-06-24] Claude（AdSense 申请准备）
+- **完成**: 创建 AdSense 必需的合规页面 `app/about/page.js`、`app/contact/page.js`、`app/privacy/page.js`（英文，含联盟披露/免责声明）
+- **完成**: `app/layout.js` 的 `<head>` 预留 AdSense 脚本占位（注释状态，审核通过后填发布商ID并取消注释）
+- **完成**: 首页+详情页 footer 增加 About/Contact/Privacy 导航链接
+- **完成**: 创建 `ADSENSE-GUIDE.md` 完整申请指南
+- **部署**: `npm run refresh-site` 已触发上线，现有 11 个静态页面
+- **待用户操作**: 推广网站 1-2 周积累流量 → 申请 AdSense → 填入发布商ID
+- **下一步建议**: 绑定自定义域名（提高 AdSense 通过率）/ 做第2个工具站
+
+### [2026-06-24] Claude（返佣链接上线确认 + 重新部署）
+- **确认**: 详情页返佣区块已正确读取 `config/referral.js`（币安/欧易真实码已生效，Bybit 仍占位）
+- **完成**: 重新构建 + `npm run refresh-site` 触发 Vercel 部署，返佣链接已上线
+- **下一步**: 教用户日常更新空投内容流程 + 准备 AdSense 申请材料
+
+### [2026-06-24] Claude（配置返佣链接 + 部署上线）
+- **完成**: 创建 `config/referral.js` 集中管理返佣链接配置
+- **完成**: 详情页返佣区块改为读取 config（币安 + 欧易已填入用户真实返佣码）
+- **注意**: 用户的返佣链接是镜像域名（bsmkweb.cc / wjgfczxklby.com），可能失效，建议后续换官方标准返佣链接
+- **待补**: Bybit 返佣链接还是占位符，等用户注册后填入
+- **部署**: GitHub push 因国内网络卡住，改用 `npm run refresh-site`（Vercel Deploy Hook）成功触发部署
+- **结果**: 网站已上线 https://airdrop-hunter-sooty.vercel.app/
+- **下一步**: 教用户日常更新空投内容流程 + 准备 AdSense 申请材料
+
+
 ### [2026-06-24] Codex（GitHub + Vercel 自动发布打通）
 - **修复**: 本地 Git 仓库安全目录与提交问题，完成初始 commit
 - **完成**: 推送仓库到 GitHub `fgfdgfd12343/airdrop-hunter`
@@ -34,6 +70,14 @@
 - **补充**: `scripts/run-update.ps1` 已修复为稳定路径版本，并端到端测试通过
 - **完成**: 使用 Windows Scheduled Tasks API 创建 `AirdropHunterRefresh`，每天 09:00 自动执行 `run-update.ps1`
 - **验证**: 计划任务动作已确认指向 `C:\Users\成1\Documents\airdrop-hunter\scripts\run-update.ps1`
+
+### [2026-06-24] Codex（自动抓新内容）
+- **新增**: `data/airdrop-sources.json`，维护官方发现源列表
+- **实现**: `scripts/update-airdrops.mjs` 增加官方站点信号抓取、关键词打分、候选项目自动新增/更新
+- **新增**: 首页和详情页展示 `latestSignal`
+- **验证**: 构建通过，站点新增 `linea` 页面；在可联网环境下脚本能把官方信号写入 `data/airdrops.json`
+- **注意**: 当前普通沙箱执行会被网络限制拦住，因此真正抓取新信号要靠计划任务或脱离沙箱运行
+- **补充**: `latestSignal` 已增加中文摘要 `summaryZh`，首页和详情页会优先显示可读摘要而不是只显示原始标题
 
 ### [2026-06-24] Codex（自动更新链路）
 - **实现**: `scripts/update-airdrops.mjs` 增加数据校验、状态归一化、排序、`lastUpdated` 刷新

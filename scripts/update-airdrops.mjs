@@ -132,6 +132,25 @@ function cleanSignalTitle(text) {
   return normalized.length > 140 ? `${normalized.slice(0, 137)}...` : normalized;
 }
 
+function buildSignalSummary(source, signal) {
+  const haystack = `${signal.title} ${signal.url}`.toLowerCase();
+  const tags = [];
+
+  if (haystack.includes('points')) tags.push('积分');
+  if (haystack.includes('airdrop')) tags.push('空投');
+  if (haystack.includes('campaign') || haystack.includes('quest')) tags.push('活动');
+  if (haystack.includes('testnet')) tags.push('测试网');
+  if (haystack.includes('mainnet')) tags.push('主网');
+  if (haystack.includes('bridge')) tags.push('跨链');
+  if (haystack.includes('liquidity')) tags.push('流动性');
+  if (haystack.includes('reward') || haystack.includes('incentive')) tags.push('奖励');
+
+  const uniqueTags = [...new Set(tags)];
+  const focus = uniqueTags.length > 0 ? uniqueTags.join(' / ') : '官方动态';
+
+  return `自动检测到 ${source.name} 官方站点出现新的${focus}相关信号，建议优先查看原文并人工确认是否涉及空投、积分、任务或奖励规则更新。`;
+}
+
 function absolutizeUrl(baseUrl, url) {
   try {
     return new URL(url, baseUrl).toString();
@@ -267,6 +286,7 @@ function upsertDiscoveredAirdrop(existingMap, source, signal, now) {
   const existing = existingMap.get(source.id);
   const latestSignal = {
     title: signal.title,
+    summaryZh: buildSignalSummary(source, signal),
     url: signal.url,
     sourcePage: signal.sourcePage,
     score: signal.score,
