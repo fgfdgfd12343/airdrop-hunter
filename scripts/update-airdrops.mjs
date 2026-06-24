@@ -1,11 +1,30 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import htmlParser from '../node_modules/next/dist/compiled/node-html-parser/index.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const repoRoot = path.join(__dirname, '..');
 const dataPath = path.join(repoRoot, 'data', 'airdrops.json');
+const sourcePath = path.join(repoRoot, 'data', 'airdrop-sources.json');
+const SIGNAL_KEYWORDS = [
+  'airdrop',
+  'points',
+  'campaign',
+  'reward',
+  'rewards',
+  'incentive',
+  'incentivized',
+  'testnet',
+  'mainnet',
+  'quests',
+  'season',
+  'snapshot',
+  'bridge',
+  'liquidity',
+  'ecosystem',
+];
 
 const REQUIRED_FIELDS = [
   'id',
@@ -20,6 +39,7 @@ const REQUIRED_FIELDS = [
 
 const ALLOWED_STATUS = new Set(['active', 'upcoming', 'ended', 'watch']);
 const ALLOWED_DIFFICULTY = new Set(['easy', 'medium', 'hard']);
+const { parse } = htmlParser;
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -35,6 +55,13 @@ function todayIsoDate() {
 
 function normalizeText(value) {
   return typeof value === 'string' ? value.trim() : value;
+}
+
+function slugify(value) {
+  return normalizeText(value)
+    ?.toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }
 
 function parseDate(value) {
@@ -89,6 +116,193 @@ function validateTutorial(tutorial, context) {
       step.links.forEach((link, linkIndex) => validateLink(link, `${stepContext}.links[${linkIndex}]`));
     }
   });
+}
+
+function keywordScore(text) {
+  const haystack = normalizeText(text)?.toLowerCase() ?? '';
+  return SIGNAL_KEYWORDS.reduce((score, keyword) => score + (haystack.includes(keyword) ? 1 : 0), 0);
+}
+
+function cleanSignalTitle(text) {
+  const normalized = normalizeText(text)?.replace(/\s+/g, ' ') ?? '';
+  if (!normalized) {
+    return '';
+  }
+
+  return normalized.length > 140 ? `${normalized.slice(0, 137)}...` : normalized;
+}
+
+function absolutizeUrl(baseUrl, url) {
+  try {
+    return new URL(url, baseUrl).toString();
+  } catch {
+    return null;
+  }
+}
+
+function buildDefaultTutorial(source, signal) {
+  return {
+    steps: [
+      {
+        title: `Review the latest ${source.name} update`,
+        description: `Start from the latest official signal we detected and verify whether the team is running points, quests, incentives, testnet, or ecosystem activity.`,
+        links: [
+          {
+            text: 'Latest official signal',
+            url: signal.url,
+          },
+          {
+            text: `${source.name} official site`,
+            url: source.officialSite,
+          },
+        ],
+      },
+      {
+        title: 'Complete the currently promoted actions',
+        description: `Prioritize the official activities linked by ${source.name}: quests, bridging, swaps, staking, points, or ecosystem tasks mentioned in the official update.`,
+        tips: 'Record every wallet action and only use the official links from the project announcement.',
+      },
+      {
+        title: 'Return weekly and monitor new official announcements',
+        description: 'This auto-generated entry should be reviewed manually. Keep monitoring the project for snapshot, season, reward, and eligibility signals.',
+      },
+    ],
+  };
+}
+
+function buildDefaultRequirements(signal) {
+  return [
+    'Read the latest official announcement carefully',
+    'Complete only the tasks explicitly promoted on the official site',
+    'Track wallet activity over multiple weeks if the campaign is ongoing',
+    `Monitor the source article: ${signal.title}`,
+  ];
+}
+
+function buildDefaultRisks() {
+  return [
+    'Eligibility is never guaranteed',
+    'Campaign rules may change without notice',
+    'Always verify the domain and avoid unofficial links',
+  ];
+}
+
+async function extractSignalsFromUrl(url) {
+  const response = await fetch(url, {
+    headers: {
+      'user-agent': 'AirdropHunterBot/1.0 (+https://github.com/fgfdgfd12343/airdrop-hunter)',
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
+  }
+
+  const html = await response.text();
+  const root = parse(html);
+  const links = root.querySelectorAll('a');
+  const results = [];
+
+  for (const link of links) {
+    const text = normalizeText(link.text);
+    const href = normalizeText(link.getAttribute('href'));
+    if (!text || !href) {
+      continue;
+    }
+
+    const resolved = absolutizeUrl(url, href);
+    if (!resolved) {
+      continue;
+    }
+
+    const cleanedTitle = cleanSignalTitle(text);
+    const combined = `${cleanedTitle} ${resolved}`;
+    const score = keywordScore(combined);
+    if (score < 2) {
+      continue;
+    }
+
+    results.push({
+      title: cleanedTitle,
+      url: resolved,
+      score,
+      sourcePage: url,
+    });
+  }
+
+  const unique = new Map();
+  for (const item of results) {
+    const existing = unique.get(item.url);
+    if (!existing || item.score > existing.score) {
+      unique.set(item.url, item);
+    }
+  }
+
+  return [...unique.values()].sort((a, b) => b.score - a.score).slice(0, 5);
+}
+
+async function discoverSignals(source) {
+  const collected = [];
+  for (const url of source.discoveryUrls ?? []) {
+    try {
+      const items = await extractSignalsFromUrl(url);
+      collected.push(...items);
+    } catch (error) {
+      console.warn(`Signal fetch skipped for ${source.name} at ${url}: ${error.message}`);
+    }
+  }
+
+  const unique = new Map();
+  for (const item of collected) {
+    const existing = unique.get(item.url);
+    if (!existing || item.score > existing.score) {
+      unique.set(item.url, item);
+    }
+  }
+
+  return [...unique.values()].sort((a, b) => b.score - a.score);
+}
+
+function upsertDiscoveredAirdrop(existingMap, source, signal, now) {
+  const existing = existingMap.get(source.id);
+  const latestSignal = {
+    title: signal.title,
+    url: signal.url,
+    sourcePage: signal.sourcePage,
+    score: signal.score,
+    detectedAt: todayIsoDate(),
+  };
+
+  if (existing) {
+    existing.latestSignal = latestSignal;
+    existing.lastUpdated = todayIsoDate();
+    if (signal.score >= 4 && existing.status === 'watch') {
+      existing.status = 'active';
+    }
+    return existing;
+  }
+
+  const created = {
+    id: source.id || slugify(source.name),
+    name: source.name,
+    token: source.token || source.name.toUpperCase(),
+    chain: source.chain || 'Multi-chain',
+    status: signal.score >= 4 ? 'active' : 'watch',
+    estimatedValue: source.estimatedValue || '$200-1200',
+    difficulty: source.difficulty || 'medium',
+    endDate: new Date(now.getTime() + 1000 * 60 * 60 * 24 * 90).toISOString().split('T')[0],
+    officialSite: source.officialSite,
+    officialTwitter: source.officialTwitter,
+    description: `${source.name} has recent official activity that may indicate points, incentives, quests, or ecosystem participation worth monitoring for future rewards.`,
+    requirements: buildDefaultRequirements(signal),
+    tutorial: buildDefaultTutorial(source, signal),
+    risks: buildDefaultRisks(),
+    latestSignal,
+    lastUpdated: todayIsoDate(),
+  };
+
+  existingMap.set(created.id, created);
+  return created;
 }
 
 function normalizeAirdrop(airdrop, now, seenIds) {
@@ -191,12 +405,26 @@ export async function updateAirdrops(options = {}) {
   console.log('Starting airdrop data update...');
 
   const currentData = readJson(dataPath);
+  const sources = fs.existsSync(sourcePath) ? readJson(sourcePath) : [];
   if (!Array.isArray(currentData)) {
     throw new Error('data/airdrops.json must contain an array');
   }
+  if (!Array.isArray(sources)) {
+    throw new Error('data/airdrop-sources.json must contain an array');
+  }
+
+  const existingMap = new Map(currentData.map((item) => [item.id, item]));
+
+  for (const source of sources) {
+    const signals = await discoverSignals(source);
+    if (signals.length === 0) {
+      continue;
+    }
+    upsertDiscoveredAirdrop(existingMap, source, signals[0], now);
+  }
 
   const seenIds = new Set();
-  const normalized = currentData.map((airdrop) => normalizeAirdrop(airdrop, now, seenIds));
+  const normalized = [...existingMap.values()].map((airdrop) => normalizeAirdrop(airdrop, now, seenIds));
   const sorted = sortAirdrops(normalized);
 
   writeJson(dataPath, sorted);

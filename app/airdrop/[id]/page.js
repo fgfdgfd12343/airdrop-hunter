@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import airdrops from '../../../data/airdrops.json';
+import { REFERRAL_LINKS, REFERRAL_TEXT } from '../../../config/referral';
 
 export function generateStaticParams() {
   return airdrops.map((airdrop) => ({
@@ -165,38 +166,38 @@ export default function AirdropDetail({ params }) {
 
         {/* Affiliate/Referral Box */}
         <div className="bg-gradient-to-r from-purple-500/30 to-pink-500/30 rounded-xl p-8 border border-purple-400/50 text-center">
-          <h3 className="text-2xl font-bold mb-3">🎁 Need an Exchange Account?</h3>
+          <h3 className="text-2xl font-bold mb-3">{REFERRAL_TEXT.title}</h3>
           <p className="text-white/80 mb-4">
-            Get started with these trusted exchanges (some offer sign-up bonuses):
+            {REFERRAL_TEXT.description}
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="https://www.binance.com"
+              href={REFERRAL_LINKS.binance.url}
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-yellow-500 hover:bg-yellow-400 text-black font-bold rounded-lg transition-all"
             >
-              Binance
+              {REFERRAL_LINKS.binance.name}
             </a>
             <a
-              href="https://www.okx.com"
+              href={REFERRAL_LINKS.okx.url}
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-white hover:bg-gray-100 text-black font-bold rounded-lg transition-all"
             >
-              OKX
+              {REFERRAL_LINKS.okx.name}
             </a>
             <a
-              href="https://www.bybit.com"
+              href={REFERRAL_LINKS.bybit.url}
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-orange-500 hover:bg-orange-400 text-white font-bold rounded-lg transition-all"
             >
-              Bybit
+              {REFERRAL_LINKS.bybit.name}
             </a>
           </div>
           <p className="text-xs text-white/60 mt-4">
-            These are affiliate links. We may earn a commission at no extra cost to you.
+            {REFERRAL_TEXT.disclaimer}
           </p>
         </div>
 

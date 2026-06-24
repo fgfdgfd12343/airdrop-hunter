@@ -1,0 +1,86 @@
+[
+  {
+    "id": "starknet-strk",
+    "name": "Starknet",
+    "chain": "Ethereum L2",
+    "token": "STRK",
+    "officialSite": "https://www.starknet.io",
+    "officialTwitter": "https://twitter.com/Starknet",
+    "estimatedValue": "$500-2000",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://www.starknet.io/blog/",
+      "https://www.starknet.io/"
+    ]
+  },
+  {
+    "id": "zksync-era",
+    "name": "zkSync Era",
+    "chain": "Ethereum L2",
+    "token": "ZK",
+    "officialSite": "https://zksync.io",
+    "officialTwitter": "https://twitter.com/zksync",
+    "estimatedValue": "$300-1500",
+    "difficulty": "easy",
+    "discoveryUrls": [
+      "https://zksync.io/",
+      "https://zksync.io/blog"
+    ]
+  },
+  {
+    "id": "layerzero-zro",
+    "name": "LayerZero",
+    "chain": "Multi-chain",
+    "token": "ZRO",
+    "officialSite": "https://layerzero.network",
+    "officialTwitter": "https://twitter.com/LayerZero_Labs",
+    "estimatedValue": "$400-2500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://layerzero.network/",
+      "https://layerzero.network/blog"
+    ]
+  },
+  {
+    "id": "scroll",
+    "name": "Scroll",
+    "chain": "Ethereum L2",
+    "token": "SCR",
+    "officialSite": "https://scroll.io",
+    "officialTwitter": "https://twitter.com/Scroll_ZKP",
+    "estimatedValue": "$300-1800",
+    "difficulty": "easy",
+    "discoveryUrls": [
+      "https://scroll.io/blog",
+      "https://scroll.io/"
+    ]
+  },
+  {
+    "id": "linea",
+    "name": "Linea",
+    "chain": "Ethereum L2",
+    "token": "LINEA",
+    "officialSite": "https://linea.build",
+    "officialTwitter": "https://twitter.com/LineaBuild",
+    "estimatedValue": "$300-1500",
+    "difficulty": "easy",
+    "discoveryUrls": [
+      "https://linea.build/blog",
+      "https://linea.build/"
+    ]
+  },
+  {
+    "id": "berachain",
+    "name": "Berachain",
+    "chain": "Layer 1",
+    "token": "BERA",
+    "officialSite": "https://www.berachain.com",
+    "officialTwitter": "https://twitter.com/berachain",
+    "estimatedValue": "$500-2500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://www.berachain.com/blog",
+      "https://www.berachain.com/"
+    ]
+  }
+]

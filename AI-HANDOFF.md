@@ -24,6 +24,17 @@
 ---
 
 ## 🔄 最近改动记录
+### [2026-06-24] Codex（GitHub + Vercel 自动发布打通）
+- **修复**: 本地 Git 仓库安全目录与提交问题，完成初始 commit
+- **完成**: 推送仓库到 GitHub `fgfdgfd12343/airdrop-hunter`
+- **完成**: Vercel 项目连接正确的 GitHub 仓库
+- **完成**: 创建 Vercel Deploy Hook `local-refresh`
+- **验证**: 手动触发 Deploy Hook 成功，线上自动发布链路已打通
+- **结果**: 本机执行 `npm run refresh-site` 后具备“刷新数据 -> 重建 -> 触发 Vercel 发布”的能力
+- **补充**: `scripts/run-update.ps1` 已修复为稳定路径版本，并端到端测试通过
+- **完成**: 使用 Windows Scheduled Tasks API 创建 `AirdropHunterRefresh`，每天 09:00 自动执行 `run-update.ps1`
+- **验证**: 计划任务动作已确认指向 `C:\Users\成1\Documents\airdrop-hunter\scripts\run-update.ps1`
+
 ### [2026-06-24] Codex（自动更新链路）
 - **实现**: `scripts/update-airdrops.mjs` 增加数据校验、状态归一化、排序、`lastUpdated` 刷新
 - **创建**: `scripts/run-update.ps1` 一键执行更新、JSON 校验、构建、可选 Deploy Hook 触发

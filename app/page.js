@@ -87,6 +87,19 @@ export default function Home() {
                       <span className="font-semibold">{airdrop.endDate}</span>
                     </div>
                   </div>
+                  {airdrop.latestSignal && (
+                    <div className="mt-4 rounded-lg bg-yellow-400/10 border border-yellow-300/20 p-3 text-sm">
+                      <div className="text-yellow-200 font-semibold mb-1">Latest official signal</div>
+                      <a
+                        href={airdrop.latestSignal.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-yellow-100 hover:text-yellow-50 underline underline-offset-2"
+                      >
+                        {airdrop.latestSignal.title}
+                      </a>
+                    </div>
+                  )}
                   <div className="mt-3 flex gap-3">
                     <a
                       href={airdrop.officialSite}
