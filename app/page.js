@@ -155,7 +155,7 @@ export default function Home() {
           {/* Disclaimer */}
           <div className="text-center text-white/60">
             <p className="mb-2">⚠️ Disclaimer: DYOR (Do Your Own Research). We provide information only, not financial advice.</p>
-            <p>Airdrop Hunter © 2026 | Updated: {new Date().toLocaleDateString()}</p>
+            <p suppressHydrationWarning>Airdrop Hunter © 2026 | Updated: {new Date().toISOString().slice(0, 10)}</p>
           </div>
         </div>
       </footer>
