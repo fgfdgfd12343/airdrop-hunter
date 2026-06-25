@@ -24,6 +24,34 @@
 ---
 
 ## 🔄 最近改动记录
+### [2026-06-26] Claude（内容扩充45项目 + SEO结构化数据 + Search Console完成）
+- **完成内容扩充**: 手工创建 25 个高质量空投项目，总数 20 → 45
+  - Layer2: Scroll, Base, Arbitrum Odyssey, Optimism Quests, Polygon zkEVM, Manta Pacific, Blast
+  - DeFi: EigenLayer, Pendle, Ambient Finance
+  - 新公链: Sui, Aptos, Celestia, Fuel, Shardeum, Berachain, Monad, ZetaChain
+  - 跨链: MetaMask Snaps, Hyperlane, Wormhole
+  - SocialFi/GameFi: Friend.tech, Aethir, Particle Network
+  - 交易: dYdX v4
+  - 难度分布: easy 40%, medium 45%, hard 15%；价值范围 $100-3000
+- **SEO优化**: 
+  - 详情页添加 JSON-LD HowTo schema（45个页面全覆盖）
+  - Google 可展示 rich snippets: 步骤列表、预估成本、时间
+  - 提升搜索结果 CTR 和展现质量
+- **Search Console**: 
+  - 修复 Google 验证文件 404（vercel.json rewrite 规则）
+  - Sitemap 成功提交，Google 开始索引
+- **工具**: scripts/merge-airdrops.js 批量合并 JSON + 处理 BOM
+- **⚠️ Git Push 问题**: 本地 2 commits 完成但推送超时
+  - Commit 47e957b: 新增 25 项目
+  - Commit ffe4c2f: SEO结构化数据
+  - 可能原因: 网络不稳定或需要增大 http.postBuffer
+  - 临时方案: 稍后手动推送或使用 Vercel Deploy Hook
+- **下一步建议**: 
+  1. 解决 git push（增大buffer或换SSH）
+  2. 首页添加 ItemList structured data
+  3. Meta描述优化（每个详情页独立描述）
+  4. 内部链接优化（相关空投推荐）
+
 ### [2026-06-26] Claude（自动发现新空投项目系统）
 - **完成**: scripts/auto-discover.mjs 自动发现脚本（从 DeFiLlama 等聚合站抓取新项目列表）
 - **完成**: config/discovery-sources.js 安全验证规则（HTTPS、TLD白名单、域名黑名单）
