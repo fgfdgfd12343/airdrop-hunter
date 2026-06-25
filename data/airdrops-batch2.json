@@ -1,0 +1,750 @@
+[
+  {
+    "id": "sui-network",
+    "name": "Sui",
+    "token": "SUI",
+    "chain": "Sui Blockchain",
+    "status": "active",
+    "estimatedValue": "$300-1500",
+    "difficulty": "medium",
+    "endDate": "2026-10-31",
+    "officialSite": "https://sui.io",
+    "officialTwitter": "https://twitter.com/SuiNetwork",
+    "description": "Sui is a high-performance Layer 1 blockchain. Testnet users and ecosystem participants may qualify for future incentives.",
+    "requirements": [
+      "Use Sui testnet or mainnet",
+      "Complete transactions on Sui dApps",
+      "Mint NFTs or use DeFi protocols",
+      "Hold SUI tokens (optional boost)"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Set up Sui Wallet",
+          "description": "Install the Sui Wallet browser extension and create a new wallet.",
+          "links": [
+            {"text": "Sui Wallet", "url": "https://chrome.google.com/webstore/detail/sui-wallet"}
+          ]
+        },
+        {
+          "title": "Get SUI tokens",
+          "description": "For testnet: use faucet. For mainnet: buy SUI on exchanges and transfer to your wallet.",
+          "links": [
+            {"text": "Sui Faucet (testnet)", "url": "https://discord.gg/sui"}
+          ],
+          "estimatedCost": "$10-50 for mainnet"
+        },
+        {
+          "title": "Use Sui ecosystem dApps",
+          "description": "Try Cetus DEX, Suiswap, Bluemove NFT marketplace, or Scallop lending.",
+          "links": [
+            {"text": "Cetus Protocol", "url": "https://www.cetus.zone"},
+            {"text": "Bluemove", "url": "https://bluemove.net"}
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Newer blockchain with evolving ecosystem",
+      "Mainnet activity requires capital",
+      "Token already launched - airdrop uncertain"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "aptos-apt",
+    "name": "Aptos",
+    "token": "APT",
+    "chain": "Aptos Blockchain",
+    "status": "active",
+    "estimatedValue": "$200-1000",
+    "difficulty": "medium",
+    "endDate": "2026-09-30",
+    "officialSite": "https://aptoslabs.com",
+    "officialTwitter": "https://twitter.com/Aptos_Network",
+    "description": "Aptos is a Layer 1 blockchain focused on scalability. Ecosystem users may receive APT incentives through various campaigns.",
+    "requirements": [
+      "Use Aptos mainnet",
+      "Complete transactions on Aptos dApps",
+      "Participate in Aptos quests (Galxe, Layer3)",
+      "Stake APT (optional)"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Install Petra Wallet",
+          "description": "Petra is the leading Aptos wallet. Install the browser extension.",
+          "links": [
+            {"text": "Petra Wallet", "url": "https://petra.app"}
+          ]
+        },
+        {
+          "title": "Bridge or buy APT",
+          "description": "Get APT from exchanges or bridge using LayerZero-powered bridges.",
+          "estimatedCost": "$10-50"
+        },
+        {
+          "title": "Use Aptos DEXs and dApps",
+          "description": "Swap on PancakeSwap (Aptos), Liquidswap, or use Topaz NFT marketplace.",
+          "links": [
+            {"text": "PancakeSwap Aptos", "url": "https://aptos.pancakeswap.finance"},
+            {"text": "Topaz", "url": "https://www.topaz.so"}
+          ]
+        },
+        {
+          "title": "Complete Aptos quests",
+          "description": "Check Galxe and Layer3 for Aptos-specific quest campaigns offering rewards.",
+          "tips": "Quests often have limited spots - act fast"
+        }
+      ]
+    },
+    "risks": [
+      "Token already live - less airdrop potential",
+      "Quest competition is high",
+      "Mainnet fees required"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "eigenlayer",
+    "name": "EigenLayer",
+    "token": "EIGEN",
+    "chain": "Ethereum",
+    "status": "active",
+    "estimatedValue": "$500-3000",
+    "difficulty": "hard",
+    "endDate": "2026-12-31",
+    "officialSite": "https://www.eigenlayer.xyz",
+    "officialTwitter": "https://twitter.com/eigenlayer",
+    "description": "EigenLayer enables restaking ETH to secure additional protocols. Restakers may receive EIGEN token airdrops.",
+    "requirements": [
+      "Stake ETH or LSTs on EigenLayer",
+      "Maintain stake for extended period",
+      "Delegate to operators (optional)",
+      "Participate in governance when available"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Acquire ETH or liquid staking tokens",
+          "description": "You can restake native ETH or LSTs like stETH, rETH, cbETH on EigenLayer.",
+          "estimatedCost": "Minimum 0.1 ETH recommended"
+        },
+        {
+          "title": "Connect to EigenLayer app",
+          "description": "Visit the official EigenLayer app and connect your wallet (MetaMask, Ledger).",
+          "links": [
+            {"text": "EigenLayer App", "url": "https://app.eigenlayer.xyz"}
+          ]
+        },
+        {
+          "title": "Deposit and restake",
+          "description": "Deposit your ETH/LSTs into EigenLayer. Your assets will secure multiple protocols simultaneously.",
+          "tips": "Longer staking periods may yield higher rewards"
+        },
+        {
+          "title": "Choose operators (optional)",
+          "description": "Delegate your stake to node operators who will validate for AVS (Actively Validated Services).",
+          "links": [
+            {"text": "EigenLayer Operators", "url": "https://app.eigenlayer.xyz/avs"}
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Smart contract risk - funds locked in protocol",
+      "Slashing risk if operator misbehaves",
+      "High capital requirement",
+      "Withdrawal delays may apply"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "pendle-finance",
+    "name": "Pendle",
+    "token": "PENDLE",
+    "chain": "Ethereum, Arbitrum",
+    "status": "active",
+    "estimatedValue": "$150-700",
+    "difficulty": "medium",
+    "endDate": "2026-08-31",
+    "officialSite": "https://www.pendle.finance",
+    "officialTwitter": "https://twitter.com/pendle_fi",
+    "description": "Pendle tokenizes yield from DeFi protocols. Users providing liquidity or trading yield tokens may receive incentives.",
+    "requirements": [
+      "Provide liquidity on Pendle",
+      "Trade yield tokens (PT/YT)",
+      "Hold positions for multiple epochs",
+      "Participate in Pendle governance"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Understand Pendle mechanics",
+          "description": "Pendle splits yield-bearing tokens into Principal Tokens (PT) and Yield Tokens (YT). You can trade or provide liquidity for these.",
+          "links": [
+            {"text": "Pendle Docs", "url": "https://docs.pendle.finance"}
+          ]
+        },
+        {
+          "title": "Connect wallet to Pendle",
+          "description": "Use Pendle on Ethereum or Arbitrum. Arbitrum has lower fees.",
+          "links": [
+            {"text": "Pendle App", "url": "https://app.pendle.finance"}
+          ],
+          "estimatedCost": "$50-200 capital + gas"
+        },
+        {
+          "title": "Provide liquidity or trade",
+          "description": "Add liquidity to PT/YT pools for trading fees, or trade yield tokens to speculate on interest rates.",
+          "tips": "Liquidity providers often receive bonus PENDLE rewards"
+        }
+      ]
+    },
+    "risks": [
+      "Complex mechanics - learn before using",
+      "Impermanent loss for LPs",
+      "Smart contract risk"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "friend-tech",
+    "name": "Friend.tech",
+    "token": "FRIEND",
+    "chain": "Base",
+    "status": "active",
+    "estimatedValue": "$100-500",
+    "difficulty": "easy",
+    "endDate": "2026-07-31",
+    "officialSite": "https://www.friend.tech",
+    "officialTwitter": "https://twitter.com/friendtech",
+    "description": "Friend.tech is a SocialFi platform on Base where you trade keys to access creators' private groups. Early users may receive FRIEND tokens.",
+    "requirements": [
+      "Create Friend.tech account",
+      "Buy and sell creator keys",
+      "Engage with the platform regularly",
+      "Hold keys for popular creators"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Join Friend.tech",
+          "description": "Visit friend.tech on mobile and sign up with Twitter. You'll need to bridge ETH to Base.",
+          "links": [
+            {"text": "Friend.tech", "url": "https://www.friend.tech"}
+          ],
+          "estimatedCost": "0.01-0.05 ETH on Base"
+        },
+        {
+          "title": "Buy creator keys",
+          "description": "Purchase keys from creators you want to follow. Key prices rise with demand (bonding curve).",
+          "tips": "Early keys are cheaper - find rising creators"
+        },
+        {
+          "title": "Engage and hold",
+          "description": "Participate in chats, hold keys for extended periods. Activity may be rewarded in future token distribution.",
+          "tips": "Platform evolves fast - check official announcements"
+        }
+      ]
+    },
+    "risks": [
+      "Highly speculative",
+      "Key prices volatile",
+      "Platform may change rules",
+      "No official airdrop confirmed"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "polygon-zkevm",
+    "name": "Polygon zkEVM",
+    "token": "POL",
+    "chain": "Polygon zkEVM",
+    "status": "active",
+    "estimatedValue": "$200-1000",
+    "difficulty": "easy",
+    "endDate": "2026-09-30",
+    "officialSite": "https://polygon.technology/polygon-zkevm",
+    "officialTwitter": "https://twitter.com/0xPolygon",
+    "description": "Polygon zkEVM is a ZK-rollup scaling solution. Users may receive POL incentives for ecosystem engagement.",
+    "requirements": [
+      "Bridge to Polygon zkEVM",
+      "Use zkEVM dApps (DEXs, lending, NFTs)",
+      "Complete at least 10 transactions",
+      "Participate in zkEVM campaigns"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Bridge to zkEVM",
+          "description": "Use the official Polygon bridge to move assets from Ethereum to zkEVM.",
+          "links": [
+            {"text": "Polygon zkEVM Bridge", "url": "https://portal.polygon.technology"}
+          ],
+          "estimatedCost": "$5-15 gas"
+        },
+        {
+          "title": "Use zkEVM DEXs",
+          "description": "Swap on QuickSwap, PancakeSwap, or other zkEVM DEXs.",
+          "links": [
+            {"text": "QuickSwap zkEVM", "url": "https://quickswap.exchange"}
+          ]
+        },
+        {
+          "title": "Explore lending and NFTs",
+          "description": "Try AAVE on zkEVM for lending, or mint NFTs on zkEVM marketplaces.",
+          "tips": "Diversify activity types for better eligibility"
+        }
+      ]
+    },
+    "risks": [
+      "Newer network - less mature ecosystem",
+      "Bridge security considerations",
+      "POL already distributed - less airdrop potential"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "ambient-finance",
+    "name": "Ambient Finance",
+    "token": "AMB",
+    "chain": "Ethereum, Scroll",
+    "status": "active",
+    "estimatedValue": "$150-800",
+    "difficulty": "medium",
+    "endDate": "2026-08-31",
+    "officialSite": "https://ambient.finance",
+    "officialTwitter": "https://twitter.com/ambient_finance",
+    "description": "Ambient is a decentralized exchange with novel concentrated liquidity features. Early LPs and traders may receive AMB tokens.",
+    "requirements": [
+      "Provide liquidity on Ambient",
+      "Trade on Ambient DEX",
+      "Use Ambient on multiple chains",
+      "Maintain liquidity positions"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Connect to Ambient",
+          "description": "Visit Ambient Finance and connect your wallet. Available on Ethereum and Scroll.",
+          "links": [
+            {"text": "Ambient App", "url": "https://ambient.finance/trade"}
+          ]
+        },
+        {
+          "title": "Provide liquidity",
+          "description": "Add liquidity to trading pairs. Ambient uses concentrated liquidity like Uniswap v3.",
+          "estimatedCost": "$100-500 capital + gas",
+          "tips": "Active LPs may get higher rewards"
+        },
+        {
+          "title": "Trade and accumulate volume",
+          "description": "Make swaps on Ambient to generate trading volume and fees.",
+          "tips": "Use on Scroll for lower gas fees"
+        }
+      ]
+    },
+    "risks": [
+      "Impermanent loss for LPs",
+      "Smart contract risk",
+      "Lower liquidity than major DEXs"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "aethir",
+    "name": "Aethir",
+    "token": "ATH",
+    "chain": "Arbitrum",
+    "status": "active",
+    "estimatedValue": "$200-1000",
+    "difficulty": "easy",
+    "endDate": "2026-10-15",
+    "officialSite": "https://aethir.com",
+    "officialTwitter": "https://twitter.com/AethirCloud",
+    "description": "Aethir is a decentralized GPU cloud infrastructure. Users checking in daily and participating in ecosystem may earn ATH tokens.",
+    "requirements": [
+      "Sign up for Aethir",
+      "Complete daily check-ins",
+      "Participate in campaigns",
+      "Use Aethir services (optional)"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Create Aethir account",
+          "description": "Sign up on the Aethir website with email or wallet.",
+          "links": [
+            {"text": "Aethir Sign Up", "url": "https://aethir.com"}
+          ],
+          "estimatedCost": "Free"
+        },
+        {
+          "title": "Complete daily check-ins",
+          "description": "Log in daily to accumulate points. Consistency is rewarded.",
+          "tips": "Set a daily reminder"
+        },
+        {
+          "title": "Join campaigns and tasks",
+          "description": "Aethir runs periodic campaigns on Twitter, Discord, and partner platforms. Participate for bonus points.",
+          "links": [
+            {"text": "Aethir Campaigns", "url": "https://aethir.com/earn"}
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Points system subject to change",
+      "Token conversion rate uncertain",
+      "Platform still in development"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "berachain",
+    "name": "Berachain",
+    "token": "BERA",
+    "chain": "Berachain",
+    "status": "active",
+    "estimatedValue": "$300-1500",
+    "difficulty": "medium",
+    "endDate": "2026-11-30",
+    "officialSite": "https://berachain.com",
+    "officialTwitter": "https://twitter.com/berachain",
+    "description": "Berachain is an EVM-compatible L1 with innovative liquidity proof of stake. Testnet users may qualify for BERA airdrops.",
+    "requirements": [
+      "Use Berachain testnet",
+      "Complete testnet transactions",
+      "Provide liquidity on testnet DEXs",
+      "Engage with community"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Add Berachain testnet to wallet",
+          "description": "Configure MetaMask with Berachain testnet RPC.",
+          "links": [
+            {"text": "Berachain Docs", "url": "https://docs.berachain.com"}
+          ]
+        },
+        {
+          "title": "Get testnet BERA",
+          "description": "Use the Berachain faucet to claim testnet tokens.",
+          "links": [
+            {"text": "Berachain Faucet", "url": "https://artio.faucet.berachain.com"}
+          ],
+          "estimatedCost": "Free"
+        },
+        {
+          "title": "Use testnet dApps",
+          "description": "Swap on BEX DEX, provide liquidity, mint Beras (NFTs), or try other testnet apps.",
+          "links": [
+            {"text": "BEX DEX", "url": "https://artio.bex.berachain.com"}
+          ],
+          "tips": "Testnet participation often rewarded generously"
+        }
+      ]
+    },
+    "risks": [
+      "Testnet only - mainnet launch date TBA",
+      "Airdrop criteria not finalized",
+      "High hype - may be competitive"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "hyperlane",
+    "name": "Hyperlane",
+    "token": "HYP",
+    "chain": "Multi-chain",
+    "status": "active",
+    "estimatedValue": "$200-1000",
+    "difficulty": "medium",
+    "endDate": "2026-10-31",
+    "officialSite": "https://hyperlane.xyz",
+    "officialTwitter": "https://twitter.com/Hyperlane_xyz",
+    "description": "Hyperlane is a permissionless interoperability layer. Users bridging and deploying apps may receive HYP tokens.",
+    "requirements": [
+      "Use Hyperlane bridges",
+      "Bridge between multiple chains",
+      "Deploy Hyperlane contracts (advanced)",
+      "Accumulate cross-chain activity"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Find Hyperlane-powered bridges",
+          "description": "Many bridges use Hyperlane under the hood. Check Hyperlane docs for supported routes.",
+          "links": [
+            {"text": "Hyperlane Explorer", "url": "https://explorer.hyperlane.xyz"}
+          ]
+        },
+        {
+          "title": "Bridge assets across chains",
+          "description": "Use Hyperlane-enabled bridges to move assets between chains. Each bridge counts.",
+          "estimatedCost": "$5-15 per bridge",
+          "tips": "Bridge between lesser-known chains for less competition"
+        },
+        {
+          "title": "Deploy Hyperlane app (optional)",
+          "description": "Developers can deploy custom messaging apps using Hyperlane SDK.",
+          "links": [
+            {"text": "Hyperlane Docs", "url": "https://docs.hyperlane.xyz"}
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Cross-chain bridge risks",
+      "Airdrop not officially announced",
+      "Multiple bridge fees add up"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "zeta-chain",
+    "name": "ZetaChain",
+    "token": "ZETA",
+    "chain": "ZetaChain",
+    "status": "active",
+    "estimatedValue": "$250-1200",
+    "difficulty": "easy",
+    "endDate": "2026-09-30",
+    "officialSite": "https://www.zetachain.com",
+    "officialTwitter": "https://twitter.com/zetablockchain",
+    "description": "ZetaChain enables omnichain smart contracts. Users interacting with ZetaChain and its ecosystem may receive ZETA rewards.",
+    "requirements": [
+      "Use ZetaChain testnet or mainnet",
+      "Complete cross-chain transactions",
+      "Use ZetaChain dApps",
+      "Participate in campaigns"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Set up ZetaChain wallet",
+          "description": "Add ZetaChain network to MetaMask or use ZetaHub.",
+          "links": [
+            {"text": "ZetaChain Docs", "url": "https://www.zetachain.com/docs"}
+          ]
+        },
+        {
+          "title": "Bridge to ZetaChain",
+          "description": "Use the official ZetaChain bridge or Hub to move assets from other chains.",
+          "links": [
+            {"text": "ZetaHub", "url": "https://hub.zetachain.com"}
+          ],
+          "estimatedCost": "$5-12 gas"
+        },
+        {
+          "title": "Use ZetaChain dApps",
+          "description": "Try ZetaSwap, provide liquidity, or use omnichain messaging apps.",
+          "tips": "Cross-chain features are ZetaChain's specialty"
+        }
+      ]
+    },
+    "risks": [
+      "Newer blockchain with evolving ecosystem",
+      "Bridge security considerations",
+      "Reward criteria may change"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "monad",
+    "name": "Monad",
+    "token": "MONAD",
+    "chain": "Monad",
+    "status": "watch",
+    "estimatedValue": "$400-2000",
+    "difficulty": "hard",
+    "endDate": "TBA",
+    "officialSite": "https://monad.xyz",
+    "officialTwitter": "https://twitter.com/monad_xyz",
+    "description": "Monad is a high-performance EVM-compatible L1. Currently pre-launch, but community members may qualify for future airdrops.",
+    "requirements": [
+      "Join Monad community (Discord, Twitter)",
+      "Wait for testnet launch",
+      "Engage in community events",
+      "Follow official announcements"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Join Monad community",
+          "description": "Follow Monad on Twitter and join their Discord for updates.",
+          "links": [
+            {"text": "Monad Discord", "url": "https://discord.gg/monad"}
+          ],
+          "estimatedCost": "Free"
+        },
+        {
+          "title": "Wait for testnet",
+          "description": "Monad testnet is not yet live. Stay active in community until launch is announced.",
+          "tips": "Early community members often get preferential treatment"
+        },
+        {
+          "title": "Participate when testnet launches",
+          "description": "Once testnet is live, use it actively. Complete transactions, provide feedback.",
+          "tips": "Set up alerts for Monad announcements"
+        }
+      ]
+    },
+    "risks": [
+      "No testnet yet - timeline uncertain",
+      "Highly speculative",
+      "Requires patience and waiting"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "wormhole",
+    "name": "Wormhole",
+    "token": "W",
+    "chain": "Multi-chain",
+    "status": "active",
+    "estimatedValue": "$150-700",
+    "difficulty": "easy",
+    "endDate": "2026-08-31",
+    "officialSite": "https://wormhole.com",
+    "officialTwitter": "https://twitter.com/wormhole",
+    "description": "Wormhole is a cross-chain messaging protocol. Users bridging assets and using Wormhole-powered apps may receive W tokens.",
+    "requirements": [
+      "Use Wormhole bridge",
+      "Bridge between multiple chains",
+      "Use Wormhole Connect apps",
+      "Accumulate bridge volume"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Access Wormhole bridge",
+          "description": "Visit the Portal bridge (powered by Wormhole) to move assets between chains.",
+          "links": [
+            {"text": "Portal Bridge", "url": "https://portalbridge.com"}
+          ]
+        },
+        {
+          "title": "Bridge assets",
+          "description": "Bridge tokens like USDC, ETH, SOL between Ethereum, Solana, Polygon, Arbitrum, and more.",
+          "estimatedCost": "$5-20 per bridge",
+          "tips": "Try different chain combinations"
+        },
+        {
+          "title": "Use Wormhole-powered dApps",
+          "description": "Many apps use Wormhole for cross-chain features. Look for Wormhole Connect integrations.",
+          "links": [
+            {"text": "Wormhole Ecosystem", "url": "https://wormhole.com/ecosystem"}
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Bridge hacks have occurred in past (now fixed)",
+      "Multiple bridge fees",
+      "W token already launched - airdrop potential lower"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "dydx-v4",
+    "name": "dYdX v4",
+    "token": "DYDX",
+    "chain": "dYdX Chain",
+    "status": "active",
+    "estimatedValue": "$200-1000",
+    "difficulty": "medium",
+    "endDate": "2026-10-31",
+    "officialSite": "https://dydx.exchange",
+    "officialTwitter": "https://twitter.com/dYdX",
+    "description": "dYdX v4 is a standalone blockchain for perpetual trading. Traders and liquidity providers may receive DYDX rewards.",
+    "requirements": [
+      "Trade on dYdX v4",
+      "Accumulate trading volume",
+      "Provide liquidity (advanced)",
+      "Stake DYDX tokens"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Create dYdX account",
+          "description": "Sign up on dYdX v4 using your email or connect a wallet.",
+          "links": [
+            {"text": "dYdX v4", "url": "https://dydx.exchange"}
+          ]
+        },
+        {
+          "title": "Deposit funds",
+          "description": "Deposit USDC via Ethereum, Arbitrum, or other supported chains.",
+          "estimatedCost": "$100+ for meaningful trading",
+          "tips": "Use Arbitrum to save on gas"
+        },
+        {
+          "title": "Trade perpetuals",
+          "description": "Trade BTC-PERP, ETH-PERP, or altcoin perpetuals. Volume and fees generate rewards.",
+          "tips": "Market makers get higher rewards"
+        },
+        {
+          "title": "Stake DYDX (optional)",
+          "description": "Stake DYDX tokens to earn staking rewards and participate in governance.",
+          "links": [
+            {"text": "dYdX Staking", "url": "https://dydx.exchange/staking"}
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Perpetual trading is high risk - can be liquidated",
+      "Requires active trading and capital",
+      "DYDX already launched - retroactive unlikely"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "particle-network",
+    "name": "Particle Network",
+    "token": "PARTI",
+    "chain": "Multi-chain",
+    "status": "active",
+    "estimatedValue": "$150-600",
+    "difficulty": "easy",
+    "endDate": "2026-09-15",
+    "officialSite": "https://particle.network",
+    "officialTwitter": "https://twitter.com/ParticleNtwrk",
+    "description": "Particle Network provides wallet-as-a-service and account abstraction. Users trying Particle-powered dApps may receive PARTI tokens.",
+    "requirements": [
+      "Use dApps with Particle login",
+      "Create Particle wallet",
+      "Complete transactions via Particle",
+      "Use on multiple chains"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Find Particle-powered dApps",
+          "description": "Look for apps that offer social login via Particle (Google, Twitter login for crypto apps).",
+          "links": [
+            {"text": "Particle Ecosystem", "url": "https://particle.network/ecosystem"}
+          ]
+        },
+        {
+          "title": "Create Particle wallet",
+          "description": "Sign up using social login. Particle creates a non-custodial wallet for you.",
+          "estimatedCost": "Free"
+        },
+        {
+          "title": "Use Particle features",
+          "description": "Try gasless transactions, cross-chain swaps, or other Particle features in partnered dApps.",
+          "tips": "User-friendly for beginners"
+        }
+      ]
+    },
+    "risks": [
+      "Relies on third-party infrastructure",
+      "Newer technology - less proven",
+      "Airdrop criteria unclear"
+    ],
+    "lastUpdated": "2026-06-25"
+  }
+]

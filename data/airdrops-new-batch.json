@@ -1,0 +1,498 @@
+[
+  {
+    "id": "scroll-l2",
+    "name": "Scroll",
+    "token": "SCR",
+    "chain": "Ethereum L2",
+    "status": "active",
+    "estimatedValue": "$200-1000",
+    "difficulty": "easy",
+    "endDate": "2026-08-15",
+    "officialSite": "https://scroll.io",
+    "officialTwitter": "https://twitter.com/Scroll_ZKP",
+    "description": "Scroll is a zkEVM Layer 2 solution for Ethereum. Early users bridging and transacting may qualify for future airdrops.",
+    "requirements": [
+      "Bridge ETH to Scroll mainnet",
+      "Complete at least 8 transactions",
+      "Use multiple dApps (DEX, NFT, lending)",
+      "Maintain activity over 30+ days"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Bridge to Scroll",
+          "description": "Use the official Scroll bridge to transfer ETH from Ethereum mainnet. Start with 0.01 ETH minimum.",
+          "links": [
+            {"text": "Scroll Bridge", "url": "https://scroll.io/bridge"}
+          ],
+          "estimatedCost": "$5-12 gas fee"
+        },
+        {
+          "title": "Swap on Scroll DEXs",
+          "description": "Trade on native DEXs like Skydrome or Ambient to generate transaction volume.",
+          "links": [
+            {"text": "Skydrome", "url": "https://skydrome.finance"}
+          ]
+        },
+        {
+          "title": "Use Scroll Ecosystem Apps",
+          "description": "Interact with lending protocols, NFT marketplaces, or mint a Scroll Name Service domain.",
+          "tips": "Diversify activity across different dApp categories"
+        }
+      ]
+    },
+    "risks": [
+      "Bridge security risks",
+      "Sybil detection may exclude obvious farmers",
+      "Gas fees accumulate over time"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "base-l2",
+    "name": "Base",
+    "token": "BASE",
+    "chain": "Ethereum L2",
+    "status": "active",
+    "estimatedValue": "$300-1200",
+    "difficulty": "easy",
+    "endDate": "2026-09-30",
+    "officialSite": "https://base.org",
+    "officialTwitter": "https://twitter.com/base",
+    "description": "Base is Coinbase's Ethereum Layer 2. While no official airdrop confirmed, active ecosystem users may benefit from future incentives.",
+    "requirements": [
+      "Bridge to Base via official bridge",
+      "Complete 10+ transactions on Base dApps",
+      "Try lending, swapping, NFT minting",
+      "Interact with Base's native apps"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Bridge ETH to Base",
+          "description": "Use the official Base bridge or Coinbase wallet for easy onboarding.",
+          "links": [
+            {"text": "Base Bridge", "url": "https://bridge.base.org"}
+          ],
+          "estimatedCost": "$3-8 gas"
+        },
+        {
+          "title": "Swap on BaseSwap or Aerodrome",
+          "description": "Trade tokens on Base's main DEXs to generate activity.",
+          "links": [
+            {"text": "Aerodrome", "url": "https://aerodrome.finance"}
+          ]
+        },
+        {
+          "title": "Mint an NFT or use SocialFi",
+          "description": "Explore Base ecosystem: mint on Zora, use Friend.tech (if available), or try Base Name Service.",
+          "tips": "Coinbase-backed projects often reward early users"
+        }
+      ]
+    },
+    "risks": [
+      "No official airdrop announced",
+      "Speculation-based strategy",
+      "May not reward all users"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "arbitrum-odyssey",
+    "name": "Arbitrum Odyssey",
+    "token": "ARB",
+    "chain": "Arbitrum",
+    "status": "active",
+    "estimatedValue": "$150-800",
+    "difficulty": "medium",
+    "endDate": "2026-07-20",
+    "officialSite": "https://arbitrum.io",
+    "officialTwitter": "https://twitter.com/arbitrum",
+    "description": "Arbitrum Odyssey campaigns reward users exploring the ecosystem. Participate in weekly challenges to earn NFT badges and potential future rewards.",
+    "requirements": [
+      "Complete Odyssey week challenges",
+      "Use specified dApps each week",
+      "Collect NFT badges as proof",
+      "Bridge assets to Arbitrum"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Check Odyssey schedule",
+          "description": "Visit the official Arbitrum Odyssey page to see current and upcoming week challenges.",
+          "links": [
+            {"text": "Arbitrum Odyssey", "url": "https://arbitrum.io/odyssey"}
+          ]
+        },
+        {
+          "title": "Complete weekly tasks",
+          "description": "Each week focuses on different protocols: DEXs, NFT markets, lending, bridges. Complete tasks to earn badges.",
+          "estimatedCost": "$10-30 per week"
+        },
+        {
+          "title": "Collect all badges",
+          "description": "Accumulate as many NFT badges as possible. Higher participation may lead to better rewards.",
+          "tips": "Don't miss weeks - consistency matters"
+        }
+      ]
+    },
+    "risks": [
+      "Time-limited weekly tasks",
+      "Costs add up across multiple weeks",
+      "Reward distribution unclear"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "optimism-quests",
+    "name": "Optimism Quests",
+    "token": "OP",
+    "chain": "Optimism",
+    "status": "active",
+    "estimatedValue": "$100-600",
+    "difficulty": "easy",
+    "endDate": "2026-08-10",
+    "officialSite": "https://www.optimism.io",
+    "officialTwitter": "https://twitter.com/optimismFND",
+    "description": "Optimism runs periodic quest campaigns to boost ecosystem engagement. Complete quests for on-chain attestations and potential retroactive rewards.",
+    "requirements": [
+      "Bridge to Optimism mainnet",
+      "Complete Galxe or official quests",
+      "Use OP ecosystem apps",
+      "Earn on-chain attestations"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Bridge to Optimism",
+          "description": "Use the official Optimism bridge to move ETH from Ethereum.",
+          "links": [
+            {"text": "Optimism Bridge", "url": "https://app.optimism.io/bridge"}
+          ],
+          "estimatedCost": "$4-10"
+        },
+        {
+          "title": "Find active quests",
+          "description": "Check Galxe, Layer3, or official Optimism channels for current quest campaigns.",
+          "links": [
+            {"text": "Optimism on Galxe", "url": "https://galxe.com/optimism"}
+          ]
+        },
+        {
+          "title": "Complete quest tasks",
+          "description": "Tasks usually involve swapping, providing liquidity, voting on governance, or using specific dApps.",
+          "tips": "Quests are often time-limited, act quickly"
+        }
+      ]
+    },
+    "risks": [
+      "Quest rewards not guaranteed",
+      "May require holding OP tokens",
+      "Attestation value uncertain"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "metamask-snap",
+    "name": "MetaMask Snaps",
+    "token": "TBA",
+    "chain": "Multi-chain",
+    "status": "active",
+    "estimatedValue": "$200-1000",
+    "difficulty": "easy",
+    "endDate": "TBA",
+    "officialSite": "https://metamask.io/snaps",
+    "officialTwitter": "https://twitter.com/MetaMask",
+    "description": "MetaMask Snaps extend wallet functionality. Early adopters testing Snaps may qualify if MetaMask launches a token.",
+    "requirements": [
+      "Install MetaMask Flask (beta version)",
+      "Try multiple Snaps from directory",
+      "Use Snaps regularly over time",
+      "Provide feedback when possible"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Install MetaMask Flask",
+          "description": "Download Flask, the experimental MetaMask version that supports Snaps.",
+          "links": [
+            {"text": "MetaMask Flask", "url": "https://metamask.io/flask"}
+          ]
+        },
+        {
+          "title": "Browse and install Snaps",
+          "description": "Explore the Snaps directory and install different categories: notifications, transaction insights, multi-chain support.",
+          "links": [
+            {"text": "Snaps Directory", "url": "https://snaps.metamask.io"}
+          ],
+          "tips": "Install at least 5 different Snaps"
+        },
+        {
+          "title": "Use Snaps regularly",
+          "description": "Interact with installed Snaps when making transactions or managing assets.",
+          "estimatedCost": "Free (no gas, just time)"
+        }
+      ]
+    },
+    "risks": [
+      "Highly speculative - no confirmed token",
+      "Beta software may have bugs",
+      "No guarantee of airdrop"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "manta-pacific",
+    "name": "Manta Pacific",
+    "token": "MANTA",
+    "chain": "Ethereum L2",
+    "status": "active",
+    "estimatedValue": "$250-1200",
+    "difficulty": "medium",
+    "endDate": "2026-09-15",
+    "officialSite": "https://pacific.manta.network",
+    "officialTwitter": "https://twitter.com/MantaNetwork",
+    "description": "Manta Pacific is a modular L2 for zero-knowledge applications. Users participating in ecosystem activities may receive MANTA token rewards.",
+    "requirements": [
+      "Bridge to Manta Pacific",
+      "Complete 10+ transactions",
+      "Use Manta ecosystem dApps",
+      "Participate in campaigns if available"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Bridge assets to Manta",
+          "description": "Use the official Manta bridge to move ETH from Ethereum.",
+          "links": [
+            {"text": "Manta Bridge", "url": "https://pacific.manta.network/bridge"}
+          ],
+          "estimatedCost": "$5-15"
+        },
+        {
+          "title": "Swap on Manta DEXs",
+          "description": "Trade tokens on ApertureSwap or other Manta-native DEXs.",
+          "tips": "Generate volume but watch gas costs"
+        },
+        {
+          "title": "Explore zkNFTs and privacy apps",
+          "description": "Manta specializes in zero-knowledge tech. Try minting zkNFTs or using privacy-focused dApps.",
+          "links": [
+            {"text": "Manta Ecosystem", "url": "https://manta.network/ecosystem"}
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Newer L2 with less liquidity",
+      "Smart contract risks",
+      "Reward criteria unclear"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "blast-l2",
+    "name": "Blast",
+    "token": "BLAST",
+    "chain": "Ethereum L2",
+    "status": "active",
+    "estimatedValue": "$300-1500",
+    "difficulty": "easy",
+    "endDate": "2026-08-30",
+    "officialSite": "https://blast.io",
+    "officialTwitter": "https://twitter.com/Blast_L2",
+    "description": "Blast is an Ethereum L2 with native yield on ETH and stablecoins. Early depositors and ecosystem users earn Blast Points for potential rewards.",
+    "requirements": [
+      "Bridge ETH or stablecoins to Blast",
+      "Earn Blast Points through deposits",
+      "Use Blast dApps to boost points",
+      "Invite referrals (optional multiplier)"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Bridge to Blast",
+          "description": "Deposit ETH or stablecoins via the official Blast bridge. You'll earn automatic yield while on Blast.",
+          "links": [
+            {"text": "Blast Bridge", "url": "https://blast.io/bridge"}
+          ],
+          "estimatedCost": "$5-10 gas"
+        },
+        {
+          "title": "Accumulate Blast Points",
+          "description": "Points accrue automatically based on your deposit balance and time. Use Blast dApps to earn bonus points.",
+          "tips": "Longer deposits = more points"
+        },
+        {
+          "title": "Use Blast ecosystem dApps",
+          "description": "Try DEXs, lending platforms, or NFT marketplaces built on Blast to boost your point multiplier.",
+          "links": [
+            {"text": "Blast Ecosystem", "url": "https://blast.io/ecosystem"}
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Lockup periods may apply",
+      "Points mechanism subject to change",
+      "High competition for rewards"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "celestia-tia",
+    "name": "Celestia",
+    "token": "TIA",
+    "chain": "Modular Blockchain",
+    "status": "active",
+    "estimatedValue": "$400-2000",
+    "difficulty": "medium",
+    "endDate": "2026-10-31",
+    "officialSite": "https://celestia.org",
+    "officialTwitter": "https://twitter.com/CelestiaOrg",
+    "description": "Celestia is a modular data availability network. Developers deploying rollups and users staking TIA may qualify for future incentives.",
+    "requirements": [
+      "Stake TIA tokens",
+      "Use Celestia-based rollups",
+      "Run a light node (advanced)",
+      "Participate in governance"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Acquire TIA tokens",
+          "description": "Buy TIA on major exchanges (Binance, OKX) and transfer to a Cosmos-compatible wallet like Keplr.",
+          "links": [
+            {"text": "Keplr Wallet", "url": "https://www.keplr.app"}
+          ]
+        },
+        {
+          "title": "Stake TIA",
+          "description": "Stake your TIA through validators to earn rewards and participate in network security.",
+          "links": [
+            {"text": "Celestia Staking", "url": "https://celestia.org/stake"}
+          ],
+          "tips": "Choose validators with good uptime"
+        },
+        {
+          "title": "Use Celestia rollups",
+          "description": "Interact with rollups built on Celestia's DA layer. Check ecosystem page for active projects.",
+          "links": [
+            {"text": "Celestia Ecosystem", "url": "https://celestia.org/ecosystem"}
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Requires capital to stake",
+      "Validator slashing risks",
+      "Ecosystem still developing"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "fuel-network",
+    "name": "Fuel Network",
+    "token": "FUEL",
+    "chain": "Modular Execution Layer",
+    "status": "active",
+    "estimatedValue": "$300-1500",
+    "difficulty": "hard",
+    "endDate": "2026-11-30",
+    "officialSite": "https://fuel.network",
+    "officialTwitter": "https://twitter.com/FuelLabs",
+    "description": "Fuel is the fastest modular execution layer. Testnet users and developers may qualify for airdrops when mainnet launches.",
+    "requirements": [
+      "Use Fuel testnet",
+      "Complete testnet transactions",
+      "Deploy a Sway smart contract (advanced)",
+      "Provide feedback to developers"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Set up Fuel wallet",
+          "description": "Install the Fuel wallet browser extension and connect to the testnet.",
+          "links": [
+            {"text": "Fuel Wallet", "url": "https://wallet.fuel.network"}
+          ]
+        },
+        {
+          "title": "Get testnet tokens",
+          "description": "Use the Fuel faucet to claim testnet tokens for transactions.",
+          "links": [
+            {"text": "Fuel Faucet", "url": "https://faucet.fuel.network"}
+          ],
+          "estimatedCost": "Free (testnet)"
+        },
+        {
+          "title": "Use Fuel testnet dApps",
+          "description": "Try DEXs, NFT minting, or other testnet apps. Make diverse transactions.",
+          "tips": "Testnet activity often rewarded in crypto"
+        },
+        {
+          "title": "Learn Sway (optional)",
+          "description": "Fuel's smart contract language. Developers deploying contracts may get higher rewards.",
+          "links": [
+            {"text": "Sway Docs", "url": "https://fuellabs.github.io/sway"}
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Testnet only - no mainnet yet",
+      "Technical knowledge helpful",
+      "Airdrop not officially confirmed"
+    ],
+    "lastUpdated": "2026-06-25"
+  },
+  {
+    "id": "shardeum",
+    "name": "Shardeum",
+    "token": "SHM",
+    "chain": "Sharded EVM",
+    "status": "active",
+    "estimatedValue": "$200-1000",
+    "difficulty": "easy",
+    "endDate": "2026-09-30",
+    "officialSite": "https://shardeum.org",
+    "officialTwitter": "https://twitter.com/shardeum",
+    "description": "Shardeum is an EVM-based sharded blockchain. Testnet users may receive SHM token airdrops upon mainnet launch.",
+    "requirements": [
+      "Use Shardeum testnet",
+      "Complete 10+ testnet transactions",
+      "Try multiple dApps",
+      "Join Shardeum community"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Add Shardeum testnet to MetaMask",
+          "description": "Configure your MetaMask to connect to Shardeum Sphinx testnet.",
+          "links": [
+            {"text": "Shardeum Network Config", "url": "https://docs.shardeum.org/network/endpoints"}
+          ]
+        },
+        {
+          "title": "Claim testnet SHM",
+          "description": "Use the Shardeum faucet to get free testnet tokens.",
+          "links": [
+            {"text": "Shardeum Faucet", "url": "https://faucet.shardeum.org"}
+          ],
+          "estimatedCost": "Free"
+        },
+        {
+          "title": "Use testnet dApps",
+          "description": "Swap, mint NFTs, or provide liquidity on testnet DEXs. Generate transaction history.",
+          "tips": "More diverse activity = better odds"
+        }
+      ]
+    },
+    "risks": [
+      "Testnet rewards speculative",
+      "Mainnet launch date uncertain",
+      "Token economics not finalized"
+    ],
+    "lastUpdated": "2026-06-25"
+  }
+]
