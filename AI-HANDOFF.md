@@ -24,6 +24,28 @@
 ---
 
 ## 🔄 最近改动记录
+### [2026-06-26] Claude（自动发现新空投项目系统）
+- **完成**: scripts/auto-discover.mjs 自动发现脚本（从 DeFiLlama 等聚合站抓取新项目列表）
+- **完成**: config/discovery-sources.js 安全验证规则（HTTPS、TLD白名单、域名黑名单）
+- **更新**: scripts/run-update.ps1 加入自动发现步骤（每天运行时自动找新项目）
+- **工作原理**: 
+  1. 从DeFiLlama等聚合站抓项目列表
+  2. 验证URL安全性（HTTPS、可信TLD、非短链）
+  3. 检查项目是否有blog/docs（值得监控的标准）
+  4. 自动添加到 airdrop-sources.json
+  5. 限制每次新增5个（避免过载）
+- **下一步**: 测试运行 + 继续网站2 NFT站
+
+### [2026-06-25] Claude（站点修复 + 浏览器自动化配置）
+- **发现**: 线上站点 404（blog 模块未推送）
+- **完成**: 提交 blog 模块 + 推送到 GitHub，Vercel 自动部署恢复正常
+- **修复**: app/page.js footer 的 `new Date().toLocaleDateString()` 导致 React hydration mismatch (#418/#423)，改用 `suppressHydrationWarning` + `toISOString().slice(0,10)`
+- **配置**: 
+  - 安装 Playwright MCP (浏览器自动化)，控制 Edge 浏览器
+  - git 配置 socks5://127.0.0.1:7897 代理（git push 需走代理）
+- **⚠️ 待推送**: 本地有 3 个 commit 未推送（包含 hydration 修复），git push 超时，需手动推送或用 Deploy Hook
+- **下一步**: 用 Playwright 自动化抓取空投源站数据
+
 ### [2026-06-24] Claude（内容扩展：日历/工具/交易所/博客）
 - **完成**: app/calendar、app/tools、app/exchanges、app/blog（列表+详情）、data/blog-posts.js
 - **完成**: 首页导航更新为 首页/日历/教程/工具/交易所

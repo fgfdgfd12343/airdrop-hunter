@@ -15,8 +15,33 @@ export default function AirdropDetail({ params }) {
     return <div>Airdrop not found</div>;
   }
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": `${airdrop.name} Airdrop Guide`,
+    "description": airdrop.description,
+    "totalTime": "PT2H",
+    "estimatedCost": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": airdrop.estimatedValue
+    },
+    "step": airdrop.tutorial.steps.map((step, index) => ({
+      "@type": "HowToStep",
+      "position": index + 1,
+      "name": step.title,
+      "text": step.description,
+      "url": step.links?.[0]?.url
+    }))
+  };
+
   return (
-    <div className="min-h-screen">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      ></script>
+      <div className="min-h-screen">
       {/* Header */}
       <header className="bg-white/10 backdrop-blur-md border-b border-white/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -253,5 +278,6 @@ export default function AirdropDetail({ params }) {
         </div>
       </footer>
     </div>
+    </>
   );
 }
