@@ -35,18 +35,63 @@ function isSafeUrl(url) {
   }
 }
 
-// 从DeFiLlama抓取空投列表
+// 有空投可能的协议类型
+const AIRDROP_CATEGORIES = new Set([
+  'Dexes', 'Lending', 'Bridge', 'Yield', 'Yield Aggregator',
+  'Liquid Staking', 'Derivatives', 'Cross Chain', 'Chain',
+  'DEX Aggregator', 'Algo-Stables', 'CDP', 'Options', 'Perps',
+  'RWA', 'NFT Marketplace', 'Gaming', 'SocialFi',
+]);
+
+// 排除：中心化交易所、托管商、包装资产等
+const EXCLUDED_CATEGORIES = new Set([
+  'CEX', 'Custodian', 'Wrapped', 'Reserve Currency',
+]);
+
+// 排除：已知大公司官网（不会空投）
+const EXCLUDED_DOMAINS = [
+  'binance.com', 'coinbase.com', 'robinhood.com', 'gemini.com',
+  'kraken.com', 'kucoin.com', 'mexc.com', 'htx.com',
+  'bitfinex.com', 'circle.com', 'crypto.com',
+];
+
+// 从DeFiLlama官方API抓取协议列表
 async function fetchFromDeFiLlama() {
-  const url = 'https://defillama.com/airdrops';
-  const response = await fetch(url);
-  const html = await response.text();
+  const url = 'https://api.llama.fi/protocols';
 
-  // 简单提取：找所有看起来像项目官网的链接
-  const urlRegex = /https?:\/\/[a-zA-Z0-9\-\.]+\.(io|com|org|network|finance|app|xyz|build)/g;
-  const matches = html.match(urlRegex) || [];
+  const response = await fetch(url, {
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+    },
+    signal: AbortSignal.timeout(60000),
+  });
 
-  const unique = [...new Set(matches)].filter(isSafeUrl);
-  return unique.slice(0, 20); // 限制数量
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+  }
+
+  const protocols = await response.json();
+
+  return protocols.filter((p) => {
+    const noToken = !p.symbol || p.symbol === '-' || p.symbol === null;
+    const hasSite = p.url && typeof p.url === 'string';
+    const hasTvl = (p.tvl || 0) > 5_000_000; // TVL > $5M
+    const goodCategory = AIRDROP_CATEGORIES.has(p.category);
+    const notExcluded = !EXCLUDED_CATEGORIES.has(p.category);
+    const notExcludedDomain = !EXCLUDED_DOMAINS.some(d => (p.url || '').includes(d));
+    return noToken && hasSite && hasTvl && goodCategory && notExcluded && notExcludedDomain;
+  })
+    .sort((a, b) => (b.tvl || 0) - (a.tvl || 0))
+    .slice(0, 30)
+    .map((p) => ({
+      url: p.url,
+      name: p.name,
+      twitter: p.twitter ? `https://twitter.com/${p.twitter}` : '',
+      chain: p.chain || (p.chains && p.chains[0]) || 'Multi-chain',
+      category: p.category,
+      tvl: p.tvl || 0,
+    }))
+    .filter((p) => isSafeUrl(p.url));
 }
 
 // 检查项目网站是否有博客/文档
@@ -60,8 +105,9 @@ async function checkProjectFeatures(siteUrl) {
   try {
     const response = await fetch(siteUrl, {
       headers: {
-        'user-agent': 'AirdropHunterBot/1.0',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
       },
+      signal: AbortSignal.timeout(15000), // 15秒超时
     });
 
     if (!response.ok) {
@@ -94,49 +140,46 @@ export async function discoverNewProjects() {
   // 从DeFiLlama抓取
   let newProjects = [];
   try {
-    const defiLlamaUrls = await fetchFromDeFiLlama();
-    console.log(`Found ${defiLlamaUrls.length} potential projects from DeFiLlama`);
+    const candidates = await fetchFromDeFiLlama();
+    console.log(`Found ${candidates.length} potential projects from DeFiLlama (no token yet, TVL > $1M)`);
 
-    for (const url of defiLlamaUrls) {
+    for (const candidate of candidates) {
+      const url = candidate.url;
       if (existingUrls.has(url)) {
         continue; // 已存在
       }
 
-      console.log(`Checking ${url}...`);
+      console.log(`Checking ${candidate.name} (${url})...`);
       const features = await checkProjectFeatures(url);
 
       // 至少要有blog或docs才值得监控
       if (!features.hasBlog && !features.hasDocs) {
-        console.log(`  ❌ ${url} has no blog/docs, skipping`);
+        console.log(`  ❌ ${candidate.name} has no blog/docs, skipping`);
         continue;
       }
 
-      // 提取项目名（从域名）
       const hostname = new URL(url).hostname.replace(/^www\./, '');
-      const name = hostname.split('.')[0]
-        .split('-')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
 
       const newProject = {
         id: hostname.replace(/\./g, '-'),
-        name: name,
-        chain: 'Unknown', // 需要人工确认
-        token: name.toUpperCase().replace(/\s+/g, ''),
+        name: candidate.name,
+        chain: candidate.chain,
+        token: candidate.name.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 10),
         officialSite: url,
-        officialTwitter: '', // 需要人工填写
-        estimatedValue: '$200-1000',
+        officialTwitter: candidate.twitter,
+        estimatedValue: '$200-1500',
         difficulty: 'medium',
         discoveryUrls: [
           url,
-          features.hasBlog ? `${url}/blog` : `${url}/docs`,
+          features.hasBlog ? `${url.replace(/\/$/, '')}/blog` : `${url.replace(/\/$/, '')}/docs`,
         ].filter(Boolean),
         autoDiscovered: true,
         discoveredAt: new Date().toISOString().split('T')[0],
+        tvlAtDiscovery: candidate.tvl,
       };
 
       newProjects.push(newProject);
-      console.log(`  ✅ Added ${name}`);
+      console.log(`  ✅ Added ${candidate.name} (TVL: $${(candidate.tvl / 1e6).toFixed(1)}M)`);
 
       // 限制每次新增数量，避免太多
       if (newProjects.length >= 5) {

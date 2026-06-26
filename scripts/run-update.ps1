@@ -2,6 +2,8 @@ $ErrorActionPreference = "Stop"
 
 $projectRoot = Join-Path $HOME "Documents\airdrop-hunter"
 $env:VERCEL_DEPLOY_HOOK_URL = "https://api.vercel.com/v1/integrations/deploy/prj_kQuZhXZ4QlULhcm9PHysxaWP0L7S/2fwFOtBkdR"
+$env:HTTP_PROXY  = "http://127.0.0.1:7897"
+$env:HTTPS_PROXY = "http://127.0.0.1:7897"
 
 Set-Location -LiteralPath $projectRoot
 
