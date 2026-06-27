@@ -4,7 +4,31 @@ import Link from 'next/link';
 import airdrops from '../data/airdrops.json';
 
 export default function Home() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Active Crypto Airdrops",
+    "description": "Comprehensive list of active cryptocurrency airdrops with step-by-step guides",
+    "numberOfItems": airdrops.length,
+    "itemListElement": airdrops.slice(0, 20).map((airdrop, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": {
+        "@type": "Article",
+        "name": `${airdrop.name} Airdrop`,
+        "url": `https://airdrop-hunter-sooty.vercel.app/airdrop/${airdrop.id}`,
+        "description": airdrop.description,
+        "datePublished": airdrop.lastUpdated
+      }
+    }))
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      ></script>
     <div className="min-h-screen">
       {/* Header */}
       <header className="bg-white/10 backdrop-blur-md border-b border-white/20">
@@ -160,5 +184,6 @@ export default function Home() {
         </div>
       </footer>
     </div>
+    </>
   );
 }

@@ -82,5 +82,90 @@
       "https://www.berachain.com/blog",
       "https://www.berachain.com/"
     ]
+  },
+  {
+    "id": "spiko-io",
+    "name": "Spiko",
+    "chain": "Multi-Chain",
+    "token": "SPIKO",
+    "officialSite": "https://www.spiko.io/",
+    "officialTwitter": "https://twitter.com/Spiko_finance",
+    "estimatedValue": "$200-1500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://www.spiko.io/",
+      "https://www.spiko.io/blog"
+    ],
+    "autoDiscovered": true,
+    "discoveredAt": "2026-06-26",
+    "tvlAtDiscovery": 1120997176.5467055
+  },
+  {
+    "id": "kinetiq-xyz",
+    "name": "Kinetiq kHYPE",
+    "chain": "Hyperliquid L1",
+    "token": "KINETIQKHY",
+    "officialSite": "https://kinetiq.xyz/stake",
+    "officialTwitter": "https://twitter.com/kinetiq_xyz",
+    "estimatedValue": "$200-1500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://kinetiq.xyz/stake",
+      "https://kinetiq.xyz/stake/blog"
+    ],
+    "autoDiscovered": true,
+    "discoveredAt": "2026-06-26",
+    "tvlAtDiscovery": 931423738.7196662
+  },
+  {
+    "id": "fxn-xyz",
+    "name": "Function FBTC",
+    "chain": "Bitcoin",
+    "token": "FUNCTIONFB",
+    "officialSite": "https://www.fxn.xyz",
+    "officialTwitter": "https://twitter.com/FunctionBTC",
+    "estimatedValue": "$200-1500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://www.fxn.xyz",
+      "https://www.fxn.xyz/docs"
+    ],
+    "autoDiscovered": true,
+    "discoveredAt": "2026-06-26",
+    "tvlAtDiscovery": 635336001.6664095
+  },
+  {
+    "id": "superstate-com",
+    "name": "Invesco USTB",
+    "chain": "Multi-Chain",
+    "token": "INVESCOUST",
+    "officialSite": "https://superstate.com/",
+    "officialTwitter": "https://twitter.com/superstatefunds",
+    "estimatedValue": "$200-1500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://superstate.com/",
+      "https://superstate.com/blog"
+    ],
+    "autoDiscovered": true,
+    "discoveredAt": "2026-06-26",
+    "tvlAtDiscovery": 623748828.613912
+  },
+  {
+    "id": "liquidcollective-io",
+    "name": "Liquid Collective",
+    "chain": "Ethereum",
+    "token": "LIQUIDCOLL",
+    "officialSite": "https://liquidcollective.io",
+    "officialTwitter": "https://twitter.com/liquid_col",
+    "estimatedValue": "$200-1500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://liquidcollective.io",
+      "https://liquidcollective.io/blog"
+    ],
+    "autoDiscovered": true,
+    "discoveredAt": "2026-06-26",
+    "tvlAtDiscovery": 539294563.3954906
   }
 ]

@@ -24,6 +24,15 @@
 ---
 
 ## 🔄 最近改动记录
+### [2026-06-26] Claude（修复 git push 超时 + 线上更新到26项目）
+- **根因**: 5个commit堆积未推送，线上一直停留4个项目。代理 ls-remote(下行)秒通但 push(上行)反复超时
+- **✅ 解决方案（重要，下次push卡住照用）**: 
+  `git -c http.proxy="socks5h://127.0.0.1:7897" -c http.version=HTTP/1.1 -c pack.threads=1 push --no-thin origin main`
+  关键是 `--no-thin`（禁用薄包协商，代理下薄包会卡死）+ `socks5h`（h=DNS走代理）
+- **确认**: 5个commit成功推送 c8afc12..d26e6a2，触发Deploy Hook，线上更新到26项目
+- **注意**: 直连GitHub 443完全不通，必须走代理 127.0.0.1:7897
+- **下一步**: 修复auto-discover抓取 + 网站2 NFT站 + 推广
+
 ### [2026-06-26] Claude（内容扩充45项目 + SEO结构化数据 + Search Console完成）
 - **完成内容扩充**: 手工创建 25 个高质量空投项目，总数 20 → 45
   - Layer2: Scroll, Base, Arbitrum Odyssey, Optimism Quests, Polygon zkEVM, Manta Pacific, Blast
