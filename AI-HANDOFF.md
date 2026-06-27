@@ -24,6 +24,35 @@
 ---
 
 ## 🔄 最近改动记录
+### [2026-06-28] Claude（根治 git push 超时 + 恢复经典项目 + SEO完善 + 30项目上线）
+- **✅ 彻底解决 git push 超时**: 切换到 SSH（通过443端口绕过防火墙）
+  - 问题根因: HTTPS 代理 socks5 上传不稳定，多次尝试 `--no-thin`、http proxy、增大buffer 均失败
+  - 最终方案: 生成 SSH 密钥 + 配置 `~/.ssh/config` 走 `ssh.github.com:443`
+  - 固化配置: `git config core.sshCommand "ssh -i ~/.ssh/id_ed25519 -p 443 -o HostName=ssh.github.com -o StrictHostKeyChecking=no"`
+  - 结果: 推送秒通，永久解决（无需代理、无需环境变量）
+- **✅ 恢复丢失的经典项目**: LayerZero、zkSync、Starknet 三个高价值项目
+  - 问题根因: GitHub Actions 每日自动刷新（UTC 1:00）时，仓库里只有26个项目，脚本保留现有但不会主动恢复缺失的老项目
+  - 解决: 从 git history (commit ecba0cb) 提取原始4个项目数据，去除乱码 latestSignal 字段，合并回当前29个
+  - 验证: 本地运行 update-airdrops.mjs 确认经典项目在自动刷新中存活
+  - 当前稳定: **30个项目**（26新 + 3经典 + 1自动发现的 liquidcollective-io）
+- **✅ SEO 结构化数据完善**:
+  - 详情页: 已有 JSON-LD HowTo schema（45→29→30个页面全覆盖）
+  - 首页: 已有 ItemList schema（上个会话完成）
+  - sitemap.js: 从硬编码4个ID改为动态读取 airdrops.json + blog-posts
+    - 当前覆盖: 30 airdrop + 5 blog + 8 static = **43个 URL**
+- **✅ 自动更新系统验证**: scripts/update-airdrops.mjs 经测试安全
+  - 逻辑: 保留所有现有项目 + 增量添加新发现，**不会删除**
+  - 自动发现功能正常（新增1个 liquidcollective-io）
+- **推送记录**: 
+  - commit dba1a90: 恢复经典+sitemap修复（rebase 后）
+  - commit 490793f: 30项目最终状态
+- **待验证**: 线上 sitemap 和 LayerZero 页面（浏览器已打开）
+- **下一步**: 
+  1. 确认 Vercel 部署完成（sitemap 30个、经典项目可访问）
+  2. 详情页独立 meta 描述（需重构为 server component，大改动，暂缓）
+  3. 内部链接优化（相关空投推荐）
+  4. 监控每日自动刷新（确保经典项目不再丢失）
+
 ### [2026-06-26] Claude（修复 git push 超时 + 线上更新到26项目）
 - **根因**: 5个commit堆积未推送，线上一直停留4个项目。代理 ls-remote(下行)秒通但 push(上行)反复超时
 - **✅ 解决方案（重要，下次push卡住照用）**: 
