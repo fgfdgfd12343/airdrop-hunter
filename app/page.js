@@ -165,8 +165,8 @@ export default function Home() {
           {/* RIGHT: Upcoming Projects (1/3 width) */}
           <div className="lg:col-span-1">
             <div className="sticky top-6">
-              <h3 className="text-2xl font-bold mb-6">🚀 即将上线</h3>
-              <div className="space-y-4">
+              <h3 className="text-2xl font-bold mb-6">🚀 即将上线 · 优质项目</h3>
+              <div className="space-y-4 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pr-2 custom-scrollbar">
                 {upcoming.map((project) => (
                   <div
                     key={project.id}
