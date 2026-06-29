@@ -1,0 +1,256 @@
+[
+  {
+    "id": "polymarket",
+    "name": "Polymarket",
+    "category": "预测市场",
+    "type": "融资项目",
+    "highlight": "🔥 6亿美元融资",
+    "funding": "$600M",
+    "investors": ["Founders Fund", "Peter Thiel"],
+    "chain": "Polygon",
+    "status": "运营中",
+    "launchDate": null,
+    "airdropPotential": "极高",
+    "airdropSignals": [
+      "尚未发币",
+      "交易量持续增长",
+      "竞品Augur已发币"
+    ],
+    "preparation": [
+      "注册账号并完成KYC",
+      "参与预测市场交易",
+      "保持每周活跃"
+    ],
+    "officialSite": "https://polymarket.com",
+    "twitter": "https://twitter.com/Polymarket",
+    "description": "去中心化预测市场平台，2026年披露约6亿美元融资，交易量行业领先。",
+    "risks": ["监管风险高", "代币发行时间不确定"],
+    "lastUpdated": "2026-06-29"
+  },
+  {
+    "id": "zksync-token",
+    "name": "zkSync Era",
+    "category": "Layer 2",
+    "type": "即将上所",
+    "highlight": "📅 预计Q3上线",
+    "exchanges": ["Binance", "OKX", "Bybit"],
+    "chain": "zkSync Era",
+    "status": "主网运行中",
+    "launchDate": "2026-09-15",
+    "tokenSymbol": "ZK",
+    "airdropPotential": "已空投",
+    "preparation": [
+      "在zkSync Era完成交易",
+      "跨链桥接ETH",
+      "使用生态应用"
+    ],
+    "officialSite": "https://zksync.io",
+    "twitter": "https://twitter.com/zksync",
+    "description": "以太坊Layer 2扩容方案，已完成空投，代币即将在主流交易所上线。",
+    "risks": ["代币价格波动", "上所时间可能调整"],
+    "lastUpdated": "2026-06-29"
+  },
+  {
+    "id": "monad-mainnet",
+    "name": "Monad",
+    "category": "Layer 1",
+    "type": "主网上线",
+    "highlight": "⏰ 7月主网",
+    "funding": "$225M",
+    "investors": ["Paradigm", "Electric Capital"],
+    "chain": "Monad",
+    "status": "测试网",
+    "launchDate": "2026-07-20",
+    "airdropPotential": "极高",
+    "airdropSignals": [
+      "测试网活跃用户优先",
+      "团队承诺公平启动",
+      "投资方支持代币分发"
+    ],
+    "preparation": [
+      "参与测试网",
+      "完成至少20笔交易",
+      "加入Discord社区"
+    ],
+    "officialSite": "https://monad.xyz",
+    "twitter": "https://twitter.com/monad_xyz",
+    "description": "高性能EVM兼容L1，2.25亿美元融资，主网即将上线。",
+    "risks": ["主网延期风险", "竞争激烈"],
+    "lastUpdated": "2026-06-29"
+  },
+  {
+    "id": "rain-stablecoin",
+    "name": "Rain",
+    "category": "支付/稳定币",
+    "type": "融资项目",
+    "highlight": "💰 2.5亿美元C轮",
+    "funding": "$250M Series C",
+    "investors": ["a16z", "Paradigm"],
+    "chain": "Multi-chain",
+    "status": "运营中",
+    "launchDate": null,
+    "airdropPotential": "低",
+    "airdropSignals": [
+      "偏B端业务",
+      "支付基础设施方向",
+      "未有空投迹象"
+    ],
+    "preparation": [
+      "使用Rain借记卡",
+      "商户支付场景"
+    ],
+    "officialSite": "https://www.rain.xyz",
+    "twitter": "https://twitter.com/rainfi",
+    "description": "稳定币银行卡和支付基础设施，2026年1月完成2.5亿美元C轮融资。",
+    "risks": ["空投概率低", "B端项目"],
+    "lastUpdated": "2026-06-29"
+  },
+  {
+    "id": "superstate-rwa",
+    "name": "Superstate",
+    "category": "RWA/链上金融",
+    "type": "融资项目",
+    "highlight": "🏛️ 1.4亿美元融资",
+    "funding": "$140M",
+    "investors": ["CoinFund", "Galaxy Digital"],
+    "chain": "Ethereum",
+    "status": "运营中",
+    "launchDate": null,
+    "airdropPotential": "中",
+    "airdropSignals": [
+      "代币化国债产品",
+      "早期用户可能获益",
+      "DeFi积分计划"
+    ],
+    "preparation": [
+      "购买代币化产品",
+      "持有并赚取收益",
+      "关注积分系统"
+    ],
+    "officialSite": "https://superstate.co",
+    "twitter": "https://twitter.com/superstateHQ",
+    "description": "链上代币化国债平台，1.4亿美元融资，合规RWA赛道龙头。",
+    "risks": ["监管依赖", "高门槛"],
+    "lastUpdated": "2026-06-29"
+  },
+  {
+    "id": "base-mainnet-ecosystem",
+    "name": "Base生态爆发",
+    "category": "生态",
+    "type": "生态热点",
+    "highlight": "🚀 Base链TVL翻倍",
+    "chain": "Base",
+    "status": "爆发中",
+    "airdropPotential": "高",
+    "airdropSignals": [
+      "多个新项目上线",
+      "Coinbase支持",
+      "低gas费优势"
+    ],
+    "preparation": [
+      "桥接资产到Base",
+      "使用Base上的DEX/借贷",
+      "Mint Base生态NFT"
+    ],
+    "officialSite": "https://base.org",
+    "twitter": "https://twitter.com/base",
+    "description": "Coinbase推出的L2，生态快速增长，多个项目筹备空投。",
+    "risks": ["中心化担忧", "项目质量参差不齐"],
+    "lastUpdated": "2026-06-29"
+  },
+  {
+    "id": "parallel-tcg-season2",
+    "name": "Parallel Season 2",
+    "category": "GameFi/NFT",
+    "type": "游戏赛季",
+    "highlight": "🎮 赛季奖励池",
+    "chain": "Ethereum/Base",
+    "status": "进行中",
+    "launchDate": "2026-08-31",
+    "airdropPotential": "中",
+    "preparation": [
+      "购买Parallel卡牌",
+      "参与排位赛",
+      "完成每日任务"
+    ],
+    "officialSite": "https://parallel.life",
+    "twitter": "https://twitter.com/ParallelTCG",
+    "description": "NFT卡牌游戏第二赛季，排位前1000名获得独家奖励。",
+    "risks": ["竞技门槛高", "卡牌投资成本"],
+    "lastUpdated": "2026-06-29"
+  },
+  {
+    "id": "friend-tech-v2",
+    "name": "Friend.tech V2",
+    "category": "SocialFi",
+    "type": "产品升级",
+    "highlight": "📱 V2即将发布",
+    "chain": "Base",
+    "status": "开发中",
+    "launchDate": "2026-07-15",
+    "airdropPotential": "中",
+    "airdropSignals": [
+      "V1用户优先体验",
+      "新功能积分系统",
+      "团队暗示空投"
+    ],
+    "preparation": [
+      "保持V1活跃",
+      "购买/持有keys",
+      "参与社区讨论"
+    ],
+    "officialSite": "https://friend.tech",
+    "twitter": "https://twitter.com/friendtech",
+    "description": "Base链上SocialFi应用V2版本，新增积分和奖励机制。",
+    "risks": ["V1热度下降", "监管风险"],
+    "lastUpdated": "2026-06-29"
+  },
+  {
+    "id": "wormhole-w-token",
+    "name": "Wormhole (W)",
+    "category": "跨链桥",
+    "type": "即将上所",
+    "highlight": "🌉 新交易所上线",
+    "exchanges": ["Kraken", "Huobi"],
+    "chain": "Multi-chain",
+    "status": "已发币",
+    "launchDate": "2026-07-10",
+    "tokenSymbol": "W",
+    "airdropPotential": "已空投",
+    "preparation": [
+      "使用Wormhole跨链",
+      "持有W代币",
+      "参与治理投票"
+    ],
+    "officialSite": "https://wormhole.com",
+    "twitter": "https://twitter.com/wormhole",
+    "description": "多链跨链桥协议，W代币即将在更多交易所上线。",
+    "risks": ["跨链桥安全风险", "代币价格波动"],
+    "lastUpdated": "2026-06-29"
+  },
+  {
+    "id": "zora-network-growth",
+    "name": "Zora Network",
+    "category": "Layer 2/NFT",
+    "type": "生态热点",
+    "highlight": "🎨 创作者经济L2",
+    "chain": "Zora Network",
+    "status": "快速增长",
+    "airdropPotential": "高",
+    "airdropSignals": [
+      "未发币但生态活跃",
+      "Coinbase投资",
+      "创作者工具完善"
+    ],
+    "preparation": [
+      "在Zora Network mint NFT",
+      "桥接ETH到Zora",
+      "收藏其他创作者作品"
+    ],
+    "officialSite": "https://zora.co",
+    "twitter": "https://twitter.com/ourZORA",
+    "description": "专注创作者经济的L2网络，gas费极低，生态快速扩张。",
+    "risks": ["代币发行时间不确定", "创作者市场竞争"],
+    "lastUpdated": "2026-06-29"
+  }
+]

@@ -24,6 +24,15 @@
 ---
 
 ## 🔄 最近改动记录
+### [2026-06-28~29] Claude（网站2 NFT空投站创建完成）
+- **完成**: 复制网站1结构创建 `C:\Users\成1\Documents\nft-airdrop-hunter`（独立项目，独立仓库）
+- **完成**: 改为NFT主题 — package.json改名、首页标题"🖼️ NFT Airdrop Hunter"、SEO meta全换NFT关键词、sitemap/robots域名改nft-airdrop-hunter.vercel.app、移除网站1的Search Console验证码
+- **完成**: 3个NFT空投示例数据（Pudgy Penguins / Blur / Magic Eden）
+- **完成**: 本地构建测试通过；创建 DEPLOY-NFT-GUIDE.md 部署指南
+- **待用户**: 创建GitHub仓库nft-airdrop-hunter → SSH推送 → Vercel导入部署
+- **注意**: 本会话也修复了 auto-discover 抓取（DeFiLlama API + 代理env + 分类过滤），run-update.ps1 已加 HTTP_PROXY env
+- **下一步**: 推广两个站（footer互相导流）
+
 ### [2026-06-28] Claude（根治 git push 超时 + 恢复经典项目 + SEO完善 + 30项目上线）
 - **✅ 彻底解决 git push 超时**: 切换到 SSH（通过443端口绕过防火墙）
   - 问题根因: HTTPS 代理 socks5 上传不稳定，多次尝试 `--no-thin`、http proxy、增大buffer 均失败

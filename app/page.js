@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import airdrops from '../data/airdrops.json';
+import upcoming from '../data/upcoming-projects.json';
 
 export default function Home() {
   const structuredData = {
@@ -74,8 +75,10 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Airdrop List */}
-        <div className="space-y-6">
+        {/* Two-Column Layout: Airdrops + Upcoming */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* LEFT: Airdrop List (2/3 width) */}
+          <div className="lg:col-span-2 space-y-6">
           <h3 className="text-2xl font-bold mb-6">🔥 Active Airdrops</h3>
           {airdrops.map((airdrop) => (
             <Link
@@ -157,6 +160,92 @@ export default function Home() {
               </div>
             </Link>
           ))}
+          </div>
+
+          {/* RIGHT: Upcoming Projects (1/3 width) */}
+          <div className="lg:col-span-1">
+            <div className="sticky top-6">
+              <h3 className="text-2xl font-bold mb-6">🚀 即将上线</h3>
+              <div className="space-y-4">
+                {upcoming.map((project) => (
+                  <div
+                    key={project.id}
+                    className="bg-gradient-to-br from-purple-500/20 to-blue-500/20 backdrop-blur-md rounded-xl p-5 border border-purple-300/20 hover:border-purple-300/50 transition-all"
+                  >
+                    <div className="flex items-start justify-between mb-2">
+                      <h4 className="text-lg font-bold">{project.name}</h4>
+                      {project.airdropPotential && (
+                        <span className={`px-2 py-0.5 rounded-full text-xs font-semibold whitespace-nowrap ${
+                          project.airdropPotential === '极高' || project.airdropPotential === '高' ? 'bg-green-500/30 text-green-100' :
+                          project.airdropPotential === '中' ? 'bg-yellow-500/30 text-yellow-100' :
+                          project.airdropPotential === '已空投' ? 'bg-gray-500/30 text-gray-200' :
+                          'bg-red-500/30 text-red-100'
+                        }`}>
+                          空投{project.airdropPotential}
+                        </span>
+                      )}
+                    </div>
+
+                    <div className="flex flex-wrap gap-2 mb-2 text-xs">
+                      <span className="px-2 py-0.5 bg-white/10 rounded text-white/80">{project.category}</span>
+                      <span className="px-2 py-0.5 bg-blue-500/20 rounded text-blue-100">{project.type}</span>
+                    </div>
+
+                    {project.highlight && (
+                      <div className="text-yellow-300 text-sm font-semibold mb-2">{project.highlight}</div>
+                    )}
+
+                    <p className="text-white/70 text-sm mb-3 leading-relaxed">{project.description}</p>
+
+                    {project.funding && (
+                      <div className="text-xs text-white/60 mb-1">
+                        💵 融资: <span className="text-green-300 font-semibold">{project.funding}</span>
+                      </div>
+                    )}
+                    {project.exchanges && (
+                      <div className="text-xs text-white/60 mb-1">
+                        📈 上线: <span className="text-white/90">{project.exchanges.join(', ')}</span>
+                      </div>
+                    )}
+                    {project.launchDate && (
+                      <div className="text-xs text-white/60 mb-2">
+                        📅 时间: <span className="text-white/90">{project.launchDate}</span>
+                      </div>
+                    )}
+
+                    {project.preparation && (
+                      <div className="mt-3 pt-3 border-t border-white/10">
+                        <div className="text-xs text-white/60 mb-1">提前准备:</div>
+                        <ul className="text-xs text-white/80 space-y-1">
+                          {project.preparation.slice(0, 3).map((step, i) => (
+                            <li key={i} className="flex gap-1">
+                              <span className="text-purple-300">·</span>
+                              <span>{step}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    <div className="mt-3 flex gap-3 text-xs">
+                      <a href={project.officialSite} target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200">
+                        🌐 官网
+                      </a>
+                      {project.twitter && (
+                        <a href={project.twitter} target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200">
+                          🐦 Twitter
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <p className="text-xs text-white/40 mt-4 leading-relaxed">
+                ⚠️ 即将上线项目仅供参考，融资/上所信息需以官方公告为准。空投概率为预测，不构成投资建议。
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

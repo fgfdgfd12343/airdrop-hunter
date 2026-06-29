@@ -167,5 +167,90 @@
     "autoDiscovered": true,
     "discoveredAt": "2026-06-26",
     "tvlAtDiscovery": 539294563.3954906
+  },
+  {
+    "id": "hyperunit-xyz",
+    "name": "Unit",
+    "chain": "Multi-Chain",
+    "token": "UNIT",
+    "officialSite": "https://hyperunit.xyz/deposit",
+    "officialTwitter": "https://twitter.com/unitxyz",
+    "estimatedValue": "$200-1500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://hyperunit.xyz/deposit",
+      "https://hyperunit.xyz/deposit/docs"
+    ],
+    "autoDiscovered": true,
+    "discoveredAt": "2026-06-28",
+    "tvlAtDiscovery": 412455331.61007094
+  },
+  {
+    "id": "lorenzo-protocol-xyz",
+    "name": "Lorenzo enzoBTC",
+    "chain": "Bitcoin",
+    "token": "LORENZOENZ",
+    "officialSite": "https://www.lorenzo-protocol.xyz",
+    "officialTwitter": "https://twitter.com/LorenzoProtocol",
+    "estimatedValue": "$200-1500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://www.lorenzo-protocol.xyz",
+      "https://www.lorenzo-protocol.xyz/docs"
+    ],
+    "autoDiscovered": true,
+    "discoveredAt": "2026-06-28",
+    "tvlAtDiscovery": 366073480.8609071
+  },
+  {
+    "id": "avalonfinance-xyz",
+    "name": "Avalon USDa",
+    "chain": "Multi-Chain",
+    "token": "AVALONUSDA",
+    "officialSite": "https://www.avalonfinance.xyz",
+    "officialTwitter": "https://twitter.com/avalonfinance_",
+    "estimatedValue": "$200-1500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://www.avalonfinance.xyz",
+      "https://www.avalonfinance.xyz/docs"
+    ],
+    "autoDiscovered": true,
+    "discoveredAt": "2026-06-28",
+    "tvlAtDiscovery": 326414432.1683016
+  },
+  {
+    "id": "yieldlayer-cian-app",
+    "name": "CIAN Yield Layer",
+    "chain": "Multi-Chain",
+    "token": "CIANYIELDL",
+    "officialSite": "https://yieldlayer.cian.app/vaults/0xB13aa2d0345b0439b064f26B82D8dCf3f508775d?chainId=1&utm_source=TPFDZE",
+    "officialTwitter": "https://twitter.com/CIAN_protocol",
+    "estimatedValue": "$200-1500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://yieldlayer.cian.app/vaults/0xB13aa2d0345b0439b064f26B82D8dCf3f508775d?chainId=1&utm_source=TPFDZE",
+      "https://yieldlayer.cian.app/vaults/0xB13aa2d0345b0439b064f26B82D8dCf3f508775d?chainId=1&utm_source=TPFDZE/docs"
+    ],
+    "autoDiscovered": true,
+    "discoveredAt": "2026-06-28",
+    "tvlAtDiscovery": 253214561.88773888
+  },
+  {
+    "id": "opentrade-io",
+    "name": "OpenTrade",
+    "chain": "Multi-Chain",
+    "token": "OPENTRADE",
+    "officialSite": "https://www.opentrade.io",
+    "officialTwitter": "https://twitter.com/opentrade_io",
+    "estimatedValue": "$200-1500",
+    "difficulty": "medium",
+    "discoveryUrls": [
+      "https://www.opentrade.io",
+      "https://www.opentrade.io/docs"
+    ],
+    "autoDiscovered": true,
+    "discoveredAt": "2026-06-28",
+    "tvlAtDiscovery": 209124698.77134332
   }
 ]
