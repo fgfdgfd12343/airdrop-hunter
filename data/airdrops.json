@@ -1,121 +1,5 @@
 [
   {
-    "id": "friend-tech",
-    "name": "Friend.tech",
-    "token": "FRIEND",
-    "chain": "Base",
-    "status": "active",
-    "estimatedValue": "$100-500",
-    "difficulty": "easy",
-    "endDate": "2026-07-31",
-    "officialSite": "https://www.friend.tech",
-    "officialTwitter": "https://twitter.com/friendtech",
-    "description": "Friend.tech is a SocialFi platform on Base where you trade keys to access creators' private groups. Early users may receive FRIEND tokens.",
-    "requirements": [
-      "Create Friend.tech account",
-      "Buy and sell creator keys",
-      "Engage with the platform regularly",
-      "Hold keys for popular creators"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Join Friend.tech",
-          "description": "Visit friend.tech on mobile and sign up with Twitter. You'll need to bridge ETH to Base.",
-          "links": [
-            {
-              "text": "Friend.tech",
-              "url": "https://www.friend.tech"
-            }
-          ],
-          "estimatedCost": "0.01-0.05 ETH on Base"
-        },
-        {
-          "title": "Buy creator keys",
-          "description": "Purchase keys from creators you want to follow. Key prices rise with demand (bonding curve).",
-          "tips": "Early keys are cheaper - find rising creators"
-        },
-        {
-          "title": "Engage and hold",
-          "description": "Participate in chats, hold keys for extended periods. Activity may be rewarded in future token distribution.",
-          "tips": "Platform evolves fast - check official announcements"
-        }
-      ]
-    },
-    "risks": [
-      "Highly speculative",
-      "Key prices volatile",
-      "Platform may change rules",
-      "No official airdrop confirmed"
-    ],
-    "lastUpdated": "2026-07-30"
-  },
-  {
-    "id": "layerzero-zro",
-    "name": "LayerZero",
-    "token": "ZRO",
-    "chain": "Multi-chain",
-    "status": "active",
-    "estimatedValue": "$400-2500",
-    "difficulty": "medium",
-    "endDate": "2026-07-31",
-    "officialSite": "https://layerzero.network",
-    "officialTwitter": "https://twitter.com/LayerZero_Labs",
-    "description": "LayerZero is an omnichain interoperability protocol. Users of cross-chain applications built on LayerZero may qualify for airdrops.",
-    "requirements": [
-      "Use LayerZero-powered apps (Stargate, Aptos Bridge, etc.)",
-      "Complete cross-chain transactions",
-      "Bridge between at least 3 different chains",
-      "Maintain some liquidity in Stargate Finance"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Use Stargate Finance",
-          "description": "Stargate is the main dApp built on LayerZero. Bridge stablecoins between chains (Ethereum, Arbitrum, Optimism, Polygon, etc.).",
-          "links": [
-            {
-              "text": "Stargate Finance",
-              "url": "https://stargate.finance/"
-            }
-          ],
-          "estimatedCost": "~$5-20 per bridge"
-        },
-        {
-          "title": "Bridge between multiple chains",
-          "description": "Use Stargate to bridge USDC/USDT between at least 3-4 different networks. Each bridge counts as LayerZero usage.",
-          "tips": "Bridge smaller amounts multiple times rather than one large transaction"
-        },
-        {
-          "title": "Provide liquidity on Stargate",
-          "description": "Add liquidity to Stargate pools to earn fees and boost your airdrop eligibility. Even small amounts help.",
-          "links": [
-            {
-              "text": "Stargate Pools",
-              "url": "https://stargate.finance/pool"
-            }
-          ]
-        },
-        {
-          "title": "Use other LayerZero apps",
-          "description": "Explore other dApps: Aptos Bridge, Bitcoin.com Bridge, Radiant Capital (cross-chain lending).",
-          "links": [
-            {
-              "text": "LayerZero Ecosystem",
-              "url": "https://layerzero.network/ecosystem"
-            }
-          ]
-        }
-      ]
-    },
-    "risks": [
-      "Multiple bridge fees add up quickly",
-      "Cross-chain bridges have smart contract risk",
-      "Competition is high - need to stand out"
-    ],
-    "lastUpdated": "2026-07-30"
-  },
-  {
     "id": "optimism-quests",
     "name": "Optimism Quests",
     "token": "OP",
@@ -168,7 +52,7 @@
       "May require holding OP tokens",
       "Attestation value uncertain"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "scroll-l2",
@@ -223,7 +107,7 @@
       "Sybil detection may exclude obvious farmers",
       "Gas fees accumulate over time"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "blast-l2",
@@ -278,7 +162,7 @@
       "Points mechanism subject to change",
       "High competition for rewards"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "ambient-finance",
@@ -328,7 +212,7 @@
       "Smart contract risk",
       "Lower liquidity than major DEXs"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "pendle-finance",
@@ -383,7 +267,7 @@
       "Impermanent loss for LPs",
       "Smart contract risk"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "starknet-strk",
@@ -460,7 +344,7 @@
       "Gas fees can add up (budget $50-100 total)",
       "No guarantee of airdrop distribution"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "wormhole",
@@ -515,7 +399,7 @@
       "Multiple bridge fees",
       "W token already launched - airdrop potential lower"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "manta-pacific",
@@ -570,7 +454,7 @@
       "Smart contract risks",
       "Reward criteria unclear"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "particle-network",
@@ -619,7 +503,7 @@
       "Newer technology - less proven",
       "Airdrop criteria unclear"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "aptos-apt",
@@ -682,7 +566,7 @@
       "Quest competition is high",
       "Mainnet fees required"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "base-l2",
@@ -737,7 +621,7 @@
       "Speculation-based strategy",
       "May not reward all users"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "polygon-zkevm",
@@ -792,7 +676,7 @@
       "Bridge security considerations",
       "POL already distributed - less airdrop potential"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "shardeum",
@@ -847,7 +731,7 @@
       "Mainnet launch date uncertain",
       "Token economics not finalized"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "zeta-chain",
@@ -902,7 +786,7 @@
       "Bridge security considerations",
       "Reward criteria may change"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "zksync-era",
@@ -969,7 +853,7 @@
       "Sybil detection may filter out farmers",
       "Gas fees for bridging"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "aethir",
@@ -1024,7 +908,7 @@
       "Token conversion rate uncertain",
       "Platform still in development"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "celestia-tia",
@@ -1084,7 +968,7 @@
       "Validator slashing risks",
       "Ecosystem still developing"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "dydx-v4",
@@ -1144,7 +1028,7 @@
       "Requires active trading and capital",
       "DYDX already launched - retroactive unlikely"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "hyperlane",
@@ -1199,7 +1083,7 @@
       "Airdrop not officially announced",
       "Multiple bridge fees add up"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "sui-network",
@@ -1263,7 +1147,7 @@
       "Mainnet activity requires capital",
       "Token already launched - airdrop uncertain"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "berachain",
@@ -1324,7 +1208,7 @@
       "Airdrop criteria not finalized",
       "High hype - may be competitive"
     ],
-    "lastUpdated": "2026-07-30",
+    "lastUpdated": "2026-07-31",
     "latestSignal": {
       "title": "10xTVL GrowthGrew TVL from $30m to $300m after integrating Proof of Liquidity incentives, with peak TVL of >$1B. Open Dolomite",
       "summaryZh": "自动检测到 Berachain 官方站点出现新的流动性 / 奖励相关信号，建议优先查看原文并人工确认是否涉及空投、积分、任务或奖励规则更新。",
@@ -1397,7 +1281,7 @@
       "Technical knowledge helpful",
       "Airdrop not officially confirmed"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "eigenlayer",
@@ -1457,7 +1341,7 @@
       "High capital requirement",
       "Withdrawal delays may apply"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "metamask-snap",
@@ -1512,7 +1396,7 @@
       "Beta software may have bugs",
       "No guarantee of airdrop"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "linea",
@@ -1570,9 +1454,9 @@
       "url": "https://linea.build/blog/yield-boost-is-activated",
       "sourcePage": "https://linea.build/blog",
       "score": 2,
-      "detectedAt": "2026-07-30"
+      "detectedAt": "2026-07-31"
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "liquidcollective-io",
@@ -1630,9 +1514,9 @@
       "url": "https://www.stakingrewards.com/asset/liquid-staked-eth/about",
       "sourcePage": "https://liquidcollective.io",
       "score": 2,
-      "detectedAt": "2026-07-30"
+      "detectedAt": "2026-07-31"
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "avalonfinance-xyz",
@@ -1690,9 +1574,9 @@
       "url": "https://app.avalonfinance.xyz/earn/",
       "sourcePage": "https://www.avalonfinance.xyz",
       "score": 2,
-      "detectedAt": "2026-07-30"
+      "detectedAt": "2026-07-31"
     },
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "monad",
@@ -1742,7 +1626,7 @@
       "Highly speculative",
       "Requires patience and waiting"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
   },
   {
     "id": "arbitrum-odyssey",
@@ -1791,6 +1675,122 @@
       "Costs add up across multiple weeks",
       "Reward distribution unclear"
     ],
-    "lastUpdated": "2026-07-30"
+    "lastUpdated": "2026-07-31"
+  },
+  {
+    "id": "friend-tech",
+    "name": "Friend.tech",
+    "token": "FRIEND",
+    "chain": "Base",
+    "status": "ended",
+    "estimatedValue": "$100-500",
+    "difficulty": "easy",
+    "endDate": "2026-07-31",
+    "officialSite": "https://www.friend.tech",
+    "officialTwitter": "https://twitter.com/friendtech",
+    "description": "Friend.tech is a SocialFi platform on Base where you trade keys to access creators' private groups. Early users may receive FRIEND tokens.",
+    "requirements": [
+      "Create Friend.tech account",
+      "Buy and sell creator keys",
+      "Engage with the platform regularly",
+      "Hold keys for popular creators"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Join Friend.tech",
+          "description": "Visit friend.tech on mobile and sign up with Twitter. You'll need to bridge ETH to Base.",
+          "links": [
+            {
+              "text": "Friend.tech",
+              "url": "https://www.friend.tech"
+            }
+          ],
+          "estimatedCost": "0.01-0.05 ETH on Base"
+        },
+        {
+          "title": "Buy creator keys",
+          "description": "Purchase keys from creators you want to follow. Key prices rise with demand (bonding curve).",
+          "tips": "Early keys are cheaper - find rising creators"
+        },
+        {
+          "title": "Engage and hold",
+          "description": "Participate in chats, hold keys for extended periods. Activity may be rewarded in future token distribution.",
+          "tips": "Platform evolves fast - check official announcements"
+        }
+      ]
+    },
+    "risks": [
+      "Highly speculative",
+      "Key prices volatile",
+      "Platform may change rules",
+      "No official airdrop confirmed"
+    ],
+    "lastUpdated": "2026-07-31"
+  },
+  {
+    "id": "layerzero-zro",
+    "name": "LayerZero",
+    "token": "ZRO",
+    "chain": "Multi-chain",
+    "status": "ended",
+    "estimatedValue": "$400-2500",
+    "difficulty": "medium",
+    "endDate": "2026-07-31",
+    "officialSite": "https://layerzero.network",
+    "officialTwitter": "https://twitter.com/LayerZero_Labs",
+    "description": "LayerZero is an omnichain interoperability protocol. Users of cross-chain applications built on LayerZero may qualify for airdrops.",
+    "requirements": [
+      "Use LayerZero-powered apps (Stargate, Aptos Bridge, etc.)",
+      "Complete cross-chain transactions",
+      "Bridge between at least 3 different chains",
+      "Maintain some liquidity in Stargate Finance"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Use Stargate Finance",
+          "description": "Stargate is the main dApp built on LayerZero. Bridge stablecoins between chains (Ethereum, Arbitrum, Optimism, Polygon, etc.).",
+          "links": [
+            {
+              "text": "Stargate Finance",
+              "url": "https://stargate.finance/"
+            }
+          ],
+          "estimatedCost": "~$5-20 per bridge"
+        },
+        {
+          "title": "Bridge between multiple chains",
+          "description": "Use Stargate to bridge USDC/USDT between at least 3-4 different networks. Each bridge counts as LayerZero usage.",
+          "tips": "Bridge smaller amounts multiple times rather than one large transaction"
+        },
+        {
+          "title": "Provide liquidity on Stargate",
+          "description": "Add liquidity to Stargate pools to earn fees and boost your airdrop eligibility. Even small amounts help.",
+          "links": [
+            {
+              "text": "Stargate Pools",
+              "url": "https://stargate.finance/pool"
+            }
+          ]
+        },
+        {
+          "title": "Use other LayerZero apps",
+          "description": "Explore other dApps: Aptos Bridge, Bitcoin.com Bridge, Radiant Capital (cross-chain lending).",
+          "links": [
+            {
+              "text": "LayerZero Ecosystem",
+              "url": "https://layerzero.network/ecosystem"
+            }
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Multiple bridge fees add up quickly",
+      "Cross-chain bridges have smart contract risk",
+      "Competition is high - need to stand out"
+    ],
+    "lastUpdated": "2026-07-31"
   }
 ]
