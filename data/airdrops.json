@@ -52,7 +52,7 @@
       "Points mechanism subject to change",
       "High competition for rewards"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "ambient-finance",
@@ -102,7 +102,7 @@
       "Smart contract risk",
       "Lower liquidity than major DEXs"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "pendle-finance",
@@ -157,7 +157,7 @@
       "Impermanent loss for LPs",
       "Smart contract risk"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "starknet-strk",
@@ -234,7 +234,7 @@
       "Gas fees can add up (budget $50-100 total)",
       "No guarantee of airdrop distribution"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "wormhole",
@@ -289,7 +289,7 @@
       "Multiple bridge fees",
       "W token already launched - airdrop potential lower"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "manta-pacific",
@@ -344,7 +344,7 @@
       "Smart contract risks",
       "Reward criteria unclear"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "particle-network",
@@ -393,7 +393,7 @@
       "Newer technology - less proven",
       "Airdrop criteria unclear"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "aptos-apt",
@@ -456,7 +456,7 @@
       "Quest competition is high",
       "Mainnet fees required"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "base-l2",
@@ -511,7 +511,7 @@
       "Speculation-based strategy",
       "May not reward all users"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "polygon-zkevm",
@@ -566,7 +566,7 @@
       "Bridge security considerations",
       "POL already distributed - less airdrop potential"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "shardeum",
@@ -621,7 +621,7 @@
       "Mainnet launch date uncertain",
       "Token economics not finalized"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "zeta-chain",
@@ -676,7 +676,7 @@
       "Bridge security considerations",
       "Reward criteria may change"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "zksync-era",
@@ -743,7 +743,7 @@
       "Sybil detection may filter out farmers",
       "Gas fees for bridging"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "aethir",
@@ -798,7 +798,7 @@
       "Token conversion rate uncertain",
       "Platform still in development"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "celestia-tia",
@@ -858,7 +858,7 @@
       "Validator slashing risks",
       "Ecosystem still developing"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "dydx-v4",
@@ -918,7 +918,7 @@
       "Requires active trading and capital",
       "DYDX already launched - retroactive unlikely"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "hyperlane",
@@ -973,7 +973,7 @@
       "Airdrop not officially announced",
       "Multiple bridge fees add up"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "sui-network",
@@ -1037,7 +1037,7 @@
       "Mainnet activity requires capital",
       "Token already launched - airdrop uncertain"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "berachain",
@@ -1098,7 +1098,7 @@
       "Airdrop criteria not finalized",
       "High hype - may be competitive"
     ],
-    "lastUpdated": "2026-08-20",
+    "lastUpdated": "2026-08-21",
     "latestSignal": {
       "title": "10xTVL GrowthGrew TVL from $30m to $300m after integrating Proof of Liquidity incentives, with peak TVL of >$1B. Open Dolomite",
       "summaryZh": "自动检测到 Berachain 官方站点出现新的流动性 / 奖励相关信号，建议优先查看原文并人工确认是否涉及空投、积分、任务或奖励规则更新。",
@@ -1171,7 +1171,7 @@
       "Technical knowledge helpful",
       "Airdrop not officially confirmed"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "eigenlayer",
@@ -1231,7 +1231,7 @@
       "High capital requirement",
       "Withdrawal delays may apply"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "metamask-snap",
@@ -1286,7 +1286,7 @@
       "Beta software may have bugs",
       "No guarantee of airdrop"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "linea",
@@ -1344,9 +1344,9 @@
       "url": "https://linea.build/blog/yield-boost-is-activated",
       "sourcePage": "https://linea.build/blog",
       "score": 2,
-      "detectedAt": "2026-08-20"
+      "detectedAt": "2026-08-21"
     },
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "liquidcollective-io",
@@ -1404,9 +1404,9 @@
       "url": "https://www.stakingrewards.com/asset/liquid-staked-eth/about",
       "sourcePage": "https://liquidcollective.io",
       "score": 2,
-      "detectedAt": "2026-08-20"
+      "detectedAt": "2026-08-21"
     },
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "avalonfinance-xyz",
@@ -1466,7 +1466,7 @@
       "score": 2,
       "detectedAt": "2026-08-18"
     },
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "monad",
@@ -1516,7 +1516,7 @@
       "Highly speculative",
       "Requires patience and waiting"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "arbitrum-odyssey",
@@ -1565,7 +1565,7 @@
       "Costs add up across multiple weeks",
       "Reward distribution unclear"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "friend-tech",
@@ -1616,7 +1616,7 @@
       "Platform may change rules",
       "No official airdrop confirmed"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "layerzero-zro",
@@ -1681,7 +1681,7 @@
       "Cross-chain bridges have smart contract risk",
       "Competition is high - need to stand out"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "optimism-quests",
@@ -1736,7 +1736,7 @@
       "May require holding OP tokens",
       "Attestation value uncertain"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   },
   {
     "id": "scroll-l2",
@@ -1791,6 +1791,6 @@
       "Sybil detection may exclude obvious farmers",
       "Gas fees accumulate over time"
     ],
-    "lastUpdated": "2026-08-20"
+    "lastUpdated": "2026-08-21"
   }
 ]
