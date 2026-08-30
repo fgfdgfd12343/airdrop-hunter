@@ -1,60 +1,5 @@
 [
   {
-    "id": "blast-l2",
-    "name": "Blast",
-    "token": "BLAST",
-    "chain": "Ethereum L2",
-    "status": "active",
-    "estimatedValue": "$300-1500",
-    "difficulty": "easy",
-    "endDate": "2026-08-30",
-    "officialSite": "https://blast.io",
-    "officialTwitter": "https://twitter.com/Blast_L2",
-    "description": "Blast is an Ethereum L2 with native yield on ETH and stablecoins. Early depositors and ecosystem users earn Blast Points for potential rewards.",
-    "requirements": [
-      "Bridge ETH or stablecoins to Blast",
-      "Earn Blast Points through deposits",
-      "Use Blast dApps to boost points",
-      "Invite referrals (optional multiplier)"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Bridge to Blast",
-          "description": "Deposit ETH or stablecoins via the official Blast bridge. You'll earn automatic yield while on Blast.",
-          "links": [
-            {
-              "text": "Blast Bridge",
-              "url": "https://blast.io/bridge"
-            }
-          ],
-          "estimatedCost": "$5-10 gas"
-        },
-        {
-          "title": "Accumulate Blast Points",
-          "description": "Points accrue automatically based on your deposit balance and time. Use Blast dApps to earn bonus points.",
-          "tips": "Longer deposits = more points"
-        },
-        {
-          "title": "Use Blast ecosystem dApps",
-          "description": "Try DEXs, lending platforms, or NFT marketplaces built on Blast to boost your point multiplier.",
-          "links": [
-            {
-              "text": "Blast Ecosystem",
-              "url": "https://blast.io/ecosystem"
-            }
-          ]
-        }
-      ]
-    },
-    "risks": [
-      "Lockup periods may apply",
-      "Points mechanism subject to change",
-      "High competition for rewards"
-    ],
-    "lastUpdated": "2026-08-29"
-  },
-  {
     "id": "ambient-finance",
     "name": "Ambient Finance",
     "token": "AMB",
@@ -102,7 +47,7 @@
       "Smart contract risk",
       "Lower liquidity than major DEXs"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "pendle-finance",
@@ -157,7 +102,7 @@
       "Impermanent loss for LPs",
       "Smart contract risk"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "starknet-strk",
@@ -234,7 +179,7 @@
       "Gas fees can add up (budget $50-100 total)",
       "No guarantee of airdrop distribution"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "wormhole",
@@ -289,7 +234,7 @@
       "Multiple bridge fees",
       "W token already launched - airdrop potential lower"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "manta-pacific",
@@ -344,7 +289,7 @@
       "Smart contract risks",
       "Reward criteria unclear"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "particle-network",
@@ -393,7 +338,7 @@
       "Newer technology - less proven",
       "Airdrop criteria unclear"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "aptos-apt",
@@ -456,7 +401,7 @@
       "Quest competition is high",
       "Mainnet fees required"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "base-l2",
@@ -511,7 +456,7 @@
       "Speculation-based strategy",
       "May not reward all users"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "polygon-zkevm",
@@ -566,7 +511,7 @@
       "Bridge security considerations",
       "POL already distributed - less airdrop potential"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "shardeum",
@@ -621,7 +566,7 @@
       "Mainnet launch date uncertain",
       "Token economics not finalized"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "zeta-chain",
@@ -676,7 +621,7 @@
       "Bridge security considerations",
       "Reward criteria may change"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "zksync-era",
@@ -743,7 +688,7 @@
       "Sybil detection may filter out farmers",
       "Gas fees for bridging"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "aethir",
@@ -798,7 +743,7 @@
       "Token conversion rate uncertain",
       "Platform still in development"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "celestia-tia",
@@ -858,7 +803,7 @@
       "Validator slashing risks",
       "Ecosystem still developing"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "dydx-v4",
@@ -918,7 +863,7 @@
       "Requires active trading and capital",
       "DYDX already launched - retroactive unlikely"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "hyperlane",
@@ -973,7 +918,7 @@
       "Airdrop not officially announced",
       "Multiple bridge fees add up"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "sui-network",
@@ -1037,7 +982,7 @@
       "Mainnet activity requires capital",
       "Token already launched - airdrop uncertain"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "berachain",
@@ -1098,7 +1043,7 @@
       "Airdrop criteria not finalized",
       "High hype - may be competitive"
     ],
-    "lastUpdated": "2026-08-29",
+    "lastUpdated": "2026-08-30",
     "latestSignal": {
       "title": "10xTVL GrowthGrew TVL from $30m to $300m after integrating Proof of Liquidity incentives, with peak TVL of >$1B. Open Dolomite",
       "summaryZh": "自动检测到 Berachain 官方站点出现新的流动性 / 奖励相关信号，建议优先查看原文并人工确认是否涉及空投、积分、任务或奖励规则更新。",
@@ -1171,7 +1116,7 @@
       "Technical knowledge helpful",
       "Airdrop not officially confirmed"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "eigenlayer",
@@ -1231,7 +1176,7 @@
       "High capital requirement",
       "Withdrawal delays may apply"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "metamask-snap",
@@ -1286,7 +1231,7 @@
       "Beta software may have bugs",
       "No guarantee of airdrop"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "linea",
@@ -1344,9 +1289,9 @@
       "url": "https://linea.build/blog/yield-boost-is-activated",
       "sourcePage": "https://linea.build/blog",
       "score": 2,
-      "detectedAt": "2026-08-29"
+      "detectedAt": "2026-08-30"
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "liquidcollective-io",
@@ -1404,9 +1349,9 @@
       "url": "https://www.stakingrewards.com/asset/liquid-staked-eth/about",
       "sourcePage": "https://liquidcollective.io",
       "score": 2,
-      "detectedAt": "2026-08-29"
+      "detectedAt": "2026-08-30"
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "avalonfinance-xyz",
@@ -1466,7 +1411,7 @@
       "score": 2,
       "detectedAt": "2026-08-18"
     },
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "monad",
@@ -1516,7 +1461,7 @@
       "Highly speculative",
       "Requires patience and waiting"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "arbitrum-odyssey",
@@ -1565,7 +1510,7 @@
       "Costs add up across multiple weeks",
       "Reward distribution unclear"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "friend-tech",
@@ -1616,7 +1561,7 @@
       "Platform may change rules",
       "No official airdrop confirmed"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "layerzero-zro",
@@ -1681,7 +1626,7 @@
       "Cross-chain bridges have smart contract risk",
       "Competition is high - need to stand out"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "optimism-quests",
@@ -1736,7 +1681,7 @@
       "May require holding OP tokens",
       "Attestation value uncertain"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
   },
   {
     "id": "scroll-l2",
@@ -1791,6 +1736,61 @@
       "Sybil detection may exclude obvious farmers",
       "Gas fees accumulate over time"
     ],
-    "lastUpdated": "2026-08-29"
+    "lastUpdated": "2026-08-30"
+  },
+  {
+    "id": "blast-l2",
+    "name": "Blast",
+    "token": "BLAST",
+    "chain": "Ethereum L2",
+    "status": "ended",
+    "estimatedValue": "$300-1500",
+    "difficulty": "easy",
+    "endDate": "2026-08-30",
+    "officialSite": "https://blast.io",
+    "officialTwitter": "https://twitter.com/Blast_L2",
+    "description": "Blast is an Ethereum L2 with native yield on ETH and stablecoins. Early depositors and ecosystem users earn Blast Points for potential rewards.",
+    "requirements": [
+      "Bridge ETH or stablecoins to Blast",
+      "Earn Blast Points through deposits",
+      "Use Blast dApps to boost points",
+      "Invite referrals (optional multiplier)"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Bridge to Blast",
+          "description": "Deposit ETH or stablecoins via the official Blast bridge. You'll earn automatic yield while on Blast.",
+          "links": [
+            {
+              "text": "Blast Bridge",
+              "url": "https://blast.io/bridge"
+            }
+          ],
+          "estimatedCost": "$5-10 gas"
+        },
+        {
+          "title": "Accumulate Blast Points",
+          "description": "Points accrue automatically based on your deposit balance and time. Use Blast dApps to earn bonus points.",
+          "tips": "Longer deposits = more points"
+        },
+        {
+          "title": "Use Blast ecosystem dApps",
+          "description": "Try DEXs, lending platforms, or NFT marketplaces built on Blast to boost your point multiplier.",
+          "links": [
+            {
+              "text": "Blast Ecosystem",
+              "url": "https://blast.io/ecosystem"
+            }
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Lockup periods may apply",
+      "Points mechanism subject to change",
+      "High competition for rewards"
+    ],
+    "lastUpdated": "2026-08-30"
   }
 ]
