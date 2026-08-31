@@ -1,242 +1,5 @@
 [
   {
-    "id": "ambient-finance",
-    "name": "Ambient Finance",
-    "token": "AMB",
-    "chain": "Ethereum, Scroll",
-    "status": "active",
-    "estimatedValue": "$150-800",
-    "difficulty": "medium",
-    "endDate": "2026-08-31",
-    "officialSite": "https://ambient.finance",
-    "officialTwitter": "https://twitter.com/ambient_finance",
-    "description": "Ambient is a decentralized exchange with novel concentrated liquidity features. Early LPs and traders may receive AMB tokens.",
-    "requirements": [
-      "Provide liquidity on Ambient",
-      "Trade on Ambient DEX",
-      "Use Ambient on multiple chains",
-      "Maintain liquidity positions"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Connect to Ambient",
-          "description": "Visit Ambient Finance and connect your wallet. Available on Ethereum and Scroll.",
-          "links": [
-            {
-              "text": "Ambient App",
-              "url": "https://ambient.finance/trade"
-            }
-          ]
-        },
-        {
-          "title": "Provide liquidity",
-          "description": "Add liquidity to trading pairs. Ambient uses concentrated liquidity like Uniswap v3.",
-          "estimatedCost": "$100-500 capital + gas",
-          "tips": "Active LPs may get higher rewards"
-        },
-        {
-          "title": "Trade and accumulate volume",
-          "description": "Make swaps on Ambient to generate trading volume and fees.",
-          "tips": "Use on Scroll for lower gas fees"
-        }
-      ]
-    },
-    "risks": [
-      "Impermanent loss for LPs",
-      "Smart contract risk",
-      "Lower liquidity than major DEXs"
-    ],
-    "lastUpdated": "2026-08-30"
-  },
-  {
-    "id": "pendle-finance",
-    "name": "Pendle",
-    "token": "PENDLE",
-    "chain": "Ethereum, Arbitrum",
-    "status": "active",
-    "estimatedValue": "$150-700",
-    "difficulty": "medium",
-    "endDate": "2026-08-31",
-    "officialSite": "https://www.pendle.finance",
-    "officialTwitter": "https://twitter.com/pendle_fi",
-    "description": "Pendle tokenizes yield from DeFi protocols. Users providing liquidity or trading yield tokens may receive incentives.",
-    "requirements": [
-      "Provide liquidity on Pendle",
-      "Trade yield tokens (PT/YT)",
-      "Hold positions for multiple epochs",
-      "Participate in Pendle governance"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Understand Pendle mechanics",
-          "description": "Pendle splits yield-bearing tokens into Principal Tokens (PT) and Yield Tokens (YT). You can trade or provide liquidity for these.",
-          "links": [
-            {
-              "text": "Pendle Docs",
-              "url": "https://docs.pendle.finance"
-            }
-          ]
-        },
-        {
-          "title": "Connect wallet to Pendle",
-          "description": "Use Pendle on Ethereum or Arbitrum. Arbitrum has lower fees.",
-          "links": [
-            {
-              "text": "Pendle App",
-              "url": "https://app.pendle.finance"
-            }
-          ],
-          "estimatedCost": "$50-200 capital + gas"
-        },
-        {
-          "title": "Provide liquidity or trade",
-          "description": "Add liquidity to PT/YT pools for trading fees, or trade yield tokens to speculate on interest rates.",
-          "tips": "Liquidity providers often receive bonus PENDLE rewards"
-        }
-      ]
-    },
-    "risks": [
-      "Complex mechanics - learn before using",
-      "Impermanent loss for LPs",
-      "Smart contract risk"
-    ],
-    "lastUpdated": "2026-08-30"
-  },
-  {
-    "id": "starknet-strk",
-    "name": "Starknet",
-    "token": "STRK",
-    "chain": "Ethereum L2",
-    "status": "active",
-    "estimatedValue": "$500-2000",
-    "difficulty": "medium",
-    "endDate": "2026-08-31",
-    "officialSite": "https://www.starknet.io",
-    "officialTwitter": "https://twitter.com/Starknet",
-    "description": "Starknet is a Layer 2 scaling solution for Ethereum using ZK-rollup technology. Active users may qualify for future token distributions.",
-    "requirements": [
-      "Bridge assets to Starknet mainnet",
-      "Complete at least 5 transactions on different dApps",
-      "Hold assets for minimum 30 days",
-      "Interact with DeFi protocols (swap, provide liquidity)"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Set up Argent X or Braavos wallet",
-          "description": "Download the browser extension and create a new Starknet wallet. Save your seed phrase securely.",
-          "links": [
-            {
-              "text": "Argent X Wallet",
-              "url": "https://www.argent.xyz/argent-x/"
-            },
-            {
-              "text": "Braavos Wallet",
-              "url": "https://braavos.app/"
-            }
-          ]
-        },
-        {
-          "title": "Bridge ETH to Starknet",
-          "description": "Use the official Starknet bridge to transfer ETH from Ethereum mainnet. Minimum recommended: 0.01 ETH to cover gas fees.",
-          "links": [
-            {
-              "text": "Starknet Bridge",
-              "url": "https://starkgate.starknet.io/"
-            }
-          ],
-          "estimatedCost": "~$5-15 gas fee"
-        },
-        {
-          "title": "Interact with DeFi protocols",
-          "description": "Use your bridged ETH to interact with multiple protocols. Recommended: JediSwap (swap), mySwap (liquidity), Starknet ID (mint domain).",
-          "links": [
-            {
-              "text": "JediSwap",
-              "url": "https://app.jediswap.xyz/"
-            },
-            {
-              "text": "mySwap",
-              "url": "https://www.myswap.xyz/"
-            },
-            {
-              "text": "Starknet ID",
-              "url": "https://app.starknet.id/"
-            }
-          ]
-        },
-        {
-          "title": "Maintain activity for 30+ days",
-          "description": "Make weekly transactions to show consistent usage. Ideas: swap small amounts, vote on governance proposals if available.",
-          "tips": "Set a calendar reminder to do 1-2 transactions per week"
-        }
-      ]
-    },
-    "risks": [
-      "Bridge risk: smart contract vulnerabilities",
-      "Gas fees can add up (budget $50-100 total)",
-      "No guarantee of airdrop distribution"
-    ],
-    "lastUpdated": "2026-08-30"
-  },
-  {
-    "id": "wormhole",
-    "name": "Wormhole",
-    "token": "W",
-    "chain": "Multi-chain",
-    "status": "active",
-    "estimatedValue": "$150-700",
-    "difficulty": "easy",
-    "endDate": "2026-08-31",
-    "officialSite": "https://wormhole.com",
-    "officialTwitter": "https://twitter.com/wormhole",
-    "description": "Wormhole is a cross-chain messaging protocol. Users bridging assets and using Wormhole-powered apps may receive W tokens.",
-    "requirements": [
-      "Use Wormhole bridge",
-      "Bridge between multiple chains",
-      "Use Wormhole Connect apps",
-      "Accumulate bridge volume"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Access Wormhole bridge",
-          "description": "Visit the Portal bridge (powered by Wormhole) to move assets between chains.",
-          "links": [
-            {
-              "text": "Portal Bridge",
-              "url": "https://portalbridge.com"
-            }
-          ]
-        },
-        {
-          "title": "Bridge assets",
-          "description": "Bridge tokens like USDC, ETH, SOL between Ethereum, Solana, Polygon, Arbitrum, and more.",
-          "estimatedCost": "$5-20 per bridge",
-          "tips": "Try different chain combinations"
-        },
-        {
-          "title": "Use Wormhole-powered dApps",
-          "description": "Many apps use Wormhole for cross-chain features. Look for Wormhole Connect integrations.",
-          "links": [
-            {
-              "text": "Wormhole Ecosystem",
-              "url": "https://wormhole.com/ecosystem"
-            }
-          ]
-        }
-      ]
-    },
-    "risks": [
-      "Bridge hacks have occurred in past (now fixed)",
-      "Multiple bridge fees",
-      "W token already launched - airdrop potential lower"
-    ],
-    "lastUpdated": "2026-08-30"
-  },
-  {
     "id": "manta-pacific",
     "name": "Manta Pacific",
     "token": "MANTA",
@@ -289,7 +52,7 @@
       "Smart contract risks",
       "Reward criteria unclear"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "particle-network",
@@ -338,7 +101,7 @@
       "Newer technology - less proven",
       "Airdrop criteria unclear"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "aptos-apt",
@@ -401,7 +164,7 @@
       "Quest competition is high",
       "Mainnet fees required"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "base-l2",
@@ -456,7 +219,7 @@
       "Speculation-based strategy",
       "May not reward all users"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "polygon-zkevm",
@@ -511,7 +274,7 @@
       "Bridge security considerations",
       "POL already distributed - less airdrop potential"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "shardeum",
@@ -566,7 +329,7 @@
       "Mainnet launch date uncertain",
       "Token economics not finalized"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "zeta-chain",
@@ -621,7 +384,7 @@
       "Bridge security considerations",
       "Reward criteria may change"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "zksync-era",
@@ -688,7 +451,7 @@
       "Sybil detection may filter out farmers",
       "Gas fees for bridging"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "aethir",
@@ -743,7 +506,7 @@
       "Token conversion rate uncertain",
       "Platform still in development"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "celestia-tia",
@@ -803,7 +566,7 @@
       "Validator slashing risks",
       "Ecosystem still developing"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "dydx-v4",
@@ -863,7 +626,7 @@
       "Requires active trading and capital",
       "DYDX already launched - retroactive unlikely"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "hyperlane",
@@ -918,7 +681,7 @@
       "Airdrop not officially announced",
       "Multiple bridge fees add up"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "sui-network",
@@ -982,7 +745,7 @@
       "Mainnet activity requires capital",
       "Token already launched - airdrop uncertain"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "berachain",
@@ -1043,7 +806,7 @@
       "Airdrop criteria not finalized",
       "High hype - may be competitive"
     ],
-    "lastUpdated": "2026-08-30",
+    "lastUpdated": "2026-08-31",
     "latestSignal": {
       "title": "10xTVL GrowthGrew TVL from $30m to $300m after integrating Proof of Liquidity incentives, with peak TVL of >$1B. Open Dolomite",
       "summaryZh": "自动检测到 Berachain 官方站点出现新的流动性 / 奖励相关信号，建议优先查看原文并人工确认是否涉及空投、积分、任务或奖励规则更新。",
@@ -1116,7 +879,7 @@
       "Technical knowledge helpful",
       "Airdrop not officially confirmed"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "eigenlayer",
@@ -1176,7 +939,7 @@
       "High capital requirement",
       "Withdrawal delays may apply"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "metamask-snap",
@@ -1231,7 +994,7 @@
       "Beta software may have bugs",
       "No guarantee of airdrop"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "linea",
@@ -1289,9 +1052,9 @@
       "url": "https://linea.build/blog/yield-boost-is-activated",
       "sourcePage": "https://linea.build/blog",
       "score": 2,
-      "detectedAt": "2026-08-30"
+      "detectedAt": "2026-08-31"
     },
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "liquidcollective-io",
@@ -1349,9 +1112,9 @@
       "url": "https://www.stakingrewards.com/asset/liquid-staked-eth/about",
       "sourcePage": "https://liquidcollective.io",
       "score": 2,
-      "detectedAt": "2026-08-30"
+      "detectedAt": "2026-08-31"
     },
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "avalonfinance-xyz",
@@ -1411,7 +1174,7 @@
       "score": 2,
       "detectedAt": "2026-08-18"
     },
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "monad",
@@ -1461,7 +1224,7 @@
       "Highly speculative",
       "Requires patience and waiting"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "arbitrum-odyssey",
@@ -1510,7 +1273,7 @@
       "Costs add up across multiple weeks",
       "Reward distribution unclear"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "friend-tech",
@@ -1561,7 +1324,7 @@
       "Platform may change rules",
       "No official airdrop confirmed"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "layerzero-zro",
@@ -1626,7 +1389,7 @@
       "Cross-chain bridges have smart contract risk",
       "Competition is high - need to stand out"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "optimism-quests",
@@ -1681,7 +1444,7 @@
       "May require holding OP tokens",
       "Attestation value uncertain"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "scroll-l2",
@@ -1736,7 +1499,7 @@
       "Sybil detection may exclude obvious farmers",
       "Gas fees accumulate over time"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
   },
   {
     "id": "blast-l2",
@@ -1791,6 +1554,243 @@
       "Points mechanism subject to change",
       "High competition for rewards"
     ],
-    "lastUpdated": "2026-08-30"
+    "lastUpdated": "2026-08-31"
+  },
+  {
+    "id": "ambient-finance",
+    "name": "Ambient Finance",
+    "token": "AMB",
+    "chain": "Ethereum, Scroll",
+    "status": "ended",
+    "estimatedValue": "$150-800",
+    "difficulty": "medium",
+    "endDate": "2026-08-31",
+    "officialSite": "https://ambient.finance",
+    "officialTwitter": "https://twitter.com/ambient_finance",
+    "description": "Ambient is a decentralized exchange with novel concentrated liquidity features. Early LPs and traders may receive AMB tokens.",
+    "requirements": [
+      "Provide liquidity on Ambient",
+      "Trade on Ambient DEX",
+      "Use Ambient on multiple chains",
+      "Maintain liquidity positions"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Connect to Ambient",
+          "description": "Visit Ambient Finance and connect your wallet. Available on Ethereum and Scroll.",
+          "links": [
+            {
+              "text": "Ambient App",
+              "url": "https://ambient.finance/trade"
+            }
+          ]
+        },
+        {
+          "title": "Provide liquidity",
+          "description": "Add liquidity to trading pairs. Ambient uses concentrated liquidity like Uniswap v3.",
+          "estimatedCost": "$100-500 capital + gas",
+          "tips": "Active LPs may get higher rewards"
+        },
+        {
+          "title": "Trade and accumulate volume",
+          "description": "Make swaps on Ambient to generate trading volume and fees.",
+          "tips": "Use on Scroll for lower gas fees"
+        }
+      ]
+    },
+    "risks": [
+      "Impermanent loss for LPs",
+      "Smart contract risk",
+      "Lower liquidity than major DEXs"
+    ],
+    "lastUpdated": "2026-08-31"
+  },
+  {
+    "id": "pendle-finance",
+    "name": "Pendle",
+    "token": "PENDLE",
+    "chain": "Ethereum, Arbitrum",
+    "status": "ended",
+    "estimatedValue": "$150-700",
+    "difficulty": "medium",
+    "endDate": "2026-08-31",
+    "officialSite": "https://www.pendle.finance",
+    "officialTwitter": "https://twitter.com/pendle_fi",
+    "description": "Pendle tokenizes yield from DeFi protocols. Users providing liquidity or trading yield tokens may receive incentives.",
+    "requirements": [
+      "Provide liquidity on Pendle",
+      "Trade yield tokens (PT/YT)",
+      "Hold positions for multiple epochs",
+      "Participate in Pendle governance"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Understand Pendle mechanics",
+          "description": "Pendle splits yield-bearing tokens into Principal Tokens (PT) and Yield Tokens (YT). You can trade or provide liquidity for these.",
+          "links": [
+            {
+              "text": "Pendle Docs",
+              "url": "https://docs.pendle.finance"
+            }
+          ]
+        },
+        {
+          "title": "Connect wallet to Pendle",
+          "description": "Use Pendle on Ethereum or Arbitrum. Arbitrum has lower fees.",
+          "links": [
+            {
+              "text": "Pendle App",
+              "url": "https://app.pendle.finance"
+            }
+          ],
+          "estimatedCost": "$50-200 capital + gas"
+        },
+        {
+          "title": "Provide liquidity or trade",
+          "description": "Add liquidity to PT/YT pools for trading fees, or trade yield tokens to speculate on interest rates.",
+          "tips": "Liquidity providers often receive bonus PENDLE rewards"
+        }
+      ]
+    },
+    "risks": [
+      "Complex mechanics - learn before using",
+      "Impermanent loss for LPs",
+      "Smart contract risk"
+    ],
+    "lastUpdated": "2026-08-31"
+  },
+  {
+    "id": "starknet-strk",
+    "name": "Starknet",
+    "token": "STRK",
+    "chain": "Ethereum L2",
+    "status": "ended",
+    "estimatedValue": "$500-2000",
+    "difficulty": "medium",
+    "endDate": "2026-08-31",
+    "officialSite": "https://www.starknet.io",
+    "officialTwitter": "https://twitter.com/Starknet",
+    "description": "Starknet is a Layer 2 scaling solution for Ethereum using ZK-rollup technology. Active users may qualify for future token distributions.",
+    "requirements": [
+      "Bridge assets to Starknet mainnet",
+      "Complete at least 5 transactions on different dApps",
+      "Hold assets for minimum 30 days",
+      "Interact with DeFi protocols (swap, provide liquidity)"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Set up Argent X or Braavos wallet",
+          "description": "Download the browser extension and create a new Starknet wallet. Save your seed phrase securely.",
+          "links": [
+            {
+              "text": "Argent X Wallet",
+              "url": "https://www.argent.xyz/argent-x/"
+            },
+            {
+              "text": "Braavos Wallet",
+              "url": "https://braavos.app/"
+            }
+          ]
+        },
+        {
+          "title": "Bridge ETH to Starknet",
+          "description": "Use the official Starknet bridge to transfer ETH from Ethereum mainnet. Minimum recommended: 0.01 ETH to cover gas fees.",
+          "links": [
+            {
+              "text": "Starknet Bridge",
+              "url": "https://starkgate.starknet.io/"
+            }
+          ],
+          "estimatedCost": "~$5-15 gas fee"
+        },
+        {
+          "title": "Interact with DeFi protocols",
+          "description": "Use your bridged ETH to interact with multiple protocols. Recommended: JediSwap (swap), mySwap (liquidity), Starknet ID (mint domain).",
+          "links": [
+            {
+              "text": "JediSwap",
+              "url": "https://app.jediswap.xyz/"
+            },
+            {
+              "text": "mySwap",
+              "url": "https://www.myswap.xyz/"
+            },
+            {
+              "text": "Starknet ID",
+              "url": "https://app.starknet.id/"
+            }
+          ]
+        },
+        {
+          "title": "Maintain activity for 30+ days",
+          "description": "Make weekly transactions to show consistent usage. Ideas: swap small amounts, vote on governance proposals if available.",
+          "tips": "Set a calendar reminder to do 1-2 transactions per week"
+        }
+      ]
+    },
+    "risks": [
+      "Bridge risk: smart contract vulnerabilities",
+      "Gas fees can add up (budget $50-100 total)",
+      "No guarantee of airdrop distribution"
+    ],
+    "lastUpdated": "2026-08-31"
+  },
+  {
+    "id": "wormhole",
+    "name": "Wormhole",
+    "token": "W",
+    "chain": "Multi-chain",
+    "status": "ended",
+    "estimatedValue": "$150-700",
+    "difficulty": "easy",
+    "endDate": "2026-08-31",
+    "officialSite": "https://wormhole.com",
+    "officialTwitter": "https://twitter.com/wormhole",
+    "description": "Wormhole is a cross-chain messaging protocol. Users bridging assets and using Wormhole-powered apps may receive W tokens.",
+    "requirements": [
+      "Use Wormhole bridge",
+      "Bridge between multiple chains",
+      "Use Wormhole Connect apps",
+      "Accumulate bridge volume"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Access Wormhole bridge",
+          "description": "Visit the Portal bridge (powered by Wormhole) to move assets between chains.",
+          "links": [
+            {
+              "text": "Portal Bridge",
+              "url": "https://portalbridge.com"
+            }
+          ]
+        },
+        {
+          "title": "Bridge assets",
+          "description": "Bridge tokens like USDC, ETH, SOL between Ethereum, Solana, Polygon, Arbitrum, and more.",
+          "estimatedCost": "$5-20 per bridge",
+          "tips": "Try different chain combinations"
+        },
+        {
+          "title": "Use Wormhole-powered dApps",
+          "description": "Many apps use Wormhole for cross-chain features. Look for Wormhole Connect integrations.",
+          "links": [
+            {
+              "text": "Wormhole Ecosystem",
+              "url": "https://wormhole.com/ecosystem"
+            }
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Bridge hacks have occurred in past (now fixed)",
+      "Multiple bridge fees",
+      "W token already launched - airdrop potential lower"
+    ],
+    "lastUpdated": "2026-08-31"
   }
 ]
