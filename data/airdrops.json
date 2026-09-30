@@ -1,355 +1,5 @@
 [
   {
-    "id": "aptos-apt",
-    "name": "Aptos",
-    "token": "APT",
-    "chain": "Aptos Blockchain",
-    "status": "active",
-    "estimatedValue": "$200-1000",
-    "difficulty": "medium",
-    "endDate": "2026-09-30",
-    "officialSite": "https://aptoslabs.com",
-    "officialTwitter": "https://twitter.com/Aptos_Network",
-    "description": "Aptos is a Layer 1 blockchain focused on scalability. Ecosystem users may receive APT incentives through various campaigns.",
-    "requirements": [
-      "Use Aptos mainnet",
-      "Complete transactions on Aptos dApps",
-      "Participate in Aptos quests (Galxe, Layer3)",
-      "Stake APT (optional)"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Install Petra Wallet",
-          "description": "Petra is the leading Aptos wallet. Install the browser extension.",
-          "links": [
-            {
-              "text": "Petra Wallet",
-              "url": "https://petra.app"
-            }
-          ]
-        },
-        {
-          "title": "Bridge or buy APT",
-          "description": "Get APT from exchanges or bridge using LayerZero-powered bridges.",
-          "estimatedCost": "$10-50"
-        },
-        {
-          "title": "Use Aptos DEXs and dApps",
-          "description": "Swap on PancakeSwap (Aptos), Liquidswap, or use Topaz NFT marketplace.",
-          "links": [
-            {
-              "text": "PancakeSwap Aptos",
-              "url": "https://aptos.pancakeswap.finance"
-            },
-            {
-              "text": "Topaz",
-              "url": "https://www.topaz.so"
-            }
-          ]
-        },
-        {
-          "title": "Complete Aptos quests",
-          "description": "Check Galxe and Layer3 for Aptos-specific quest campaigns offering rewards.",
-          "tips": "Quests often have limited spots - act fast"
-        }
-      ]
-    },
-    "risks": [
-      "Token already live - less airdrop potential",
-      "Quest competition is high",
-      "Mainnet fees required"
-    ],
-    "lastUpdated": "2026-09-29"
-  },
-  {
-    "id": "base-l2",
-    "name": "Base",
-    "token": "BASE",
-    "chain": "Ethereum L2",
-    "status": "active",
-    "estimatedValue": "$300-1200",
-    "difficulty": "easy",
-    "endDate": "2026-09-30",
-    "officialSite": "https://base.org",
-    "officialTwitter": "https://twitter.com/base",
-    "description": "Base is Coinbase's Ethereum Layer 2. While no official airdrop confirmed, active ecosystem users may benefit from future incentives.",
-    "requirements": [
-      "Bridge to Base via official bridge",
-      "Complete 10+ transactions on Base dApps",
-      "Try lending, swapping, NFT minting",
-      "Interact with Base's native apps"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Bridge ETH to Base",
-          "description": "Use the official Base bridge or Coinbase wallet for easy onboarding.",
-          "links": [
-            {
-              "text": "Base Bridge",
-              "url": "https://bridge.base.org"
-            }
-          ],
-          "estimatedCost": "$3-8 gas"
-        },
-        {
-          "title": "Swap on BaseSwap or Aerodrome",
-          "description": "Trade tokens on Base's main DEXs to generate activity.",
-          "links": [
-            {
-              "text": "Aerodrome",
-              "url": "https://aerodrome.finance"
-            }
-          ]
-        },
-        {
-          "title": "Mint an NFT or use SocialFi",
-          "description": "Explore Base ecosystem: mint on Zora, use Friend.tech (if available), or try Base Name Service.",
-          "tips": "Coinbase-backed projects often reward early users"
-        }
-      ]
-    },
-    "risks": [
-      "No official airdrop announced",
-      "Speculation-based strategy",
-      "May not reward all users"
-    ],
-    "lastUpdated": "2026-09-29"
-  },
-  {
-    "id": "polygon-zkevm",
-    "name": "Polygon zkEVM",
-    "token": "POL",
-    "chain": "Polygon zkEVM",
-    "status": "active",
-    "estimatedValue": "$200-1000",
-    "difficulty": "easy",
-    "endDate": "2026-09-30",
-    "officialSite": "https://polygon.technology/polygon-zkevm",
-    "officialTwitter": "https://twitter.com/0xPolygon",
-    "description": "Polygon zkEVM is a ZK-rollup scaling solution. Users may receive POL incentives for ecosystem engagement.",
-    "requirements": [
-      "Bridge to Polygon zkEVM",
-      "Use zkEVM dApps (DEXs, lending, NFTs)",
-      "Complete at least 10 transactions",
-      "Participate in zkEVM campaigns"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Bridge to zkEVM",
-          "description": "Use the official Polygon bridge to move assets from Ethereum to zkEVM.",
-          "links": [
-            {
-              "text": "Polygon zkEVM Bridge",
-              "url": "https://portal.polygon.technology"
-            }
-          ],
-          "estimatedCost": "$5-15 gas"
-        },
-        {
-          "title": "Use zkEVM DEXs",
-          "description": "Swap on QuickSwap, PancakeSwap, or other zkEVM DEXs.",
-          "links": [
-            {
-              "text": "QuickSwap zkEVM",
-              "url": "https://quickswap.exchange"
-            }
-          ]
-        },
-        {
-          "title": "Explore lending and NFTs",
-          "description": "Try AAVE on zkEVM for lending, or mint NFTs on zkEVM marketplaces.",
-          "tips": "Diversify activity types for better eligibility"
-        }
-      ]
-    },
-    "risks": [
-      "Newer network - less mature ecosystem",
-      "Bridge security considerations",
-      "POL already distributed - less airdrop potential"
-    ],
-    "lastUpdated": "2026-09-29"
-  },
-  {
-    "id": "shardeum",
-    "name": "Shardeum",
-    "token": "SHM",
-    "chain": "Sharded EVM",
-    "status": "active",
-    "estimatedValue": "$200-1000",
-    "difficulty": "easy",
-    "endDate": "2026-09-30",
-    "officialSite": "https://shardeum.org",
-    "officialTwitter": "https://twitter.com/shardeum",
-    "description": "Shardeum is an EVM-based sharded blockchain. Testnet users may receive SHM token airdrops upon mainnet launch.",
-    "requirements": [
-      "Use Shardeum testnet",
-      "Complete 10+ testnet transactions",
-      "Try multiple dApps",
-      "Join Shardeum community"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Add Shardeum testnet to MetaMask",
-          "description": "Configure your MetaMask to connect to Shardeum Sphinx testnet.",
-          "links": [
-            {
-              "text": "Shardeum Network Config",
-              "url": "https://docs.shardeum.org/network/endpoints"
-            }
-          ]
-        },
-        {
-          "title": "Claim testnet SHM",
-          "description": "Use the Shardeum faucet to get free testnet tokens.",
-          "links": [
-            {
-              "text": "Shardeum Faucet",
-              "url": "https://faucet.shardeum.org"
-            }
-          ],
-          "estimatedCost": "Free"
-        },
-        {
-          "title": "Use testnet dApps",
-          "description": "Swap, mint NFTs, or provide liquidity on testnet DEXs. Generate transaction history.",
-          "tips": "More diverse activity = better odds"
-        }
-      ]
-    },
-    "risks": [
-      "Testnet rewards speculative",
-      "Mainnet launch date uncertain",
-      "Token economics not finalized"
-    ],
-    "lastUpdated": "2026-09-29"
-  },
-  {
-    "id": "zeta-chain",
-    "name": "ZetaChain",
-    "token": "ZETA",
-    "chain": "ZetaChain",
-    "status": "active",
-    "estimatedValue": "$250-1200",
-    "difficulty": "easy",
-    "endDate": "2026-09-30",
-    "officialSite": "https://www.zetachain.com",
-    "officialTwitter": "https://twitter.com/zetablockchain",
-    "description": "ZetaChain enables omnichain smart contracts. Users interacting with ZetaChain and its ecosystem may receive ZETA rewards.",
-    "requirements": [
-      "Use ZetaChain testnet or mainnet",
-      "Complete cross-chain transactions",
-      "Use ZetaChain dApps",
-      "Participate in campaigns"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Set up ZetaChain wallet",
-          "description": "Add ZetaChain network to MetaMask or use ZetaHub.",
-          "links": [
-            {
-              "text": "ZetaChain Docs",
-              "url": "https://www.zetachain.com/docs"
-            }
-          ]
-        },
-        {
-          "title": "Bridge to ZetaChain",
-          "description": "Use the official ZetaChain bridge or Hub to move assets from other chains.",
-          "links": [
-            {
-              "text": "ZetaHub",
-              "url": "https://hub.zetachain.com"
-            }
-          ],
-          "estimatedCost": "$5-12 gas"
-        },
-        {
-          "title": "Use ZetaChain dApps",
-          "description": "Try ZetaSwap, provide liquidity, or use omnichain messaging apps.",
-          "tips": "Cross-chain features are ZetaChain's specialty"
-        }
-      ]
-    },
-    "risks": [
-      "Newer blockchain with evolving ecosystem",
-      "Bridge security considerations",
-      "Reward criteria may change"
-    ],
-    "lastUpdated": "2026-09-29"
-  },
-  {
-    "id": "zksync-era",
-    "name": "zkSync Era",
-    "token": "ZK",
-    "chain": "Ethereum L2",
-    "status": "active",
-    "estimatedValue": "$300-1500",
-    "difficulty": "easy",
-    "endDate": "2026-09-30",
-    "officialSite": "https://zksync.io",
-    "officialTwitter": "https://twitter.com/zksync",
-    "description": "zkSync Era is a ZK-rollup Layer 2 scaling solution. Users who bridge and use the network may qualify for future token airdrops.",
-    "requirements": [
-      "Bridge to zkSync Era mainnet",
-      "Execute at least 10 transactions",
-      "Use 3+ different dApps",
-      "Optional: Add liquidity or use zkSync Paymaster"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Add zkSync Era to MetaMask",
-          "description": "Add the zkSync Era network to your MetaMask wallet using the official bridge site.",
-          "links": [
-            {
-              "text": "zkSync Bridge",
-              "url": "https://bridge.zksync.io/"
-            }
-          ]
-        },
-        {
-          "title": "Bridge assets to zkSync Era",
-          "description": "Bridge ETH or stablecoins from Ethereum mainnet. Minimum: 0.01 ETH recommended.",
-          "estimatedCost": "~$3-10 gas fee"
-        },
-        {
-          "title": "Use multiple dApps",
-          "description": "Interact with SyncSwap (DEX), Mute.io (liquidity), zkSync Name Service (mint .zk domain).",
-          "links": [
-            {
-              "text": "SyncSwap",
-              "url": "https://syncswap.xyz/"
-            },
-            {
-              "text": "Mute.io",
-              "url": "https://mute.io/"
-            },
-            {
-              "text": "zkSync Name Service",
-              "url": "https://app.zkns.domains/"
-            }
-          ]
-        },
-        {
-          "title": "Accumulate transaction volume",
-          "description": "Aim for 10-20 transactions spread over multiple weeks. Diverse activity (swaps, liquidity, NFT minting) is better than repetitive actions.",
-          "tips": "Small transactions count - you don't need to use large amounts"
-        }
-      ]
-    },
-    "risks": [
-      "Network still in early stage - potential bugs",
-      "Sybil detection may filter out farmers",
-      "Gas fees for bridging"
-    ],
-    "lastUpdated": "2026-09-29"
-  },
-  {
     "id": "aethir",
     "name": "Aethir",
     "token": "ATH",
@@ -402,7 +52,7 @@
       "Token conversion rate uncertain",
       "Platform still in development"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "celestia-tia",
@@ -462,7 +112,7 @@
       "Validator slashing risks",
       "Ecosystem still developing"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "dydx-v4",
@@ -522,7 +172,7 @@
       "Requires active trading and capital",
       "DYDX already launched - retroactive unlikely"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "hyperlane",
@@ -577,7 +227,7 @@
       "Airdrop not officially announced",
       "Multiple bridge fees add up"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "sui-network",
@@ -641,7 +291,7 @@
       "Mainnet activity requires capital",
       "Token already launched - airdrop uncertain"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "berachain",
@@ -702,7 +352,7 @@
       "Airdrop criteria not finalized",
       "High hype - may be competitive"
     ],
-    "lastUpdated": "2026-09-29",
+    "lastUpdated": "2026-09-30",
     "latestSignal": {
       "title": "10xTVL GrowthGrew TVL from $30m to $300m after integrating Proof of Liquidity incentives, with peak TVL of >$1B. Open Dolomite",
       "summaryZh": "自动检测到 Berachain 官方站点出现新的流动性 / 奖励相关信号，建议优先查看原文并人工确认是否涉及空投、积分、任务或奖励规则更新。",
@@ -775,7 +425,7 @@
       "Technical knowledge helpful",
       "Airdrop not officially confirmed"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "eigenlayer",
@@ -835,7 +485,7 @@
       "High capital requirement",
       "Withdrawal delays may apply"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "metamask-snap",
@@ -890,7 +540,7 @@
       "Beta software may have bugs",
       "No guarantee of airdrop"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "linea",
@@ -948,9 +598,9 @@
       "url": "https://linea.build/blog/yield-boost-is-activated",
       "sourcePage": "https://linea.build/blog",
       "score": 2,
-      "detectedAt": "2026-09-29"
+      "detectedAt": "2026-09-30"
     },
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "liquidcollective-io",
@@ -1008,9 +658,9 @@
       "url": "https://www.stakingrewards.com/asset/liquid-staked-eth/about",
       "sourcePage": "https://liquidcollective.io",
       "score": 2,
-      "detectedAt": "2026-09-29"
+      "detectedAt": "2026-09-30"
     },
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "avalonfinance-xyz",
@@ -1070,7 +720,7 @@
       "score": 2,
       "detectedAt": "2026-08-18"
     },
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "monad",
@@ -1120,7 +770,7 @@
       "Highly speculative",
       "Requires patience and waiting"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "arbitrum-odyssey",
@@ -1169,7 +819,7 @@
       "Costs add up across multiple weeks",
       "Reward distribution unclear"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "friend-tech",
@@ -1220,7 +870,7 @@
       "Platform may change rules",
       "No official airdrop confirmed"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "layerzero-zro",
@@ -1285,7 +935,7 @@
       "Cross-chain bridges have smart contract risk",
       "Competition is high - need to stand out"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "optimism-quests",
@@ -1340,7 +990,7 @@
       "May require holding OP tokens",
       "Attestation value uncertain"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "scroll-l2",
@@ -1395,7 +1045,7 @@
       "Sybil detection may exclude obvious farmers",
       "Gas fees accumulate over time"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "blast-l2",
@@ -1450,7 +1100,7 @@
       "Points mechanism subject to change",
       "High competition for rewards"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "ambient-finance",
@@ -1500,7 +1150,7 @@
       "Smart contract risk",
       "Lower liquidity than major DEXs"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "pendle-finance",
@@ -1555,7 +1205,7 @@
       "Impermanent loss for LPs",
       "Smart contract risk"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "starknet-strk",
@@ -1632,7 +1282,7 @@
       "Gas fees can add up (budget $50-100 total)",
       "No guarantee of airdrop distribution"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "wormhole",
@@ -1687,7 +1337,7 @@
       "Multiple bridge fees",
       "W token already launched - airdrop potential lower"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "manta-pacific",
@@ -1742,7 +1392,7 @@
       "Smart contract risks",
       "Reward criteria unclear"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
   },
   {
     "id": "particle-network",
@@ -1791,6 +1441,356 @@
       "Newer technology - less proven",
       "Airdrop criteria unclear"
     ],
-    "lastUpdated": "2026-09-29"
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "id": "aptos-apt",
+    "name": "Aptos",
+    "token": "APT",
+    "chain": "Aptos Blockchain",
+    "status": "ended",
+    "estimatedValue": "$200-1000",
+    "difficulty": "medium",
+    "endDate": "2026-09-30",
+    "officialSite": "https://aptoslabs.com",
+    "officialTwitter": "https://twitter.com/Aptos_Network",
+    "description": "Aptos is a Layer 1 blockchain focused on scalability. Ecosystem users may receive APT incentives through various campaigns.",
+    "requirements": [
+      "Use Aptos mainnet",
+      "Complete transactions on Aptos dApps",
+      "Participate in Aptos quests (Galxe, Layer3)",
+      "Stake APT (optional)"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Install Petra Wallet",
+          "description": "Petra is the leading Aptos wallet. Install the browser extension.",
+          "links": [
+            {
+              "text": "Petra Wallet",
+              "url": "https://petra.app"
+            }
+          ]
+        },
+        {
+          "title": "Bridge or buy APT",
+          "description": "Get APT from exchanges or bridge using LayerZero-powered bridges.",
+          "estimatedCost": "$10-50"
+        },
+        {
+          "title": "Use Aptos DEXs and dApps",
+          "description": "Swap on PancakeSwap (Aptos), Liquidswap, or use Topaz NFT marketplace.",
+          "links": [
+            {
+              "text": "PancakeSwap Aptos",
+              "url": "https://aptos.pancakeswap.finance"
+            },
+            {
+              "text": "Topaz",
+              "url": "https://www.topaz.so"
+            }
+          ]
+        },
+        {
+          "title": "Complete Aptos quests",
+          "description": "Check Galxe and Layer3 for Aptos-specific quest campaigns offering rewards.",
+          "tips": "Quests often have limited spots - act fast"
+        }
+      ]
+    },
+    "risks": [
+      "Token already live - less airdrop potential",
+      "Quest competition is high",
+      "Mainnet fees required"
+    ],
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "id": "base-l2",
+    "name": "Base",
+    "token": "BASE",
+    "chain": "Ethereum L2",
+    "status": "ended",
+    "estimatedValue": "$300-1200",
+    "difficulty": "easy",
+    "endDate": "2026-09-30",
+    "officialSite": "https://base.org",
+    "officialTwitter": "https://twitter.com/base",
+    "description": "Base is Coinbase's Ethereum Layer 2. While no official airdrop confirmed, active ecosystem users may benefit from future incentives.",
+    "requirements": [
+      "Bridge to Base via official bridge",
+      "Complete 10+ transactions on Base dApps",
+      "Try lending, swapping, NFT minting",
+      "Interact with Base's native apps"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Bridge ETH to Base",
+          "description": "Use the official Base bridge or Coinbase wallet for easy onboarding.",
+          "links": [
+            {
+              "text": "Base Bridge",
+              "url": "https://bridge.base.org"
+            }
+          ],
+          "estimatedCost": "$3-8 gas"
+        },
+        {
+          "title": "Swap on BaseSwap or Aerodrome",
+          "description": "Trade tokens on Base's main DEXs to generate activity.",
+          "links": [
+            {
+              "text": "Aerodrome",
+              "url": "https://aerodrome.finance"
+            }
+          ]
+        },
+        {
+          "title": "Mint an NFT or use SocialFi",
+          "description": "Explore Base ecosystem: mint on Zora, use Friend.tech (if available), or try Base Name Service.",
+          "tips": "Coinbase-backed projects often reward early users"
+        }
+      ]
+    },
+    "risks": [
+      "No official airdrop announced",
+      "Speculation-based strategy",
+      "May not reward all users"
+    ],
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "id": "polygon-zkevm",
+    "name": "Polygon zkEVM",
+    "token": "POL",
+    "chain": "Polygon zkEVM",
+    "status": "ended",
+    "estimatedValue": "$200-1000",
+    "difficulty": "easy",
+    "endDate": "2026-09-30",
+    "officialSite": "https://polygon.technology/polygon-zkevm",
+    "officialTwitter": "https://twitter.com/0xPolygon",
+    "description": "Polygon zkEVM is a ZK-rollup scaling solution. Users may receive POL incentives for ecosystem engagement.",
+    "requirements": [
+      "Bridge to Polygon zkEVM",
+      "Use zkEVM dApps (DEXs, lending, NFTs)",
+      "Complete at least 10 transactions",
+      "Participate in zkEVM campaigns"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Bridge to zkEVM",
+          "description": "Use the official Polygon bridge to move assets from Ethereum to zkEVM.",
+          "links": [
+            {
+              "text": "Polygon zkEVM Bridge",
+              "url": "https://portal.polygon.technology"
+            }
+          ],
+          "estimatedCost": "$5-15 gas"
+        },
+        {
+          "title": "Use zkEVM DEXs",
+          "description": "Swap on QuickSwap, PancakeSwap, or other zkEVM DEXs.",
+          "links": [
+            {
+              "text": "QuickSwap zkEVM",
+              "url": "https://quickswap.exchange"
+            }
+          ]
+        },
+        {
+          "title": "Explore lending and NFTs",
+          "description": "Try AAVE on zkEVM for lending, or mint NFTs on zkEVM marketplaces.",
+          "tips": "Diversify activity types for better eligibility"
+        }
+      ]
+    },
+    "risks": [
+      "Newer network - less mature ecosystem",
+      "Bridge security considerations",
+      "POL already distributed - less airdrop potential"
+    ],
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "id": "shardeum",
+    "name": "Shardeum",
+    "token": "SHM",
+    "chain": "Sharded EVM",
+    "status": "ended",
+    "estimatedValue": "$200-1000",
+    "difficulty": "easy",
+    "endDate": "2026-09-30",
+    "officialSite": "https://shardeum.org",
+    "officialTwitter": "https://twitter.com/shardeum",
+    "description": "Shardeum is an EVM-based sharded blockchain. Testnet users may receive SHM token airdrops upon mainnet launch.",
+    "requirements": [
+      "Use Shardeum testnet",
+      "Complete 10+ testnet transactions",
+      "Try multiple dApps",
+      "Join Shardeum community"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Add Shardeum testnet to MetaMask",
+          "description": "Configure your MetaMask to connect to Shardeum Sphinx testnet.",
+          "links": [
+            {
+              "text": "Shardeum Network Config",
+              "url": "https://docs.shardeum.org/network/endpoints"
+            }
+          ]
+        },
+        {
+          "title": "Claim testnet SHM",
+          "description": "Use the Shardeum faucet to get free testnet tokens.",
+          "links": [
+            {
+              "text": "Shardeum Faucet",
+              "url": "https://faucet.shardeum.org"
+            }
+          ],
+          "estimatedCost": "Free"
+        },
+        {
+          "title": "Use testnet dApps",
+          "description": "Swap, mint NFTs, or provide liquidity on testnet DEXs. Generate transaction history.",
+          "tips": "More diverse activity = better odds"
+        }
+      ]
+    },
+    "risks": [
+      "Testnet rewards speculative",
+      "Mainnet launch date uncertain",
+      "Token economics not finalized"
+    ],
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "id": "zeta-chain",
+    "name": "ZetaChain",
+    "token": "ZETA",
+    "chain": "ZetaChain",
+    "status": "ended",
+    "estimatedValue": "$250-1200",
+    "difficulty": "easy",
+    "endDate": "2026-09-30",
+    "officialSite": "https://www.zetachain.com",
+    "officialTwitter": "https://twitter.com/zetablockchain",
+    "description": "ZetaChain enables omnichain smart contracts. Users interacting with ZetaChain and its ecosystem may receive ZETA rewards.",
+    "requirements": [
+      "Use ZetaChain testnet or mainnet",
+      "Complete cross-chain transactions",
+      "Use ZetaChain dApps",
+      "Participate in campaigns"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Set up ZetaChain wallet",
+          "description": "Add ZetaChain network to MetaMask or use ZetaHub.",
+          "links": [
+            {
+              "text": "ZetaChain Docs",
+              "url": "https://www.zetachain.com/docs"
+            }
+          ]
+        },
+        {
+          "title": "Bridge to ZetaChain",
+          "description": "Use the official ZetaChain bridge or Hub to move assets from other chains.",
+          "links": [
+            {
+              "text": "ZetaHub",
+              "url": "https://hub.zetachain.com"
+            }
+          ],
+          "estimatedCost": "$5-12 gas"
+        },
+        {
+          "title": "Use ZetaChain dApps",
+          "description": "Try ZetaSwap, provide liquidity, or use omnichain messaging apps.",
+          "tips": "Cross-chain features are ZetaChain's specialty"
+        }
+      ]
+    },
+    "risks": [
+      "Newer blockchain with evolving ecosystem",
+      "Bridge security considerations",
+      "Reward criteria may change"
+    ],
+    "lastUpdated": "2026-09-30"
+  },
+  {
+    "id": "zksync-era",
+    "name": "zkSync Era",
+    "token": "ZK",
+    "chain": "Ethereum L2",
+    "status": "ended",
+    "estimatedValue": "$300-1500",
+    "difficulty": "easy",
+    "endDate": "2026-09-30",
+    "officialSite": "https://zksync.io",
+    "officialTwitter": "https://twitter.com/zksync",
+    "description": "zkSync Era is a ZK-rollup Layer 2 scaling solution. Users who bridge and use the network may qualify for future token airdrops.",
+    "requirements": [
+      "Bridge to zkSync Era mainnet",
+      "Execute at least 10 transactions",
+      "Use 3+ different dApps",
+      "Optional: Add liquidity or use zkSync Paymaster"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Add zkSync Era to MetaMask",
+          "description": "Add the zkSync Era network to your MetaMask wallet using the official bridge site.",
+          "links": [
+            {
+              "text": "zkSync Bridge",
+              "url": "https://bridge.zksync.io/"
+            }
+          ]
+        },
+        {
+          "title": "Bridge assets to zkSync Era",
+          "description": "Bridge ETH or stablecoins from Ethereum mainnet. Minimum: 0.01 ETH recommended.",
+          "estimatedCost": "~$3-10 gas fee"
+        },
+        {
+          "title": "Use multiple dApps",
+          "description": "Interact with SyncSwap (DEX), Mute.io (liquidity), zkSync Name Service (mint .zk domain).",
+          "links": [
+            {
+              "text": "SyncSwap",
+              "url": "https://syncswap.xyz/"
+            },
+            {
+              "text": "Mute.io",
+              "url": "https://mute.io/"
+            },
+            {
+              "text": "zkSync Name Service",
+              "url": "https://app.zkns.domains/"
+            }
+          ]
+        },
+        {
+          "title": "Accumulate transaction volume",
+          "description": "Aim for 10-20 transactions spread over multiple weeks. Diverse activity (swaps, liquidity, NFT minting) is better than repetitive actions.",
+          "tips": "Small transactions count - you don't need to use large amounts"
+        }
+      ]
+    },
+    "risks": [
+      "Network still in early stage - potential bugs",
+      "Sybil detection may filter out farmers",
+      "Gas fees for bridging"
+    ],
+    "lastUpdated": "2026-09-30"
   }
 ]
