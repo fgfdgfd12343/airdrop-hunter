@@ -1,244 +1,5 @@
 [
   {
-    "id": "celestia-tia",
-    "name": "Celestia",
-    "token": "TIA",
-    "chain": "Modular Blockchain",
-    "status": "active",
-    "estimatedValue": "$400-2000",
-    "difficulty": "medium",
-    "endDate": "2026-10-31",
-    "officialSite": "https://celestia.org",
-    "officialTwitter": "https://twitter.com/CelestiaOrg",
-    "description": "Celestia is a modular data availability network. Developers deploying rollups and users staking TIA may qualify for future incentives.",
-    "requirements": [
-      "Stake TIA tokens",
-      "Use Celestia-based rollups",
-      "Run a light node (advanced)",
-      "Participate in governance"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Acquire TIA tokens",
-          "description": "Buy TIA on major exchanges (Binance, OKX) and transfer to a Cosmos-compatible wallet like Keplr.",
-          "links": [
-            {
-              "text": "Keplr Wallet",
-              "url": "https://www.keplr.app"
-            }
-          ]
-        },
-        {
-          "title": "Stake TIA",
-          "description": "Stake your TIA through validators to earn rewards and participate in network security.",
-          "links": [
-            {
-              "text": "Celestia Staking",
-              "url": "https://celestia.org/stake"
-            }
-          ],
-          "tips": "Choose validators with good uptime"
-        },
-        {
-          "title": "Use Celestia rollups",
-          "description": "Interact with rollups built on Celestia's DA layer. Check ecosystem page for active projects.",
-          "links": [
-            {
-              "text": "Celestia Ecosystem",
-              "url": "https://celestia.org/ecosystem"
-            }
-          ]
-        }
-      ]
-    },
-    "risks": [
-      "Requires capital to stake",
-      "Validator slashing risks",
-      "Ecosystem still developing"
-    ],
-    "lastUpdated": "2026-10-30"
-  },
-  {
-    "id": "dydx-v4",
-    "name": "dYdX v4",
-    "token": "DYDX",
-    "chain": "dYdX Chain",
-    "status": "active",
-    "estimatedValue": "$200-1000",
-    "difficulty": "medium",
-    "endDate": "2026-10-31",
-    "officialSite": "https://dydx.exchange",
-    "officialTwitter": "https://twitter.com/dYdX",
-    "description": "dYdX v4 is a standalone blockchain for perpetual trading. Traders and liquidity providers may receive DYDX rewards.",
-    "requirements": [
-      "Trade on dYdX v4",
-      "Accumulate trading volume",
-      "Provide liquidity (advanced)",
-      "Stake DYDX tokens"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Create dYdX account",
-          "description": "Sign up on dYdX v4 using your email or connect a wallet.",
-          "links": [
-            {
-              "text": "dYdX v4",
-              "url": "https://dydx.exchange"
-            }
-          ]
-        },
-        {
-          "title": "Deposit funds",
-          "description": "Deposit USDC via Ethereum, Arbitrum, or other supported chains.",
-          "estimatedCost": "$100+ for meaningful trading",
-          "tips": "Use Arbitrum to save on gas"
-        },
-        {
-          "title": "Trade perpetuals",
-          "description": "Trade BTC-PERP, ETH-PERP, or altcoin perpetuals. Volume and fees generate rewards.",
-          "tips": "Market makers get higher rewards"
-        },
-        {
-          "title": "Stake DYDX (optional)",
-          "description": "Stake DYDX tokens to earn staking rewards and participate in governance.",
-          "links": [
-            {
-              "text": "dYdX Staking",
-              "url": "https://dydx.exchange/staking"
-            }
-          ]
-        }
-      ]
-    },
-    "risks": [
-      "Perpetual trading is high risk - can be liquidated",
-      "Requires active trading and capital",
-      "DYDX already launched - retroactive unlikely"
-    ],
-    "lastUpdated": "2026-10-30"
-  },
-  {
-    "id": "hyperlane",
-    "name": "Hyperlane",
-    "token": "HYP",
-    "chain": "Multi-chain",
-    "status": "active",
-    "estimatedValue": "$200-1000",
-    "difficulty": "medium",
-    "endDate": "2026-10-31",
-    "officialSite": "https://hyperlane.xyz",
-    "officialTwitter": "https://twitter.com/Hyperlane_xyz",
-    "description": "Hyperlane is a permissionless interoperability layer. Users bridging and deploying apps may receive HYP tokens.",
-    "requirements": [
-      "Use Hyperlane bridges",
-      "Bridge between multiple chains",
-      "Deploy Hyperlane contracts (advanced)",
-      "Accumulate cross-chain activity"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Find Hyperlane-powered bridges",
-          "description": "Many bridges use Hyperlane under the hood. Check Hyperlane docs for supported routes.",
-          "links": [
-            {
-              "text": "Hyperlane Explorer",
-              "url": "https://explorer.hyperlane.xyz"
-            }
-          ]
-        },
-        {
-          "title": "Bridge assets across chains",
-          "description": "Use Hyperlane-enabled bridges to move assets between chains. Each bridge counts.",
-          "estimatedCost": "$5-15 per bridge",
-          "tips": "Bridge between lesser-known chains for less competition"
-        },
-        {
-          "title": "Deploy Hyperlane app (optional)",
-          "description": "Developers can deploy custom messaging apps using Hyperlane SDK.",
-          "links": [
-            {
-              "text": "Hyperlane Docs",
-              "url": "https://docs.hyperlane.xyz"
-            }
-          ]
-        }
-      ]
-    },
-    "risks": [
-      "Cross-chain bridge risks",
-      "Airdrop not officially announced",
-      "Multiple bridge fees add up"
-    ],
-    "lastUpdated": "2026-10-30"
-  },
-  {
-    "id": "sui-network",
-    "name": "Sui",
-    "token": "SUI",
-    "chain": "Sui Blockchain",
-    "status": "active",
-    "estimatedValue": "$300-1500",
-    "difficulty": "medium",
-    "endDate": "2026-10-31",
-    "officialSite": "https://sui.io",
-    "officialTwitter": "https://twitter.com/SuiNetwork",
-    "description": "Sui is a high-performance Layer 1 blockchain. Testnet users and ecosystem participants may qualify for future incentives.",
-    "requirements": [
-      "Use Sui testnet or mainnet",
-      "Complete transactions on Sui dApps",
-      "Mint NFTs or use DeFi protocols",
-      "Hold SUI tokens (optional boost)"
-    ],
-    "tutorial": {
-      "steps": [
-        {
-          "title": "Set up Sui Wallet",
-          "description": "Install the Sui Wallet browser extension and create a new wallet.",
-          "links": [
-            {
-              "text": "Sui Wallet",
-              "url": "https://chrome.google.com/webstore/detail/sui-wallet"
-            }
-          ]
-        },
-        {
-          "title": "Get SUI tokens",
-          "description": "For testnet: use faucet. For mainnet: buy SUI on exchanges and transfer to your wallet.",
-          "links": [
-            {
-              "text": "Sui Faucet (testnet)",
-              "url": "https://discord.gg/sui"
-            }
-          ],
-          "estimatedCost": "$10-50 for mainnet"
-        },
-        {
-          "title": "Use Sui ecosystem dApps",
-          "description": "Try Cetus DEX, Suiswap, Bluemove NFT marketplace, or Scallop lending.",
-          "links": [
-            {
-              "text": "Cetus Protocol",
-              "url": "https://www.cetus.zone"
-            },
-            {
-              "text": "Bluemove",
-              "url": "https://bluemove.net"
-            }
-          ]
-        }
-      ]
-    },
-    "risks": [
-      "Newer blockchain with evolving ecosystem",
-      "Mainnet activity requires capital",
-      "Token already launched - airdrop uncertain"
-    ],
-    "lastUpdated": "2026-10-30"
-  },
-  {
     "id": "berachain",
     "name": "Berachain",
     "token": "BERA",
@@ -297,7 +58,7 @@
       "Airdrop criteria not finalized",
       "High hype - may be competitive"
     ],
-    "lastUpdated": "2026-10-30",
+    "lastUpdated": "2026-10-31",
     "latestSignal": {
       "title": "10xTVL GrowthGrew TVL from $30m to $300m after integrating Proof of Liquidity incentives, with peak TVL of >$1B. Open Dolomite",
       "summaryZh": "自动检测到 Berachain 官方站点出现新的流动性 / 奖励相关信号，建议优先查看原文并人工确认是否涉及空投、积分、任务或奖励规则更新。",
@@ -370,7 +131,7 @@
       "Technical knowledge helpful",
       "Airdrop not officially confirmed"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "eigenlayer",
@@ -430,7 +191,7 @@
       "High capital requirement",
       "Withdrawal delays may apply"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "metamask-snap",
@@ -485,7 +246,7 @@
       "Beta software may have bugs",
       "No guarantee of airdrop"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "linea",
@@ -543,9 +304,9 @@
       "url": "https://linea.build/blog/yield-boost-is-activated",
       "sourcePage": "https://linea.build/blog",
       "score": 2,
-      "detectedAt": "2026-10-30"
+      "detectedAt": "2026-10-31"
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "liquidcollective-io",
@@ -603,9 +364,9 @@
       "url": "https://www.stakingrewards.com/asset/liquid-staked-eth/about",
       "sourcePage": "https://liquidcollective.io",
       "score": 2,
-      "detectedAt": "2026-10-30"
+      "detectedAt": "2026-10-31"
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "avalonfinance-xyz",
@@ -665,7 +426,7 @@
       "score": 2,
       "detectedAt": "2026-08-18"
     },
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "monad",
@@ -715,7 +476,7 @@
       "Highly speculative",
       "Requires patience and waiting"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "arbitrum-odyssey",
@@ -764,7 +525,7 @@
       "Costs add up across multiple weeks",
       "Reward distribution unclear"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "friend-tech",
@@ -815,7 +576,7 @@
       "Platform may change rules",
       "No official airdrop confirmed"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "layerzero-zro",
@@ -880,7 +641,7 @@
       "Cross-chain bridges have smart contract risk",
       "Competition is high - need to stand out"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "optimism-quests",
@@ -935,7 +696,7 @@
       "May require holding OP tokens",
       "Attestation value uncertain"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "scroll-l2",
@@ -990,7 +751,7 @@
       "Sybil detection may exclude obvious farmers",
       "Gas fees accumulate over time"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "blast-l2",
@@ -1045,7 +806,7 @@
       "Points mechanism subject to change",
       "High competition for rewards"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "ambient-finance",
@@ -1095,7 +856,7 @@
       "Smart contract risk",
       "Lower liquidity than major DEXs"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "pendle-finance",
@@ -1150,7 +911,7 @@
       "Impermanent loss for LPs",
       "Smart contract risk"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "starknet-strk",
@@ -1227,7 +988,7 @@
       "Gas fees can add up (budget $50-100 total)",
       "No guarantee of airdrop distribution"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "wormhole",
@@ -1282,7 +1043,7 @@
       "Multiple bridge fees",
       "W token already launched - airdrop potential lower"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "manta-pacific",
@@ -1337,7 +1098,7 @@
       "Smart contract risks",
       "Reward criteria unclear"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "particle-network",
@@ -1386,7 +1147,7 @@
       "Newer technology - less proven",
       "Airdrop criteria unclear"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "aptos-apt",
@@ -1449,7 +1210,7 @@
       "Quest competition is high",
       "Mainnet fees required"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "base-l2",
@@ -1504,7 +1265,7 @@
       "Speculation-based strategy",
       "May not reward all users"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "polygon-zkevm",
@@ -1559,7 +1320,7 @@
       "Bridge security considerations",
       "POL already distributed - less airdrop potential"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "shardeum",
@@ -1614,7 +1375,7 @@
       "Mainnet launch date uncertain",
       "Token economics not finalized"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "zeta-chain",
@@ -1669,7 +1430,7 @@
       "Bridge security considerations",
       "Reward criteria may change"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "zksync-era",
@@ -1736,7 +1497,7 @@
       "Sybil detection may filter out farmers",
       "Gas fees for bridging"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
   },
   {
     "id": "aethir",
@@ -1791,6 +1552,245 @@
       "Token conversion rate uncertain",
       "Platform still in development"
     ],
-    "lastUpdated": "2026-10-30"
+    "lastUpdated": "2026-10-31"
+  },
+  {
+    "id": "celestia-tia",
+    "name": "Celestia",
+    "token": "TIA",
+    "chain": "Modular Blockchain",
+    "status": "ended",
+    "estimatedValue": "$400-2000",
+    "difficulty": "medium",
+    "endDate": "2026-10-31",
+    "officialSite": "https://celestia.org",
+    "officialTwitter": "https://twitter.com/CelestiaOrg",
+    "description": "Celestia is a modular data availability network. Developers deploying rollups and users staking TIA may qualify for future incentives.",
+    "requirements": [
+      "Stake TIA tokens",
+      "Use Celestia-based rollups",
+      "Run a light node (advanced)",
+      "Participate in governance"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Acquire TIA tokens",
+          "description": "Buy TIA on major exchanges (Binance, OKX) and transfer to a Cosmos-compatible wallet like Keplr.",
+          "links": [
+            {
+              "text": "Keplr Wallet",
+              "url": "https://www.keplr.app"
+            }
+          ]
+        },
+        {
+          "title": "Stake TIA",
+          "description": "Stake your TIA through validators to earn rewards and participate in network security.",
+          "links": [
+            {
+              "text": "Celestia Staking",
+              "url": "https://celestia.org/stake"
+            }
+          ],
+          "tips": "Choose validators with good uptime"
+        },
+        {
+          "title": "Use Celestia rollups",
+          "description": "Interact with rollups built on Celestia's DA layer. Check ecosystem page for active projects.",
+          "links": [
+            {
+              "text": "Celestia Ecosystem",
+              "url": "https://celestia.org/ecosystem"
+            }
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Requires capital to stake",
+      "Validator slashing risks",
+      "Ecosystem still developing"
+    ],
+    "lastUpdated": "2026-10-31"
+  },
+  {
+    "id": "dydx-v4",
+    "name": "dYdX v4",
+    "token": "DYDX",
+    "chain": "dYdX Chain",
+    "status": "ended",
+    "estimatedValue": "$200-1000",
+    "difficulty": "medium",
+    "endDate": "2026-10-31",
+    "officialSite": "https://dydx.exchange",
+    "officialTwitter": "https://twitter.com/dYdX",
+    "description": "dYdX v4 is a standalone blockchain for perpetual trading. Traders and liquidity providers may receive DYDX rewards.",
+    "requirements": [
+      "Trade on dYdX v4",
+      "Accumulate trading volume",
+      "Provide liquidity (advanced)",
+      "Stake DYDX tokens"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Create dYdX account",
+          "description": "Sign up on dYdX v4 using your email or connect a wallet.",
+          "links": [
+            {
+              "text": "dYdX v4",
+              "url": "https://dydx.exchange"
+            }
+          ]
+        },
+        {
+          "title": "Deposit funds",
+          "description": "Deposit USDC via Ethereum, Arbitrum, or other supported chains.",
+          "estimatedCost": "$100+ for meaningful trading",
+          "tips": "Use Arbitrum to save on gas"
+        },
+        {
+          "title": "Trade perpetuals",
+          "description": "Trade BTC-PERP, ETH-PERP, or altcoin perpetuals. Volume and fees generate rewards.",
+          "tips": "Market makers get higher rewards"
+        },
+        {
+          "title": "Stake DYDX (optional)",
+          "description": "Stake DYDX tokens to earn staking rewards and participate in governance.",
+          "links": [
+            {
+              "text": "dYdX Staking",
+              "url": "https://dydx.exchange/staking"
+            }
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Perpetual trading is high risk - can be liquidated",
+      "Requires active trading and capital",
+      "DYDX already launched - retroactive unlikely"
+    ],
+    "lastUpdated": "2026-10-31"
+  },
+  {
+    "id": "hyperlane",
+    "name": "Hyperlane",
+    "token": "HYP",
+    "chain": "Multi-chain",
+    "status": "ended",
+    "estimatedValue": "$200-1000",
+    "difficulty": "medium",
+    "endDate": "2026-10-31",
+    "officialSite": "https://hyperlane.xyz",
+    "officialTwitter": "https://twitter.com/Hyperlane_xyz",
+    "description": "Hyperlane is a permissionless interoperability layer. Users bridging and deploying apps may receive HYP tokens.",
+    "requirements": [
+      "Use Hyperlane bridges",
+      "Bridge between multiple chains",
+      "Deploy Hyperlane contracts (advanced)",
+      "Accumulate cross-chain activity"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Find Hyperlane-powered bridges",
+          "description": "Many bridges use Hyperlane under the hood. Check Hyperlane docs for supported routes.",
+          "links": [
+            {
+              "text": "Hyperlane Explorer",
+              "url": "https://explorer.hyperlane.xyz"
+            }
+          ]
+        },
+        {
+          "title": "Bridge assets across chains",
+          "description": "Use Hyperlane-enabled bridges to move assets between chains. Each bridge counts.",
+          "estimatedCost": "$5-15 per bridge",
+          "tips": "Bridge between lesser-known chains for less competition"
+        },
+        {
+          "title": "Deploy Hyperlane app (optional)",
+          "description": "Developers can deploy custom messaging apps using Hyperlane SDK.",
+          "links": [
+            {
+              "text": "Hyperlane Docs",
+              "url": "https://docs.hyperlane.xyz"
+            }
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Cross-chain bridge risks",
+      "Airdrop not officially announced",
+      "Multiple bridge fees add up"
+    ],
+    "lastUpdated": "2026-10-31"
+  },
+  {
+    "id": "sui-network",
+    "name": "Sui",
+    "token": "SUI",
+    "chain": "Sui Blockchain",
+    "status": "ended",
+    "estimatedValue": "$300-1500",
+    "difficulty": "medium",
+    "endDate": "2026-10-31",
+    "officialSite": "https://sui.io",
+    "officialTwitter": "https://twitter.com/SuiNetwork",
+    "description": "Sui is a high-performance Layer 1 blockchain. Testnet users and ecosystem participants may qualify for future incentives.",
+    "requirements": [
+      "Use Sui testnet or mainnet",
+      "Complete transactions on Sui dApps",
+      "Mint NFTs or use DeFi protocols",
+      "Hold SUI tokens (optional boost)"
+    ],
+    "tutorial": {
+      "steps": [
+        {
+          "title": "Set up Sui Wallet",
+          "description": "Install the Sui Wallet browser extension and create a new wallet.",
+          "links": [
+            {
+              "text": "Sui Wallet",
+              "url": "https://chrome.google.com/webstore/detail/sui-wallet"
+            }
+          ]
+        },
+        {
+          "title": "Get SUI tokens",
+          "description": "For testnet: use faucet. For mainnet: buy SUI on exchanges and transfer to your wallet.",
+          "links": [
+            {
+              "text": "Sui Faucet (testnet)",
+              "url": "https://discord.gg/sui"
+            }
+          ],
+          "estimatedCost": "$10-50 for mainnet"
+        },
+        {
+          "title": "Use Sui ecosystem dApps",
+          "description": "Try Cetus DEX, Suiswap, Bluemove NFT marketplace, or Scallop lending.",
+          "links": [
+            {
+              "text": "Cetus Protocol",
+              "url": "https://www.cetus.zone"
+            },
+            {
+              "text": "Bluemove",
+              "url": "https://bluemove.net"
+            }
+          ]
+        }
+      ]
+    },
+    "risks": [
+      "Newer blockchain with evolving ecosystem",
+      "Mainnet activity requires capital",
+      "Token already launched - airdrop uncertain"
+    ],
+    "lastUpdated": "2026-10-31"
   }
 ]
